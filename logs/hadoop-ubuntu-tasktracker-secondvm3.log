@@ -1,0 +1,4 @@
+2017-06-19 16:55:44,404 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm3/192.168.1.157
+************************************************************/

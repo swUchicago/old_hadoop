@@ -1,0 +1,1361 @@
+2017-01-30 16:37:20,610 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701290824_0002_m_000004_0
+2017-01-30 16:37:20,721 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701290824_0002_m_000005_0
+2017-01-30 16:37:27,421 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000004_0 0.34806648% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:37:27,437 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000005_0 0.34718403% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 16:37:30,425 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000004_0 0.5332149% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:37:30,440 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000005_0 0.5444305% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 16:37:33,428 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000004_0 0.7451504% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:37:33,442 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000005_0 0.7390175% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 16:37:36,436 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000004_0 0.9384463% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:37:36,443 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000005_0 0.9591882% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 16:37:39,439 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000004_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:37:39,446 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000005_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 16:37:41,348 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000004_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:37:41,353 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701290824_0002_m_000004_0 is done.
+2017-01-30 16:37:41,452 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000005_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 16:37:41,456 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701290824_0002_m_000005_0 is done.
+2017-01-30 16:37:41,543 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701290824_0002_m_000003_1
+2017-01-30 16:37:42,538 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701290824_0002_m_000011_0
+2017-01-30 16:37:48,133 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000003_1 0.3752581% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:37:49,259 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000011_0 0.6072832% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 16:37:49,672 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 38388307 bytes for reduce: 0 from map: attempt_201701290824_0002_m_000004_0 given 38388307/38388307 from 0 with (5, 4)
+2017-01-30 16:37:51,138 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000003_1 0.56746113% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:37:52,264 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000011_0 0.96544343% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 16:37:53,093 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 46225401 bytes for reduce: 0 from map: attempt_201701290824_0002_m_000005_0 given 46225401/46225401 from 0 with (5, 4)
+2017-01-30 16:37:54,141 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000003_1 0.7523402% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:37:54,602 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000011_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 16:37:54,606 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701290824_0002_m_000011_0 is done.
+2017-01-30 16:37:57,144 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000003_1 0.96612537% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:38:00,147 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000003_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:38:01,775 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701290824_0002_m_000003_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:38:01,779 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701290824_0002_m_000003_1 is done.
+2017-01-30 16:38:02,625 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.io.IOException: Call failed on local exception
+	at org.apache.hadoop.ipc.Client.call(Client.java:718)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.mapred.$Proxy4.heartbeat(Unknown Source)
+	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:1045)
+	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:928)
+	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:1343)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2354)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:499)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:441)
+
+2017-01-30 16:38:02,625 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'rivervm1' with reponseId '-19151
+2017-01-30 16:38:02,648 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-30 16:38:16,259 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-30 16:38:16,426 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-30 16:38:16,512 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-30 16:38:16,513 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-30 16:38:16,513 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-30 16:38:16,733 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e91e2f
+2017-01-30 16:38:16,765 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-30 16:38:16,770 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-30 16:38:16,771 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b8a6af
+2017-01-30 16:38:16,810 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-30 16:38:16,829 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=53286
+2017-01-30 16:38:16,910 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-30 16:38:16,910 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 53286: starting
+2017-01-30 16:38:16,911 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 53286: starting
+2017-01-30 16:38:16,912 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:53286
+2017-01-30 16:38:16,912 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 53286: starting
+2017-01-30 16:38:16,912 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:53286
+2017-01-30 16:38:16,957 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:53286
+2017-01-30 16:39:07,031 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301638_0001_m_000001_0
+2017-01-30 16:39:07,314 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301638_0001_m_000004_0
+2017-01-30 16:39:14,062 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000001_0 0.27013114% hdfs://rivervm1:9000/twitter_5M.txt:67108864+67108864
+2017-01-30 16:39:14,079 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000004_0 0.33993325% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:39:17,066 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000001_0 0.43983418% hdfs://rivervm1:9000/twitter_5M.txt:67108864+67108864
+2017-01-30 16:39:17,083 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000004_0 0.53086936% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:39:20,069 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000001_0 0.61637634% hdfs://rivervm1:9000/twitter_5M.txt:67108864+67108864
+2017-01-30 16:39:20,086 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000004_0 0.73925763% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:39:23,071 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000001_0 0.7996394% hdfs://rivervm1:9000/twitter_5M.txt:67108864+67108864
+2017-01-30 16:39:23,087 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000004_0 0.93537843% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:39:26,074 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000001_0 0.9930444% hdfs://rivervm1:9000/twitter_5M.txt:67108864+67108864
+2017-01-30 16:39:26,091 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000004_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:39:27,910 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000004_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:39:27,916 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301638_0001_m_000004_0 is done.
+2017-01-30 16:39:28,196 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301638_0001_m_000007_0
+2017-01-30 16:39:29,076 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000001_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:67108864+67108864
+2017-01-30 16:39:30,465 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000001_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:67108864+67108864
+2017-01-30 16:39:30,469 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301638_0001_m_000001_0 is done.
+2017-01-30 16:39:31,163 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301638_0001_m_000010_0
+2017-01-30 16:39:34,772 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000007_0 0.3570462% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 16:39:37,775 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000007_0 0.56800586% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 16:39:37,794 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000010_0 0.3950562% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 16:39:39,624 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 38388307 bytes for reduce: 0 from map: attempt_201701301638_0001_m_000004_0 given 38388307/38388307 from 0 with (5, 4)
+2017-01-30 16:39:40,778 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000007_0 0.7525979% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 16:39:40,798 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000010_0 0.6001364% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 16:39:42,312 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 39782460 bytes for reduce: 0 from map: attempt_201701301638_0001_m_000001_0 given 39782460/39782460 from 0 with (5, 4)
+2017-01-30 16:39:43,781 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000007_0 0.9372842% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 16:39:43,800 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000010_0 0.7977284% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 16:39:46,786 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000007_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 16:39:46,840 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000010_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 16:39:48,936 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000007_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 16:39:48,940 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301638_0001_m_000007_0 is done.
+2017-01-30 16:39:49,843 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000010_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 16:39:50,612 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301638_0001_m_000010_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 16:39:50,617 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301638_0001_m_000010_0 is done.
+2017-01-30 16:39:56,808 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 33259775 bytes for reduce: 0 from map: attempt_201701301638_0001_m_000010_0 given 33259775/33259775 from 0 with (5, 4)
+2017-01-30 16:39:58,989 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 39817636 bytes for reduce: 0 from map: attempt_201701301638_0001_m_000007_0 given 39817636/39817636 from 0 with (5, 4)
+2017-01-30 16:40:30,936 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301638_0001
+2017-01-30 16:40:30,937 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301638_0001_m_000001_0 done; removing files.
+2017-01-30 16:40:30,947 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301638_0001_m_000010_0 done; removing files.
+2017-01-30 16:40:30,955 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301638_0001_m_000004_0 done; removing files.
+2017-01-30 16:40:30,964 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301638_0001_m_000007_0 done; removing files.
+2017-01-30 16:44:44,689 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-30 16:44:45,115 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.io.IOException: Call failed on local exception
+	at org.apache.hadoop.ipc.Client.call(Client.java:718)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.mapred.$Proxy4.heartbeat(Unknown Source)
+	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:1045)
+	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:928)
+	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:1343)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2354)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:499)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:441)
+
+2017-01-30 16:44:45,116 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'rivervm1' with reponseId '155
+2017-01-30 16:44:58,566 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-30 16:44:58,741 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-30 16:44:58,838 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-30 16:44:58,838 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-30 16:44:58,839 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-30 16:44:59,093 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@bcc407
+2017-01-30 16:44:59,127 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-30 16:44:59,132 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-30 16:44:59,132 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b8a6af
+2017-01-30 16:44:59,139 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-30 16:44:59,159 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=35562
+2017-01-30 16:44:59,240 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 35562: starting
+2017-01-30 16:44:59,240 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-30 16:44:59,242 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 35562: starting
+2017-01-30 16:44:59,242 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 35562: starting
+2017-01-30 16:44:59,242 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:35562
+2017-01-30 16:44:59,242 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:35562
+2017-01-30 16:44:59,287 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:35562
+2017-01-30 16:52:59,719 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301644_0001_m_000000_0
+2017-01-30 16:53:00,012 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301644_0001_m_000004_0
+2017-01-30 16:53:06,712 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000000_0 0.2594507% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 16:53:06,754 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000004_0 0.32385477% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:53:09,716 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000000_0 0.41450346% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 16:53:09,757 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000004_0 0.524439% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:53:12,719 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000000_0 0.5673654% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 16:53:12,760 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000004_0 0.7223543% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:53:15,723 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000000_0 0.73112917% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 16:53:15,762 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000004_0 0.9346515% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:53:18,725 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000000_0 0.8935961% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 16:53:18,764 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000004_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:53:20,637 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000004_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 16:53:20,642 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301644_0001_m_000004_0 is done.
+2017-01-30 16:53:20,873 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301644_0001_m_000003_1
+2017-01-30 16:53:21,727 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 16:53:24,729 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 16:53:26,064 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 16:53:26,070 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301644_0001_m_000000_0 is done.
+2017-01-30 16:53:27,509 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000003_1 0.35154656% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:53:30,516 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000003_1 0.55666107% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:53:32,205 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 38388307 bytes for reduce: 0 from map: attempt_201701301644_0001_m_000004_0 given 38388307/38388307 from 0 with (5, 4)
+2017-01-30 16:53:33,518 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000003_1 0.73459345% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:53:34,997 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 54412716 bytes for reduce: 0 from map: attempt_201701301644_0001_m_000000_0 given 54412716/54412716 from 0 with (9, 4)
+2017-01-30 16:53:36,522 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000003_1 0.93884885% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:53:39,524 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000003_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:53:40,928 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301644_0001_m_000009_1
+2017-01-30 16:53:41,414 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000003_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 16:53:41,418 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301644_0001_m_000003_1 is done.
+2017-01-30 16:53:47,573 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000009_1 0.35531613% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 16:53:49,675 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 46373167 bytes for reduce: 0 from map: attempt_201701301644_0001_m_000003_1 given 46373167/46373167 from 0 with (5, 4)
+2017-01-30 16:53:50,577 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000009_1 0.5530299% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 16:53:53,580 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000009_1 0.74237776% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 16:53:56,583 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000009_1 0.94075495% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 16:53:59,586 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000009_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 16:54:01,176 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301644_0001_m_000009_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 16:54:01,183 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301644_0001_m_000009_1 is done.
+2017-01-30 16:54:08,455 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 37868645 bytes for reduce: 0 from map: attempt_201701301644_0001_m_000009_1 given 37868645/37868645 from 0 with (5, 4)
+2017-01-30 16:54:41,680 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301644_0001
+2017-01-30 16:54:41,680 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301644_0001_m_000000_0 done; removing files.
+2017-01-30 16:54:41,697 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301644_0001_m_000003_1 done; removing files.
+2017-01-30 16:54:41,707 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301644_0001_m_000004_0 done; removing files.
+2017-01-30 16:54:41,715 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301644_0001_m_000009_1 done; removing files.
+2017-01-30 17:20:04,609 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-30 17:20:15,639 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-30 17:20:15,788 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-30 17:20:15,883 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-30 17:20:15,884 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-30 17:20:15,884 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-30 17:20:16,132 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@bcc407
+2017-01-30 17:20:16,166 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-30 17:20:16,172 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-30 17:20:16,172 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b8a6af
+2017-01-30 17:20:16,179 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-30 17:20:16,199 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=44123
+2017-01-30 17:20:16,280 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-30 17:20:16,281 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 44123: starting
+2017-01-30 17:20:16,282 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 44123: starting
+2017-01-30 17:20:16,282 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:44123
+2017-01-30 17:20:16,282 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 44123: starting
+2017-01-30 17:20:16,282 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:44123
+2017-01-30 17:20:16,325 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:44123
+2017-01-30 17:21:06,440 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301720_0001_m_000003_0
+2017-01-30 17:21:06,725 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301720_0001_m_000005_0
+2017-01-30 17:21:13,458 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000003_0 0.35966554% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 17:21:13,461 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000005_0 0.31985793% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:21:16,461 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000003_0 0.56172556% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 17:21:16,465 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000005_0 0.536145% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:21:19,463 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000003_0 0.72478086% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 17:21:19,467 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000005_0 0.75224954% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:21:22,466 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000003_0 0.93921244% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 17:21:22,470 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000005_0 0.9858869% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:21:25,469 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000003_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 17:21:25,476 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000005_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:21:26,808 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000005_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:21:26,813 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301720_0001_m_000005_0 is done.
+2017-01-30 17:21:27,212 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000003_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 17:21:27,217 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301720_0001_m_000003_0 is done.
+2017-01-30 17:21:27,587 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301720_0001_m_000006_1
+2017-01-30 17:21:27,625 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301720_0001_m_000009_0
+2017-01-30 17:21:34,239 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000006_1 0.34518966% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:21:34,317 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000009_0 0.3536148% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:21:37,241 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000006_1 0.559152% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:21:37,321 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000009_0 0.5678543% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:21:38,873 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 46373167 bytes for reduce: 0 from map: attempt_201701301720_0001_m_000003_0 given 46373167/46373167 from 0 with (5, 4)
+2017-01-30 17:21:40,244 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000006_1 0.7597861% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:21:40,324 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000009_0 0.7668819% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:21:41,193 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 46225401 bytes for reduce: 0 from map: attempt_201701301720_0001_m_000005_0 given 46225401/46225401 from 0 with (5, 4)
+2017-01-30 17:21:43,246 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000006_1 0.9540045% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:21:43,326 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000009_0 0.96370244% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:21:46,249 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000006_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:21:46,329 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000009_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:21:47,635 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000009_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:21:47,641 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301720_0001_m_000009_0 is done.
+2017-01-30 17:21:48,057 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000006_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:21:48,061 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301720_0001_m_000006_1 is done.
+2017-01-30 17:21:48,380 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301720_0001_m_000010_1
+2017-01-30 17:21:54,987 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000010_1 0.37003952% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:21:56,362 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 37868645 bytes for reduce: 0 from map: attempt_201701301720_0001_m_000009_0 given 37868645/37868645 from 0 with (5, 4)
+2017-01-30 17:21:57,991 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000010_1 0.56727856% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:21:58,208 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 45006324 bytes for reduce: 0 from map: attempt_201701301720_0001_m_000006_1 given 45006324/45006324 from 0 with (5, 4)
+2017-01-30 17:22:00,995 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000010_1 0.7977284% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:22:03,998 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000010_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:22:07,001 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000010_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:22:07,356 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301720_0001_m_000010_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:22:07,361 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301720_0001_m_000010_1 is done.
+2017-01-30 17:22:14,923 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 33259775 bytes for reduce: 0 from map: attempt_201701301720_0001_m_000010_1 given 33259775/33259775 from 0 with (5, 4)
+2017-01-30 17:22:48,131 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301720_0001
+2017-01-30 17:22:48,131 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301720_0001_m_000006_1 done; removing files.
+2017-01-30 17:22:48,147 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301720_0001_m_000003_0 done; removing files.
+2017-01-30 17:22:48,158 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301720_0001_m_000005_0 done; removing files.
+2017-01-30 17:22:48,168 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301720_0001_m_000009_0 done; removing files.
+2017-01-30 17:22:48,175 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301720_0001_m_000010_1 done; removing files.
+2017-01-30 17:27:37,224 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-30 17:28:00,499 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-30 17:28:00,646 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-30 17:28:00,727 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-30 17:28:00,727 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-30 17:28:00,727 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-30 17:28:00,930 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@1bb4fce
+2017-01-30 17:28:00,955 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-30 17:28:00,960 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-30 17:28:00,960 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b8a6af
+2017-01-30 17:28:00,967 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-30 17:28:00,981 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=45791
+2017-01-30 17:28:01,044 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-30 17:28:01,044 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 45791: starting
+2017-01-30 17:28:01,046 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 45791: starting
+2017-01-30 17:28:01,047 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 45791: starting
+2017-01-30 17:28:01,047 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:45791
+2017-01-30 17:28:01,047 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:45791
+2017-01-30 17:28:01,089 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:45791
+2017-01-30 17:28:46,185 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0001_m_000000_0
+2017-01-30 17:28:46,468 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0001_m_000005_0
+2017-01-30 17:28:46,508 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000000_0 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:28:46,554 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000005_0 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:28:49,530 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000000_0 done; removing files.
+2017-01-30 17:28:49,539 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0001_m_000001_1
+2017-01-30 17:28:49,558 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000005_0 done; removing files.
+2017-01-30 17:28:49,577 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0001_m_000004_1
+2017-01-30 17:28:49,590 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000001_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:28:49,623 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000004_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:28:52,592 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000001_1 done; removing files.
+2017-01-30 17:28:52,600 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0001_m_000008_1
+2017-01-30 17:28:52,625 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000004_1 done; removing files.
+2017-01-30 17:28:52,637 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0001_m_000010_0
+2017-01-30 17:28:52,656 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000008_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:28:52,689 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000010_0 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:28:55,658 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000008_1 done; removing files.
+2017-01-30 17:28:55,666 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0001_m_000007_2
+2017-01-30 17:28:55,692 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000010_0 done; removing files.
+2017-01-30 17:28:55,700 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0001_m_000009_1
+2017-01-30 17:28:55,708 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000007_2 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:28:55,745 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000009_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:28:58,715 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000007_2 done; removing files.
+2017-01-30 17:28:58,722 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0001_m_000006_3
+2017-01-30 17:28:58,748 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000009_1 done; removing files.
+2017-01-30 17:28:58,753 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0001_m_000003_3
+2017-01-30 17:28:58,762 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000006_3 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:28:58,823 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000003_3 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:29:01,766 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000006_3 done; removing files.
+2017-01-30 17:29:01,775 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301727_0001
+2017-01-30 17:29:01,775 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000003_3 done; removing files.
+2017-01-30 17:29:01,826 WARN org.apache.hadoop.mapred.TaskTracker: Unknown job job_201701301727_0001 being deleted.
+2017-01-30 17:29:01,826 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0001_m_000003_3 done; removing files.
+2017-01-30 17:30:01,811 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0002_m_000005_0
+2017-01-30 17:30:01,906 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0002_m_000007_0
+2017-01-30 17:30:01,943 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000005_0 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:30:01,949 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000007_0 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:30:04,947 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000005_0 done; removing files.
+2017-01-30 17:30:04,952 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000007_0 done; removing files.
+2017-01-30 17:30:04,955 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0002_m_000006_1
+2017-01-30 17:30:04,989 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0002_m_000004_1
+2017-01-30 17:30:05,006 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000006_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:30:05,033 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000004_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:30:08,010 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000006_1 done; removing files.
+2017-01-30 17:30:08,017 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0002_m_000001_2
+2017-01-30 17:30:08,036 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000004_1 done; removing files.
+2017-01-30 17:30:08,043 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0002_m_000003_2
+2017-01-30 17:30:08,065 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000001_2 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:30:08,088 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000003_2 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:30:11,069 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000001_2 done; removing files.
+2017-01-30 17:30:11,076 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0002_m_000002_3
+2017-01-30 17:30:11,093 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000003_2 done; removing files.
+2017-01-30 17:30:11,101 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0002_m_000000_3
+2017-01-30 17:30:11,120 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000002_3 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:30:11,153 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000000_3 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:30:14,124 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000002_3 done; removing files.
+2017-01-30 17:30:14,156 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0002_m_000000_3 done; removing files.
+2017-01-30 17:30:14,204 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301727_0002
+2017-01-30 17:31:24,245 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0003_m_000002_0
+2017-01-30 17:31:24,331 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0003_m_000003_0
+2017-01-30 17:31:24,348 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000002_0 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:31:24,366 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000003_0 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:31:27,352 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000002_0 done; removing files.
+2017-01-30 17:31:27,363 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0003_m_000001_1
+2017-01-30 17:31:27,369 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000003_0 done; removing files.
+2017-01-30 17:31:27,388 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0003_m_000000_1
+2017-01-30 17:31:27,405 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000001_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:31:27,432 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000000_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:31:30,411 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000001_1 done; removing files.
+2017-01-30 17:31:30,417 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0003_m_000009_1
+2017-01-30 17:31:30,435 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000000_1 done; removing files.
+2017-01-30 17:31:30,446 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0003_m_000008_1
+2017-01-30 17:31:30,460 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000009_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:31:30,488 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000008_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:31:33,463 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000009_1 done; removing files.
+2017-01-30 17:31:33,472 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0003_m_000006_2
+2017-01-30 17:31:33,496 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000008_1 done; removing files.
+2017-01-30 17:31:33,504 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0003_m_000007_2
+2017-01-30 17:31:33,525 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000006_2 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:31:33,545 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000007_2 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:31:36,528 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000006_2 done; removing files.
+2017-01-30 17:31:36,535 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0003_m_000005_3
+2017-01-30 17:31:36,548 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000007_2 done; removing files.
+2017-01-30 17:31:36,564 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301727_0003_m_000004_3
+2017-01-30 17:31:36,583 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000005_3 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:31:36,605 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000004_3 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:31:39,585 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000005_3 done; removing files.
+2017-01-30 17:31:39,591 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301727_0003
+2017-01-30 17:31:39,591 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000004_3 done; removing files.
+2017-01-30 17:31:39,609 WARN org.apache.hadoop.mapred.TaskTracker: Unknown job job_201701301727_0003 being deleted.
+2017-01-30 17:31:39,609 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301727_0003_m_000004_3 done; removing files.
+2017-01-30 17:31:58,215 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-30 17:32:11,153 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-30 17:32:11,326 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-30 17:32:11,421 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-30 17:32:11,422 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-30 17:32:11,422 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-30 17:32:11,662 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e91e2f
+2017-01-30 17:32:11,696 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-30 17:32:11,701 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-30 17:32:11,701 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@ca7c93
+2017-01-30 17:32:11,708 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-30 17:32:11,727 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=45309
+2017-01-30 17:32:11,807 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-30 17:32:11,809 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 45309: starting
+2017-01-30 17:32:11,810 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 45309: starting
+2017-01-30 17:32:11,810 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:45309
+2017-01-30 17:32:11,810 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:45309
+2017-01-30 17:32:11,810 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 45309: starting
+2017-01-30 17:32:11,855 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:45309
+2017-01-30 17:33:46,988 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301732_0001_m_000000_0
+2017-01-30 17:33:47,267 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301732_0001_m_000005_0
+2017-01-30 17:33:47,310 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000000_0 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:33:47,359 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000005_0 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:33:50,316 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000000_0 done; removing files.
+2017-01-30 17:33:50,325 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301732_0001_m_000001_1
+2017-01-30 17:33:50,362 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000005_0 done; removing files.
+2017-01-30 17:33:50,367 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301732_0001_m_000002_1
+2017-01-30 17:33:50,380 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000001_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:33:50,414 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000002_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:33:53,383 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000001_1 done; removing files.
+2017-01-30 17:33:53,391 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301732_0001_m_000008_1
+2017-01-30 17:33:53,417 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000002_1 done; removing files.
+2017-01-30 17:33:53,426 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301732_0001_m_000009_0
+2017-01-30 17:33:53,448 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000008_1 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:33:53,477 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000009_0 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:33:56,451 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000008_1 done; removing files.
+2017-01-30 17:33:56,458 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301732_0001_m_000007_2
+2017-01-30 17:33:56,479 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000009_0 done; removing files.
+2017-01-30 17:33:56,492 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301732_0001_m_000004_2
+2017-01-30 17:33:56,511 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000007_2 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:33:56,542 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000004_2 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:33:59,515 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000007_2 done; removing files.
+2017-01-30 17:33:59,522 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301732_0001_m_000006_3
+2017-01-30 17:33:59,545 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000004_2 done; removing files.
+2017-01-30 17:33:59,554 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301732_0001_m_000003_3
+2017-01-30 17:33:59,580 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000006_3 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:33:59,618 WARN org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000003_3 Child Error
+java.io.IOException: Task process exit with nonzero status of 1.
+	at org.apache.hadoop.mapred.TaskRunner.runChild(TaskRunner.java:462)
+	at org.apache.hadoop.mapred.TaskRunner.run(TaskRunner.java:403)
+2017-01-30 17:34:02,593 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000006_3 done; removing files.
+2017-01-30 17:34:02,601 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301732_0001
+2017-01-30 17:34:02,602 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000003_3 done; removing files.
+2017-01-30 17:34:02,621 WARN org.apache.hadoop.mapred.TaskTracker: Unknown job job_201701301732_0001 being deleted.
+2017-01-30 17:34:02,621 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301732_0001_m_000003_3 done; removing files.
+2017-01-30 17:35:35,922 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-30 17:35:46,951 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-30 17:35:47,122 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-30 17:35:47,216 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-30 17:35:47,217 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-30 17:35:47,217 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-30 17:35:47,462 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e9e26a
+2017-01-30 17:35:47,495 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-30 17:35:47,501 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-30 17:35:47,501 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b8a6af
+2017-01-30 17:35:47,508 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-30 17:35:47,528 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=48266
+2017-01-30 17:35:47,607 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-30 17:35:47,608 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 48266: starting
+2017-01-30 17:35:47,610 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 48266: starting
+2017-01-30 17:35:47,610 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 48266: starting
+2017-01-30 17:35:47,610 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:48266
+2017-01-30 17:35:47,610 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:48266
+2017-01-30 17:35:47,654 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:48266
+2017-01-30 17:38:17,814 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301735_0001_m_000000_0
+2017-01-30 17:38:18,085 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301735_0001_m_000004_0
+2017-01-30 17:38:23,116 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301735_0001_r_000000_0
+2017-01-30 17:38:24,758 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000000_0 0.23976812% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:38:24,815 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000004_0 0.31729957% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 17:38:27,761 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000000_0 0.40335602% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:38:27,817 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000004_0 0.5100733% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 17:38:29,780 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.0% reduce > copy > 
+2017-01-30 17:38:30,767 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000000_0 0.5673654% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:38:30,821 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000004_0 0.72071445% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 17:38:32,783 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.0% reduce > copy > 
+2017-01-30 17:38:33,772 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000000_0 0.7472894% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:38:33,824 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000004_0 0.934204% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 17:38:36,774 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000000_0 0.928115% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:38:36,826 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000004_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 17:38:38,788 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.0% reduce > copy > 
+2017-01-30 17:38:38,844 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000004_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:268435456+67108864
+2017-01-30 17:38:38,847 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301735_0001_m_000004_0 is done.
+2017-01-30 17:38:39,777 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:38:39,954 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301735_0001_m_000011_0
+2017-01-30 17:38:42,781 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:38:43,736 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:38:43,739 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301735_0001_m_000000_0 is done.
+2017-01-30 17:38:44,805 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.0% reduce > copy > 
+2017-01-30 17:38:45,100 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 38388307 bytes for reduce: 0 from map: attempt_201701301735_0001_m_000004_0 given 38388307/38388307 from 0 with (5, 4)
+2017-01-30 17:38:46,661 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000011_0 0.59116% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 17:38:47,809 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.083333336% reduce > copy (3 of 12 at 5.37 MB/s) > 
+2017-01-30 17:38:49,665 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000011_0 0.94437075% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 17:38:50,812 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.1388889% reduce > copy (5 of 12 at 7.35 MB/s) > 
+2017-01-30 17:38:51,946 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000011_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 17:38:51,951 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301735_0001_m_000011_0 is done.
+2017-01-30 17:38:53,815 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.1388889% reduce > copy (5 of 12 at 7.35 MB/s) > 
+2017-01-30 17:38:55,120 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 54412716 bytes for reduce: 0 from map: attempt_201701301735_0001_m_000000_0 given 54412716/54412716 from 0 with (9, 4)
+2017-01-30 17:38:56,999 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 27212438 bytes for reduce: 0 from map: attempt_201701301735_0001_m_000011_0 given 27212438/27212438 from 0 with (5, 4)
+2017-01-30 17:38:58,907 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301735_0001_m_000009_1
+2017-01-30 17:38:59,822 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.19444446% reduce > copy (7 of 12 at 7.68 MB/s) > 
+2017-01-30 17:39:02,825 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.19444446% reduce > copy (7 of 12 at 7.68 MB/s) > 
+2017-01-30 17:39:05,611 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000009_1 0.37724516% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:39:08,614 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000009_1 0.59851694% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:39:08,837 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.19444446% reduce > copy (7 of 12 at 7.68 MB/s) > 
+2017-01-30 17:39:11,617 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000009_1 0.80008477% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:39:11,840 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.25% reduce > copy (9 of 12 at 7.20 MB/s) > 
+2017-01-30 17:39:14,623 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000009_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:39:14,842 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.2777778% reduce > copy (10 of 12 at 7.80 MB/s) > 
+2017-01-30 17:39:17,628 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000009_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:39:17,846 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.2777778% reduce > copy (10 of 12 at 7.80 MB/s) > 
+2017-01-30 17:39:17,957 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_m_000009_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:39:17,962 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301735_0001_m_000009_1 is done.
+2017-01-30 17:39:23,851 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.2777778% reduce > copy (10 of 12 at 7.80 MB/s) > 
+2017-01-30 17:39:24,098 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 37868645 bytes for reduce: 0 from map: attempt_201701301735_0001_m_000009_1 given 37868645/37868645 from 0 with (5, 4)
+2017-01-30 17:39:29,859 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.69076914% reduce > reduce
+2017-01-30 17:39:32,863 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.72963774% reduce > reduce
+2017-01-30 17:39:35,867 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.7668022% reduce > reduce
+2017-01-30 17:39:38,871 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.804775% reduce > reduce
+2017-01-30 17:39:41,874 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.83878565% reduce > reduce
+2017-01-30 17:39:44,879 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.87094057% reduce > reduce
+2017-01-30 17:39:47,883 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.90286386% reduce > reduce
+2017-01-30 17:39:50,888 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.9323318% reduce > reduce
+2017-01-30 17:39:53,262 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301735_0001_r_000000_0 0.95541686% reduce > reduce
+2017-01-30 17:39:53,276 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301735_0001_r_000000_0 is done.
+2017-01-30 17:39:54,056 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301735_0001
+2017-01-30 17:39:54,056 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301735_0001_m_000011_0 done; removing files.
+2017-01-30 17:39:54,066 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301735_0001_m_000009_1 done; removing files.
+2017-01-30 17:39:54,075 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301735_0001_m_000004_0 done; removing files.
+2017-01-30 17:39:54,083 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301735_0001_m_000000_0 done; removing files.
+2017-01-30 17:39:54,095 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301735_0001_r_000000_0 done; removing files.
+2017-01-30 17:41:55,154 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-30 17:42:06,024 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-30 17:42:06,120 FATAL org.apache.hadoop.conf.Configuration: error parsing conf file: org.xml.sax.SAXParseException; systemId: file:/home/ubuntu/old_hadoop/conf/hadoop-site.xml; lineNumber: 64; columnNumber: 3; The element type "property" must be terminated by the matching end-tag "</property>".
+2017-01-30 17:42:06,121 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because java.lang.RuntimeException: org.xml.sax.SAXParseException; systemId: file:/home/ubuntu/old_hadoop/conf/hadoop-site.xml; lineNumber: 64; columnNumber: 3; The element type "property" must be terminated by the matching end-tag "</property>".
+	at org.apache.hadoop.conf.Configuration.loadResource(Configuration.java:948)
+	at org.apache.hadoop.conf.Configuration.loadResources(Configuration.java:851)
+	at org.apache.hadoop.conf.Configuration.getProps(Configuration.java:819)
+	at org.apache.hadoop.conf.Configuration.get(Configuration.java:278)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:446)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2352)
+Caused by: org.xml.sax.SAXParseException; systemId: file:/home/ubuntu/old_hadoop/conf/hadoop-site.xml; lineNumber: 64; columnNumber: 3; The element type "property" must be terminated by the matching end-tag "</property>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:251)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:300)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:177)
+	at org.apache.hadoop.conf.Configuration.loadResource(Configuration.java:879)
+	... 5 more
+
+2017-01-30 17:42:06,123 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-30 17:43:10,911 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-30 17:43:11,064 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-30 17:43:11,158 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-30 17:43:11,159 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-30 17:43:11,159 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-30 17:43:11,406 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e9e26a
+2017-01-30 17:43:11,440 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-30 17:43:11,445 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-30 17:43:11,445 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b8a6af
+2017-01-30 17:43:11,452 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-30 17:43:11,471 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=58097
+2017-01-30 17:43:11,550 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-30 17:43:11,550 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 58097: starting
+2017-01-30 17:43:11,551 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 58097: starting
+2017-01-30 17:43:11,552 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:58097
+2017-01-30 17:43:11,552 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 58097: starting
+2017-01-30 17:43:11,552 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:58097
+2017-01-30 17:43:11,597 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:58097
+2017-01-30 17:43:56,705 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301743_0001_m_000000_0
+2017-01-30 17:43:56,989 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301743_0001_m_000005_0
+2017-01-30 17:44:03,604 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000000_0 0.27453116% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:44:03,733 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000005_0 0.3486608% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:44:06,608 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000000_0 0.43457782% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:44:06,736 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000005_0 0.561352% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:44:09,610 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000000_0 0.58099246% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:44:09,738 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000005_0 0.76870733% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:44:12,613 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000000_0 0.7517402% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:44:12,740 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000005_0 0.9847411% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:44:15,619 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000000_0 0.9247612% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:44:15,744 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000005_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:44:17,327 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000005_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 17:44:17,333 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301743_0001_m_000005_0 is done.
+2017-01-30 17:44:17,853 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301743_0001_m_000006_1
+2017-01-30 17:44:18,621 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:44:21,623 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:44:22,380 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 17:44:22,386 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301743_0001_m_000000_0 is done.
+2017-01-30 17:44:24,461 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000006_1 0.34201273% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:44:27,466 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000006_1 0.5536183% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:44:29,173 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 46225401 bytes for reduce: 0 from map: attempt_201701301743_0001_m_000005_0 given 46225401/46225401 from 0 with (5, 4)
+2017-01-30 17:44:30,469 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000006_1 0.7516684% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:44:31,994 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 54412716 bytes for reduce: 0 from map: attempt_201701301743_0001_m_000000_0 given 54412716/54412716 from 0 with (9, 4)
+2017-01-30 17:44:33,474 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000006_1 0.95289755% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:44:36,477 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000006_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:44:37,081 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301743_0001_m_000008_1
+2017-01-30 17:44:37,904 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000006_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:44:37,908 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301743_0001_m_000006_1 is done.
+2017-01-30 17:44:40,457 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 45006324 bytes for reduce: 0 from map: attempt_201701301743_0001_m_000006_1 given 45006324/45006324 from 0 with (5, 4)
+2017-01-30 17:44:43,793 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000008_1 0.35311916% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 17:44:46,796 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000008_1 0.55391383% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 17:44:49,799 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000008_1 0.75907624% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 17:44:52,802 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000008_1 0.9793145% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 17:44:55,807 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000008_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 17:44:56,815 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301743_0001_m_000008_1 1.0% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 17:44:56,820 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301743_0001_m_000008_1 is done.
+2017-01-30 17:45:04,238 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 40518156 bytes for reduce: 0 from map: attempt_201701301743_0001_m_000008_1 given 40518156/40518156 from 0 with (5, 4)
+2017-01-30 17:45:37,762 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301743_0001
+2017-01-30 17:45:37,762 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301743_0001_m_000008_1 done; removing files.
+2017-01-30 17:45:37,775 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301743_0001_m_000000_0 done; removing files.
+2017-01-30 17:45:37,787 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301743_0001_m_000006_1 done; removing files.
+2017-01-30 17:45:37,797 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301743_0001_m_000005_0 done; removing files.
+2017-01-30 17:47:33,063 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-30 17:47:44,691 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-30 17:47:44,839 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-30 17:47:44,937 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-30 17:47:44,937 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-30 17:47:44,937 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-30 17:47:45,147 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e91e2f
+2017-01-30 17:47:45,174 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-30 17:47:45,178 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-30 17:47:45,178 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b8a6af
+2017-01-30 17:47:45,183 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-30 17:47:45,198 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=52940
+2017-01-30 17:47:45,259 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-30 17:47:45,260 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 52940: starting
+2017-01-30 17:47:45,262 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 52940: starting
+2017-01-30 17:47:45,262 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 52940: starting
+2017-01-30 17:47:45,262 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:52940
+2017-01-30 17:47:45,262 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:52940
+2017-01-30 17:47:45,315 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:52940
+2017-01-30 17:48:30,424 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301747_0001_m_000000_0
+2017-01-30 17:48:30,721 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301747_0001_m_000004_0
+2017-01-30 17:48:35,476 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301747_0001_m_000000_0 done; removing files.
+2017-01-30 17:48:35,488 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301747_0001_m_000008_0
+2017-01-30 17:48:35,566 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301747_0001_m_000004_0 done; removing files.
+2017-01-30 17:48:35,571 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301747_0001_m_000001_1
+2017-01-30 17:48:40,310 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301747_0001_m_000001_1 done; removing files.
+2017-01-30 17:48:40,316 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301747_0001_m_000008_0 done; removing files.
+2017-01-30 17:48:40,319 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301747_0001_m_000007_1
+2017-01-30 17:48:40,355 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301747_0001_m_000009_0
+2017-01-30 17:48:45,108 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301747_0001_m_000009_0 done; removing files.
+2017-01-30 17:48:45,114 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301747_0001_m_000003_2
+2017-01-30 17:48:45,148 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301747_0001_m_000007_1 done; removing files.
+2017-01-30 17:48:45,155 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301747_0001_m_000002_2
+2017-01-30 17:48:49,930 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301747_0001_m_000003_2 done; removing files.
+2017-01-30 17:48:49,938 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301747_0001_m_000005_3
+2017-01-30 17:48:49,948 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301747_0001_m_000002_2 done; removing files.
+2017-01-30 17:48:49,970 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301747_0001_m_000006_3
+2017-01-30 17:48:54,706 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301747_0001_m_000005_3 done; removing files.
+2017-01-30 17:48:54,714 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301747_0001
+2017-01-30 17:48:54,715 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301747_0001_m_000006_3 done; removing files.
+2017-01-30 17:48:54,776 WARN org.apache.hadoop.mapred.TaskTracker: Unknown job job_201701301747_0001 being deleted.
+2017-01-30 17:48:54,776 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301747_0001_m_000006_3 done; removing files.
+2017-01-30 17:50:06,125 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-30 17:50:17,797 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-30 17:50:17,966 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-30 17:50:18,062 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-30 17:50:18,063 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-30 17:50:18,063 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-30 17:50:18,311 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e91e2f
+2017-01-30 17:50:18,345 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-30 17:50:18,351 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-30 17:50:18,352 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b8a6af
+2017-01-30 17:50:18,360 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-30 17:50:18,379 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=39007
+2017-01-30 17:50:18,460 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-30 17:50:18,461 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 39007: starting
+2017-01-30 17:50:18,463 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 39007: starting
+2017-01-30 17:50:18,463 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:39007
+2017-01-30 17:50:18,463 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:39007
+2017-01-30 17:50:18,463 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 39007: starting
+2017-01-30 17:50:18,506 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:39007
+2017-01-30 17:51:13,589 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301750_0002_m_000002_0
+2017-01-30 17:51:13,875 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301750_0002_m_000006_0
+2017-01-30 17:51:20,572 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000002_0 0.3230285% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 17:51:20,640 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000006_0 0.34679422% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:51:23,576 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000002_0 0.47405952% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 17:51:23,643 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000006_0 0.5302876% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:51:26,579 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000002_0 0.6839599% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 17:51:26,645 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000006_0 0.7577935% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:51:29,581 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000002_0 0.8912214% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 17:51:29,647 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000006_0 0.9593997% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:51:32,587 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000002_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 17:51:32,653 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000006_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:51:33,596 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000006_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 17:51:33,601 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301750_0002_m_000006_0 is done.
+2017-01-30 17:51:33,802 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301750_0002_m_000009_0
+2017-01-30 17:51:34,113 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000002_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 17:51:34,118 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301750_0002_m_000002_0 is done.
+2017-01-30 17:51:34,747 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301750_0002_m_000010_0
+2017-01-30 17:51:40,453 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000009_0 0.37032142% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:51:41,333 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000010_0 0.3700403% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:51:43,456 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000009_0 0.53500736% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:51:44,339 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000010_0 0.53451294% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:51:46,460 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000009_0 0.7004774% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:51:47,342 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000010_0 0.7532974% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:51:48,031 WARN org.apache.hadoop.mapred.TaskTracker: getMapOutput(attempt_201701301750_0002_m_000006_0,0) failed :
+java.net.SocketException: Connection reset
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at org.mortbay.http.ChunkingOutputStream.bypassWrite(ChunkingOutputStream.java:151)
+	at org.mortbay.http.BufferedOutputStream.write(BufferedOutputStream.java:139)
+	at org.mortbay.http.HttpOutputStream.write(HttpOutputStream.java:423)
+	at org.mortbay.jetty.servlet.ServletOut.write(ServletOut.java:54)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2478)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2017-01-30 17:51:48,033 WARN /: /mapOutput?job=job_201701301750_0002&map=attempt_201701301750_0002_m_000006_0&reduce=0: 
+java.lang.IllegalStateException: Committed
+	at org.mortbay.jetty.servlet.ServletHttpResponse.resetBuffer(ServletHttpResponse.java:212)
+	at org.mortbay.jetty.servlet.ServletHttpResponse.sendError(ServletHttpResponse.java:375)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2506)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2017-01-30 17:51:48,038 WARN org.apache.hadoop.mapred.TaskTracker: getMapOutput(attempt_201701301750_0002_m_000006_0,0) failed :
+java.net.SocketException: Connection reset
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at org.mortbay.http.ChunkingOutputStream.bypassWrite(ChunkingOutputStream.java:151)
+	at org.mortbay.http.BufferedOutputStream.write(BufferedOutputStream.java:139)
+	at org.mortbay.http.HttpOutputStream.write(HttpOutputStream.java:423)
+	at org.mortbay.jetty.servlet.ServletOut.write(ServletOut.java:54)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2478)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2017-01-30 17:51:48,038 WARN /: /mapOutput?job=job_201701301750_0002&map=attempt_201701301750_0002_m_000006_0&reduce=0: 
+java.lang.IllegalStateException: Committed
+	at org.mortbay.jetty.servlet.ServletHttpResponse.resetBuffer(ServletHttpResponse.java:212)
+	at org.mortbay.jetty.servlet.ServletHttpResponse.sendError(ServletHttpResponse.java:375)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2506)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2017-01-30 17:51:49,463 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000009_0 0.9205817% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:51:50,345 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000010_0 0.9596295% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:51:52,466 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000009_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:51:53,350 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000010_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:51:53,643 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000010_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:671088640+67108864
+2017-01-30 17:51:53,654 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301750_0002_m_000010_0 is done.
+2017-01-30 17:51:53,730 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301750_0002_m_000009_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:603979776+67108864
+2017-01-30 17:51:53,734 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301750_0002_m_000009_0 is done.
+2017-01-30 17:52:44,919 WARN org.apache.hadoop.mapred.TaskTracker: getMapOutput(attempt_201701301750_0002_m_000002_0,0) failed :
+java.net.SocketException: Connection reset
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at org.mortbay.http.ChunkingOutputStream.bypassWrite(ChunkingOutputStream.java:151)
+	at org.mortbay.http.BufferedOutputStream.write(BufferedOutputStream.java:139)
+	at org.mortbay.http.HttpOutputStream.write(HttpOutputStream.java:423)
+	at org.mortbay.jetty.servlet.ServletOut.write(ServletOut.java:54)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2478)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2017-01-30 17:52:44,919 WARN org.apache.hadoop.mapred.TaskTracker: getMapOutput(attempt_201701301750_0002_m_000009_0,0) failed :
+java.net.SocketException: Connection reset
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at org.mortbay.http.ChunkingOutputStream.bypassWrite(ChunkingOutputStream.java:151)
+	at org.mortbay.http.BufferedOutputStream.write(BufferedOutputStream.java:139)
+	at org.mortbay.http.HttpOutputStream.write(HttpOutputStream.java:423)
+	at org.mortbay.jetty.servlet.ServletOut.write(ServletOut.java:54)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2478)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2017-01-30 17:52:44,920 WARN /: /mapOutput?job=job_201701301750_0002&map=attempt_201701301750_0002_m_000009_0&reduce=0: 
+java.lang.IllegalStateException: Committed
+	at org.mortbay.jetty.servlet.ServletHttpResponse.resetBuffer(ServletHttpResponse.java:212)
+	at org.mortbay.jetty.servlet.ServletHttpResponse.sendError(ServletHttpResponse.java:375)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2506)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2017-01-30 17:52:44,920 WARN org.apache.hadoop.mapred.TaskTracker: getMapOutput(attempt_201701301750_0002_m_000009_0,0) failed :
+java.net.SocketException: Connection reset
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at org.mortbay.http.ChunkingOutputStream.bypassWrite(ChunkingOutputStream.java:151)
+	at org.mortbay.http.BufferedOutputStream.write(BufferedOutputStream.java:139)
+	at org.mortbay.http.HttpOutputStream.write(HttpOutputStream.java:423)
+	at org.mortbay.jetty.servlet.ServletOut.write(ServletOut.java:54)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2478)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2017-01-30 17:52:44,920 WARN org.apache.hadoop.mapred.TaskTracker: getMapOutput(attempt_201701301750_0002_m_000006_0,0) failed :
+java.net.SocketException: Connection reset
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at org.mortbay.http.ChunkingOutputStream.bypassWrite(ChunkingOutputStream.java:151)
+	at org.mortbay.http.BufferedOutputStream.write(BufferedOutputStream.java:139)
+	at org.mortbay.http.HttpOutputStream.write(HttpOutputStream.java:423)
+	at org.mortbay.jetty.servlet.ServletOut.write(ServletOut.java:54)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2478)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+
+2017-01-30 17:52:44,919 WARN /: /mapOutput?job=job_201701301750_0002&map=attempt_201701301750_0002_m_000002_0&reduce=0: 
+java.lang.IllegalStateException: Committed
+	at org.mortbay.jetty.servlet.ServletHttpResponse.resetBuffer(ServletHttpResponse.java:212)
+	at org.mortbay.jetty.servlet.ServletHttpResponse.sendError(ServletHttpResponse.java:375)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2506)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2017-01-30 17:52:44,922 WARN /: /mapOutput?job=job_201701301750_0002&map=attempt_201701301750_0002_m_000006_0&reduce=0: 
+java.lang.IllegalStateException: Committed
+	at org.mortbay.jetty.servlet.ServletHttpResponse.resetBuffer(ServletHttpResponse.java:212)
+	at org.mortbay.jetty.servlet.ServletHttpResponse.sendError(ServletHttpResponse.java:375)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2506)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2017-01-30 17:52:44,922 WARN /: /mapOutput?job=job_201701301750_0002&map=attempt_201701301750_0002_m_000009_0&reduce=0: 
+java.lang.IllegalStateException: Committed
+	at org.mortbay.jetty.servlet.ServletHttpResponse.resetBuffer(ServletHttpResponse.java:212)
+	at org.mortbay.jetty.servlet.ServletHttpResponse.sendError(ServletHttpResponse.java:375)
+	at org.apache.hadoop.mapred.TaskTracker$MapOutputServlet.doGet(TaskTracker.java:2506)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:689)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:427)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:475)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:567)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1565)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:635)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1517)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:954)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:814)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:981)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:831)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:244)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2017-01-30 17:52:48,079 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 37868645 bytes for reduce: 0 from map: attempt_201701301750_0002_m_000009_0 given 37868645/37868645 from 0 with (5, 4)
+2017-01-30 17:52:50,420 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 33259775 bytes for reduce: 0 from map: attempt_201701301750_0002_m_000010_0 given 33259775/33259775 from 0 with (5, 4)
+2017-01-30 17:52:52,179 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 30966480 bytes for reduce: 0 from map: attempt_201701301750_0002_m_000002_0 given 30966480/30966480 from 0 with (5, 4)
+2017-01-30 17:52:54,458 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 45006324 bytes for reduce: 0 from map: attempt_201701301750_0002_m_000006_0 given 45006324/45006324 from 0 with (5, 4)
+2017-01-30 17:53:29,545 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301750_0002
+2017-01-30 17:53:29,545 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301750_0002_m_000002_0 done; removing files.
+2017-01-30 17:53:29,555 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301750_0002_m_000010_0 done; removing files.
+2017-01-30 17:53:29,563 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301750_0002_m_000009_0 done; removing files.
+2017-01-30 17:53:29,571 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301750_0002_m_000006_0 done; removing files.
+2017-01-30 18:01:01,831 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-30 18:01:13,251 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-30 18:01:13,425 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-30 18:01:13,523 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-30 18:01:13,524 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-30 18:01:13,524 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-30 18:01:13,764 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e9e26a
+2017-01-30 18:01:13,792 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-30 18:01:13,797 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-30 18:01:13,797 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@ca7c93
+2017-01-30 18:01:13,803 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-30 18:01:13,818 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=48100
+2017-01-30 18:01:13,881 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-30 18:01:13,881 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 48100: starting
+2017-01-30 18:01:13,883 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 48100: starting
+2017-01-30 18:01:13,883 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:48100
+2017-01-30 18:01:13,883 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 48100: starting
+2017-01-30 18:01:13,883 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:48100
+2017-01-30 18:01:13,923 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:48100
+2017-01-30 18:03:14,094 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0001_m_000000_0
+2017-01-30 18:03:14,368 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0001_m_000003_0
+2017-01-30 18:03:19,398 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0001_r_000000_0
+2017-01-30 18:03:21,045 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000000_0 0.26343897% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:03:21,089 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000003_0 0.3792439% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 18:03:24,048 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000000_0 0.42834598% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:03:24,093 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000003_0 0.57049555% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 18:03:26,020 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.0% reduce > copy > 
+2017-01-30 18:03:27,055 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000000_0 0.590672% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:03:27,097 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000003_0 0.7741698% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 18:03:29,022 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.0% reduce > copy > 
+2017-01-30 18:03:30,057 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000000_0 0.75893325% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:03:30,099 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000003_0 0.97009885% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 18:03:33,086 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000000_0 0.91870105% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:03:33,101 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000003_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 18:03:34,521 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000003_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:201326592+67108864
+2017-01-30 18:03:34,527 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0001_m_000003_0 is done.
+2017-01-30 18:03:35,028 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.0% reduce > copy > 
+2017-01-30 18:03:35,214 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0001_m_000006_0
+2017-01-30 18:03:36,094 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:03:39,099 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:03:40,026 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:03:40,030 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0001_m_000000_0 is done.
+2017-01-30 18:03:40,170 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0001_m_000011_0
+2017-01-30 18:03:41,035 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.0% reduce > copy > 
+2017-01-30 18:03:41,988 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000006_0 0.33111987% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:03:44,039 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.0% reduce > copy > 
+2017-01-30 18:03:44,991 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000006_0 0.5342928% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:03:45,621 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 46373167 bytes for reduce: 0 from map: attempt_201701301801_0001_m_000003_0 given 46373167/46373167 from 0 with (5, 4)
+2017-01-30 18:03:46,806 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000011_0 0.6011733% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 18:03:47,411 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 54412716 bytes for reduce: 0 from map: attempt_201701301801_0001_m_000000_0 given 54412716/54412716 from 0 with (9, 4)
+2017-01-30 18:03:47,995 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000006_0 0.7209415% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:03:49,809 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000011_0 0.9486118% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 18:03:50,048 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.11111112% reduce > copy (4 of 12 at 5.64 MB/s) > 
+2017-01-30 18:03:50,998 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000006_0 0.9032531% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:03:52,298 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000011_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 18:03:52,302 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0001_m_000011_0 is done.
+2017-01-30 18:03:53,051 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.16666667% reduce > copy (6 of 12 at 7.88 MB/s) > 
+2017-01-30 18:03:54,001 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000006_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:03:56,054 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.16666667% reduce > copy (6 of 12 at 7.88 MB/s) > 
+2017-01-30 18:03:56,244 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_m_000006_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:03:56,249 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0001_m_000006_0 is done.
+2017-01-30 18:03:59,057 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.16666667% reduce > copy (6 of 12 at 7.88 MB/s) > 
+2017-01-30 18:04:01,654 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 27212438 bytes for reduce: 0 from map: attempt_201701301801_0001_m_000011_0 given 27212438/27212438 from 0 with (5, 4)
+2017-01-30 18:04:03,435 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 45006324 bytes for reduce: 0 from map: attempt_201701301801_0001_m_000006_0 given 45006324/45006324 from 0 with (5, 4)
+2017-01-30 18:04:05,063 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.33333334% reduce > sort
+2017-01-30 18:04:08,067 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.66688764% reduce > reduce
+2017-01-30 18:04:11,069 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.7076036% reduce > reduce
+2017-01-30 18:04:14,072 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.7473004% reduce > reduce
+2017-01-30 18:04:17,075 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.7824584% reduce > reduce
+2017-01-30 18:04:20,078 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.8174877% reduce > reduce
+2017-01-30 18:04:23,085 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.8475267% reduce > reduce
+2017-01-30 18:04:26,089 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.87525105% reduce > reduce
+2017-01-30 18:04:29,092 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.90200305% reduce > reduce
+2017-01-30 18:04:32,097 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.93136734% reduce > reduce
+2017-01-30 18:04:34,712 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0001_r_000000_0 0.95541686% reduce > reduce
+2017-01-30 18:04:34,726 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0001_r_000000_0 is done.
+2017-01-30 18:04:37,136 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301801_0001
+2017-01-30 18:04:37,136 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0001_m_000011_0 done; removing files.
+2017-01-30 18:04:37,146 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0001_r_000000_0 done; removing files.
+2017-01-30 18:04:37,148 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0001_m_000000_0 done; removing files.
+2017-01-30 18:04:37,161 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0001_m_000003_0 done; removing files.
+2017-01-30 18:04:37,170 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0001_m_000006_0 done; removing files.
+2017-01-30 18:04:55,180 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0002_m_000002_0
+2017-01-30 18:04:57,150 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0002_m_000005_0
+2017-01-30 18:05:01,929 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000002_0 0.32302782% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:05:03,881 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000005_0 0.37698925% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 18:05:04,932 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000002_0 0.51860523% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:05:06,884 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000005_0 0.5868447% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 18:05:07,935 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000002_0 0.704252% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:05:09,887 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000005_0 0.8078547% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 18:05:10,939 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000002_0 0.91664636% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:05:12,889 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000005_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 18:05:13,943 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000002_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:05:15,892 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000005_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 18:05:16,009 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000002_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:05:16,019 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0002_m_000002_0 is done.
+2017-01-30 18:05:16,574 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000005_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:335544320+67108864
+2017-01-30 18:05:16,580 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0002_m_000005_0 is done.
+2017-01-30 18:05:16,996 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0002_m_000007_0
+2017-01-30 18:05:17,038 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0002_m_000008_0
+2017-01-30 18:05:23,627 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000007_0 0.35005385% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 18:05:23,710 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000008_0 0.37848786% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 18:05:25,366 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 46225401 bytes for reduce: 0 from map: attempt_201701301801_0002_m_000005_0 given 46225401/46225401 from 0 with (5, 4)
+2017-01-30 18:05:26,631 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000007_0 0.54504997% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 18:05:26,713 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000008_0 0.5782834% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 18:05:27,639 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 30966480 bytes for reduce: 0 from map: attempt_201701301801_0002_m_000002_0 given 30966480/30966480 from 0 with (5, 4)
+2017-01-30 18:05:29,633 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000007_0 0.74171644% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 18:05:29,716 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000008_0 0.7807731% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 18:05:32,636 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000007_0 0.92154944% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 18:05:32,719 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000008_0 0.98675144% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 18:05:35,638 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000007_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 18:05:35,721 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000008_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 18:05:36,792 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000008_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:536870912+67108864
+2017-01-30 18:05:36,797 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0002_m_000008_0 is done.
+2017-01-30 18:05:37,999 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0002_m_000007_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:469762048+67108864
+2017-01-30 18:05:38,004 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0002_m_000007_0 is done.
+2017-01-30 18:05:41,146 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 39817636 bytes for reduce: 0 from map: attempt_201701301801_0002_m_000007_0 given 39817636/39817636 from 0 with (5, 4)
+2017-01-30 18:05:43,501 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 40518156 bytes for reduce: 0 from map: attempt_201701301801_0002_m_000008_0 given 40518156/40518156 from 0 with (5, 4)
+2017-01-30 18:06:17,849 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301801_0002
+2017-01-30 18:06:17,850 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0002_m_000007_0 done; removing files.
+2017-01-30 18:06:17,865 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0002_m_000008_0 done; removing files.
+2017-01-30 18:06:17,874 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0002_m_000002_0 done; removing files.
+2017-01-30 18:06:17,881 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0002_m_000005_0 done; removing files.
+2017-01-30 18:07:42,904 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0003_m_000000_0
+2017-01-30 18:07:43,802 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0003_m_000002_0
+2017-01-30 18:07:47,996 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0003_r_000000_0
+2017-01-30 18:07:49,652 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000000_0 0.27828518% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:07:50,547 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000002_0 0.35223687% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:07:52,653 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000000_0 0.44803643% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:07:53,550 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000002_0 0.5527103% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:07:54,615 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.0% reduce > copy > 
+2017-01-30 18:07:55,656 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000000_0 0.60020757% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:07:56,552 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000002_0 0.74905837% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:07:57,619 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.0% reduce > copy > 
+2017-01-30 18:07:58,657 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000000_0 0.76727307% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:07:59,555 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000002_0 0.9722332% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:08:01,660 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000000_0 0.9552767% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:08:02,563 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000002_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:08:03,628 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.0% reduce > copy > 
+2017-01-30 18:08:03,779 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000002_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:134217728+67108864
+2017-01-30 18:08:03,784 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0003_m_000002_0 is done.
+2017-01-30 18:08:03,842 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0003_m_000006_0
+2017-01-30 18:08:04,663 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:08:07,664 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:08:07,905 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000000_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:0+67108864
+2017-01-30 18:08:07,909 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0003_m_000000_0 is done.
+2017-01-30 18:08:08,765 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction: attempt_201701301801_0003_m_000011_0
+2017-01-30 18:08:09,631 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.0% reduce > copy > 
+2017-01-30 18:08:10,538 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000006_0 0.31213364% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:08:12,633 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.0% reduce > copy > 
+2017-01-30 18:08:13,541 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000006_0 0.5109056% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:08:14,155 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 30966480 bytes for reduce: 0 from map: attempt_201701301801_0003_m_000002_0 given 30966480/30966480 from 0 with (5, 4)
+2017-01-30 18:08:15,472 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000011_0 0.57242984% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 18:08:15,948 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 54412716 bytes for reduce: 0 from map: attempt_201701301801_0003_m_000000_0 given 54412716/54412716 from 0 with (9, 4)
+2017-01-30 18:08:16,543 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000006_0 0.6900946% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:08:18,474 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000011_0 0.9054996% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 18:08:18,643 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.16666667% reduce > copy (6 of 12 at 7.88 MB/s) > 
+2017-01-30 18:08:19,547 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000006_0 0.8758526% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:08:21,308 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000011_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:738197504+37345947
+2017-01-30 18:08:21,312 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0003_m_000011_0 is done.
+2017-01-30 18:08:21,648 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.16666667% reduce > copy (6 of 12 at 7.88 MB/s) > 
+2017-01-30 18:08:22,550 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000006_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:08:24,651 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.16666667% reduce > copy (6 of 12 at 7.88 MB/s) > 
+2017-01-30 18:08:25,346 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_m_000006_0 1.0% hdfs://rivervm1:9000/twitter_5M.txt:402653184+67108864
+2017-01-30 18:08:25,352 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0003_m_000006_0 is done.
+2017-01-30 18:08:27,655 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.16666667% reduce > copy (6 of 12 at 7.88 MB/s) > 
+2017-01-30 18:08:29,799 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 27212438 bytes for reduce: 0 from map: attempt_201701301801_0003_m_000011_0 given 27212438/27212438 from 0 with (5, 4)
+2017-01-30 18:08:31,942 INFO org.apache.hadoop.mapred.TaskTracker: Sent out 45006324 bytes for reduce: 0 from map: attempt_201701301801_0003_m_000006_0 given 45006324/45006324 from 0 with (5, 4)
+2017-01-30 18:08:33,663 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.2777778% reduce > copy (10 of 12 at 8.47 MB/s) > 
+2017-01-30 18:08:36,668 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.33333334% reduce > sort
+2017-01-30 18:08:39,671 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.6797074% reduce > reduce
+2017-01-30 18:08:42,675 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.7247922% reduce > reduce
+2017-01-30 18:08:45,679 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.761482% reduce > reduce
+2017-01-30 18:08:48,682 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.7935344% reduce > reduce
+2017-01-30 18:08:51,685 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.82544327% reduce > reduce
+2017-01-30 18:08:54,687 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.85580444% reduce > reduce
+2017-01-30 18:08:57,690 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.88449% reduce > reduce
+2017-01-30 18:09:00,694 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.91851366% reduce > reduce
+2017-01-30 18:09:03,700 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.9453181% reduce > reduce
+2017-01-30 18:09:04,706 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201701301801_0003_r_000000_0 0.95541686% reduce > reduce
+2017-01-30 18:09:04,721 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201701301801_0003_r_000000_0 is done.
+2017-01-30 18:09:05,767 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201701301801_0003
+2017-01-30 18:09:05,767 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0003_r_000000_0 done; removing files.
+2017-01-30 18:09:05,769 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0003_m_000000_0 done; removing files.
+2017-01-30 18:09:05,785 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0003_m_000002_0 done; removing files.
+2017-01-30 18:09:05,792 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0003_m_000011_0 done; removing files.
+2017-01-30 18:09:05,799 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201701301801_0003_m_000006_0 done; removing files.

@@ -1,0 +1,286 @@
+2017-06-17 00:10:30,044 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-17 01:10:30,550 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-17 02:10:31,615 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-17 03:10:34,384 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-17 04:10:34,616 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-17 05:10:36,875 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-17 06:10:37,039 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-17 07:10:39,632 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-17 08:10:42,569 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-17 09:10:45,440 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-17 10:10:45,461 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-17 11:10:45,719 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-17 12:10:45,912 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-17 13:10:46,441 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-17 14:10:46,552 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-17 15:10:46,759 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-17 16:10:49,647 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-17 17:10:50,123 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-17 17:54:03,967 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:00:24,346 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:00:24,491 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:00:24,601 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:00:24,603 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:08:18,029 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:08:18,164 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:08:18,274 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:08:18,276 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:09:53,394 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:09:53,562 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:09:53,670 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:09:53,673 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:13:51,554 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:13:51,709 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:13:51,819 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:13:51,822 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:25:48,270 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:25:48,419 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:25:48,526 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:25:48,528 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:26:04,976 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:26:05,114 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:26:05,223 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:26:05,225 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:27:20,237 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:27:20,378 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:27:20,488 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:27:20,490 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:32:34,245 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:32:34,392 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:32:34,502 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:32:34,504 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:33:11,183 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:33:11,345 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:33:11,455 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:33:11,457 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:34:46,858 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:34:47,018 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:34:47,127 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:34:47,129 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:36:46,312 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:36:46,453 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:36:46,563 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:36:46,565 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:38:50,706 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:38:50,863 FATAL org.apache.hadoop.dfs.DataNode: Incompatible build versions: namenode BV = ; datanode BV = 686010
+2017-06-17 18:38:50,972 ERROR org.apache.hadoop.dfs.DataNode: java.io.IOException: Incompatible build versions: namenode BV = ; datanode BV = 686010
+	at org.apache.hadoop.dfs.DataNode.handshake(DataNode.java:403)
+	at org.apache.hadoop.dfs.DataNode.startDataNode(DataNode.java:250)
+	at org.apache.hadoop.dfs.DataNode.<init>(DataNode.java:190)
+	at org.apache.hadoop.dfs.DataNode.makeInstance(DataNode.java:2987)
+	at org.apache.hadoop.dfs.DataNode.instantiateDataNode(DataNode.java:2942)
+	at org.apache.hadoop.dfs.DataNode.createDataNode(DataNode.java:2950)
+	at org.apache.hadoop.dfs.DataNode.main(DataNode.java:3072)
+
+2017-06-17 18:38:50,974 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/

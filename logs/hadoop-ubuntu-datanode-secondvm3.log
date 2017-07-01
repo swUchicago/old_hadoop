@@ -1,0 +1,21 @@
+2017-06-19 00:51:53,517 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 5 msecs
+2017-06-19 01:51:54,777 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-19 02:51:56,154 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-19 03:51:57,440 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-19 04:51:58,764 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-19 05:52:00,076 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-19 06:52:01,480 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-19 07:52:02,839 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-19 08:52:04,185 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-19 09:52:05,522 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-19 10:52:06,877 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 5 msecs
+2017-06-19 11:52:08,291 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-19 12:52:09,650 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-19 13:52:10,996 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-19 14:52:12,371 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-19 15:52:13,722 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-19 16:52:15,079 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-19 16:55:45,019 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm3/192.168.1.157
+************************************************************/

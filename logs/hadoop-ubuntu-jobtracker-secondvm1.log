@@ -1,0 +1,1077 @@
+2017-07-01 18:03:16,759 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = secondvm1/192.168.1.155
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-07-01 18:03:16,863 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=9001
+2017-07-01 18:03:16,869 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-07-01 18:03:16,870 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9001: starting
+2017-07-01 18:03:16,871 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9001: starting
+2017-07-01 18:03:16,872 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9001: starting
+2017-07-01 18:03:16,881 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9001: starting
+2017-07-01 18:03:16,881 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9001: starting
+2017-07-01 18:03:16,881 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9001: starting
+2017-07-01 18:03:16,882 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9001: starting
+2017-07-01 18:03:16,882 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9001: starting
+2017-07-01 18:03:16,882 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9001: starting
+2017-07-01 18:03:16,882 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9001: starting
+2017-07-01 18:03:16,882 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9001: starting
+2017-07-01 18:03:16,929 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-07-01 18:03:17,046 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-07-01 18:03:17,048 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-07-01 18:03:17,048 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-07-01 18:03:17,467 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@18902ef
+2017-07-01 18:03:17,521 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-07-01 18:03:17,522 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50030
+2017-07-01 18:03:17,523 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@18b459a
+2017-07-01 18:03:17,525 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2017-07-01 18:03:17,525 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 9001
+2017-07-01 18:03:17,525 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2017-07-01 18:03:17,611 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 0.0000 has not reached the threshold 0.9990. Safe mode will be turned off automatically.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:03:27,624 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 23 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:03:37,629 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 13 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:03:47,636 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 3 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:03:57,691 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2017-07-01 18:03:57,702 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm5
+2017-07-01 18:03:57,703 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm2
+2017-07-01 18:03:57,703 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm4
+2017-07-01 18:03:57,703 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm3
+2017-07-01 18:04:35,652 INFO org.apache.hadoop.mapred.JobTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down JobTracker at secondvm1/192.168.1.155
+************************************************************/
+2017-07-01 18:05:34,929 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = secondvm1/192.168.1.155
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-07-01 18:05:35,033 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=9001
+2017-07-01 18:05:35,039 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-07-01 18:05:35,040 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9001: starting
+2017-07-01 18:05:35,041 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9001: starting
+2017-07-01 18:05:35,043 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9001: starting
+2017-07-01 18:05:35,058 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9001: starting
+2017-07-01 18:05:35,058 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9001: starting
+2017-07-01 18:05:35,059 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9001: starting
+2017-07-01 18:05:35,059 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9001: starting
+2017-07-01 18:05:35,059 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9001: starting
+2017-07-01 18:05:35,059 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9001: starting
+2017-07-01 18:05:35,059 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9001: starting
+2017-07-01 18:05:35,060 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9001: starting
+2017-07-01 18:05:35,100 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-07-01 18:05:35,178 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-07-01 18:05:35,179 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-07-01 18:05:35,179 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-07-01 18:05:35,581 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@1fa1e7
+2017-07-01 18:05:35,634 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-07-01 18:05:35,636 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50030
+2017-07-01 18:05:35,636 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@18b459a
+2017-07-01 18:05:35,637 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2017-07-01 18:05:35,638 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 9001
+2017-07-01 18:05:35,638 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2017-07-01 18:05:35,767 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 0.0000 has not reached the threshold 0.9990. Safe mode will be turned off automatically.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:05:45,774 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 20 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:05:55,782 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 10 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:06:05,789 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 0 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:06:15,846 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2017-07-01 18:06:15,870 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm5
+2017-07-01 18:06:15,870 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm2
+2017-07-01 18:06:15,870 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm3
+2017-07-01 18:06:15,871 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm4
+2017-07-01 18:08:35,684 INFO org.apache.hadoop.mapred.JobTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down JobTracker at secondvm1/192.168.1.155
+************************************************************/
+2017-07-01 18:08:44,831 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = secondvm1/192.168.1.155
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-07-01 18:08:44,936 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=9001
+2017-07-01 18:08:44,941 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-07-01 18:08:44,942 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9001: starting
+2017-07-01 18:08:44,943 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9001: starting
+2017-07-01 18:08:44,944 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9001: starting
+2017-07-01 18:08:44,956 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9001: starting
+2017-07-01 18:08:44,956 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9001: starting
+2017-07-01 18:08:44,957 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9001: starting
+2017-07-01 18:08:44,957 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9001: starting
+2017-07-01 18:08:44,958 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9001: starting
+2017-07-01 18:08:44,959 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9001: starting
+2017-07-01 18:08:44,959 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9001: starting
+2017-07-01 18:08:44,960 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9001: starting
+2017-07-01 18:08:45,002 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-07-01 18:08:45,067 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-07-01 18:08:45,068 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-07-01 18:08:45,068 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-07-01 18:08:45,387 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@18902ef
+2017-07-01 18:08:45,438 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-07-01 18:08:45,440 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50030
+2017-07-01 18:08:45,441 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@c13917
+2017-07-01 18:08:45,443 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2017-07-01 18:08:45,443 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 9001
+2017-07-01 18:08:45,443 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2017-07-01 18:08:45,594 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 0.0000 has not reached the threshold 0.9990. Safe mode will be turned off automatically.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:08:55,602 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 20 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:09:05,609 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 10 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:09:15,616 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 0 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:09:25,671 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2017-07-01 18:09:25,678 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm2
+2017-07-01 18:09:25,679 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm3
+2017-07-01 18:09:25,679 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm5
+2017-07-01 18:09:25,679 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm4
+2017-07-01 18:09:46,185 INFO org.apache.hadoop.mapred.JobInProgress: Split info for job:job_201707011808_0001
+2017-07-01 18:09:46,186 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000000 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,186 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000000 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,186 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000000 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,186 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000000 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,186 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000001 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,186 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000001 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,186 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000001 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,186 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000001 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,186 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000002 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,186 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000002 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,186 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000002 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000002 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000003 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000003 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000003 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000003 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000004 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000004 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000004 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000004 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000005 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000005 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000005 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,187 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000005 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000006 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000006 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000006 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000006 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000007 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000007 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000007 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000007 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000008 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000008 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000008 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,188 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000008 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000009 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000009 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000009 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000009 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000010 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000010 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000010 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000010 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000011 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000011 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000011 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,189 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000011 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000012 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000012 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000012 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000012 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000013 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000013 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000013 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000013 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000014 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000014 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000014 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,190 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000014 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,191 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000015 has split on node:/default-rack/secondvm4
+2017-07-01 18:09:46,191 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000015 has split on node:/default-rack/secondvm2
+2017-07-01 18:09:46,191 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000015 has split on node:/default-rack/secondvm5
+2017-07-01 18:09:46,191 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011808_0001_m_000015 has split on node:/default-rack/secondvm3
+2017-07-01 18:09:46,966 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000000
+2017-07-01 18:09:47,001 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000000_0' to tip task_201707011808_0001_m_000000, for tracker 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:09:47,067 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000001
+2017-07-01 18:09:47,068 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000001_0' to tip task_201707011808_0001_m_000001, for tracker 'tracker_secondvm3:ip6-localhost/127.0.0.1:37871'
+2017-07-01 18:09:47,074 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000002
+2017-07-01 18:09:47,074 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000002_0' to tip task_201707011808_0001_m_000002, for tracker 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:09:47,110 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000003
+2017-07-01 18:09:47,111 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000003_0' to tip task_201707011808_0001_m_000003, for tracker 'tracker_secondvm4:ip6-localhost/127.0.0.1:58918'
+2017-07-01 18:09:47,401 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_r_000000_0' to tip task_201707011808_0001_r_000000, for tracker 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:09:47,566 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_r_000001_0' to tip task_201707011808_0001_r_000001, for tracker 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:09:47,577 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_r_000002_0' to tip task_201707011808_0001_r_000002, for tracker 'tracker_secondvm4:ip6-localhost/127.0.0.1:58918'
+2017-07-01 18:09:47,639 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_r_000003_0' to tip task_201707011808_0001_r_000003, for tracker 'tracker_secondvm3:ip6-localhost/127.0.0.1:37871'
+2017-07-01 18:10:00,834 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000003_0' has completed task_201707011808_0001_m_000003 successfully.
+2017-07-01 18:10:00,844 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000004
+2017-07-01 18:10:00,844 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000004_0' to tip task_201707011808_0001_m_000004, for tracker 'tracker_secondvm4:ip6-localhost/127.0.0.1:58918'
+2017-07-01 18:10:01,701 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000002_0' has completed task_201707011808_0001_m_000002 successfully.
+2017-07-01 18:10:01,708 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000005
+2017-07-01 18:10:01,709 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000005_0' to tip task_201707011808_0001_m_000005, for tracker 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:10:01,918 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000001_0' has completed task_201707011808_0001_m_000001 successfully.
+2017-07-01 18:10:01,922 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000006
+2017-07-01 18:10:01,923 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000006_0' to tip task_201707011808_0001_m_000006, for tracker 'tracker_secondvm3:ip6-localhost/127.0.0.1:37871'
+2017-07-01 18:10:02,494 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000000_0' has completed task_201707011808_0001_m_000000 successfully.
+2017-07-01 18:10:02,505 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000007
+2017-07-01 18:10:02,506 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000007_0' to tip task_201707011808_0001_m_000007, for tracker 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:10:12,681 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000004_0' has completed task_201707011808_0001_m_000004 successfully.
+2017-07-01 18:10:12,688 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000008
+2017-07-01 18:10:12,689 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000008_0' to tip task_201707011808_0001_m_000008, for tracker 'tracker_secondvm4:ip6-localhost/127.0.0.1:58918'
+2017-07-01 18:10:13,470 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000005_0' has completed task_201707011808_0001_m_000005 successfully.
+2017-07-01 18:10:13,474 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000009
+2017-07-01 18:10:13,475 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000009_0' to tip task_201707011808_0001_m_000009, for tracker 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:10:13,661 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000006_0' has completed task_201707011808_0001_m_000006 successfully.
+2017-07-01 18:10:13,664 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000010
+2017-07-01 18:10:13,665 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000010_0' to tip task_201707011808_0001_m_000010, for tracker 'tracker_secondvm3:ip6-localhost/127.0.0.1:37871'
+2017-07-01 18:10:14,274 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000007_0' has completed task_201707011808_0001_m_000007 successfully.
+2017-07-01 18:10:14,277 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000011
+2017-07-01 18:10:14,278 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000011_0' to tip task_201707011808_0001_m_000011, for tracker 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:10:24,414 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000008_0' has completed task_201707011808_0001_m_000008 successfully.
+2017-07-01 18:10:24,417 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000012
+2017-07-01 18:10:24,418 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000012_0' to tip task_201707011808_0001_m_000012, for tracker 'tracker_secondvm4:ip6-localhost/127.0.0.1:58918'
+2017-07-01 18:10:25,427 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000010_0' has completed task_201707011808_0001_m_000010 successfully.
+2017-07-01 18:10:25,432 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000013
+2017-07-01 18:10:25,432 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000013_0' to tip task_201707011808_0001_m_000013, for tracker 'tracker_secondvm3:ip6-localhost/127.0.0.1:37871'
+2017-07-01 18:10:26,240 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000009_0' has completed task_201707011808_0001_m_000009 successfully.
+2017-07-01 18:10:26,243 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000014
+2017-07-01 18:10:26,244 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000014_0' to tip task_201707011808_0001_m_000014, for tracker 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:10:27,054 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000011_0' has completed task_201707011808_0001_m_000011 successfully.
+2017-07-01 18:10:27,057 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011808_0001_m_000015
+2017-07-01 18:10:27,060 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_m_000015_0' to tip task_201707011808_0001_m_000015, for tracker 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:10:35,195 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000012_0' has completed task_201707011808_0001_m_000012 successfully.
+2017-07-01 18:10:37,190 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000013_0' has completed task_201707011808_0001_m_000013 successfully.
+2017-07-01 18:10:38,024 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000014_0' has completed task_201707011808_0001_m_000014 successfully.
+2017-07-01 18:10:38,852 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_m_000015_0' has completed task_201707011808_0001_m_000015 successfully.
+2017-07-01 18:10:45,737 INFO org.apache.hadoop.mapred.TaskRunner: Saved output of task 'attempt_201707011808_0001_r_000001_0' to hdfs://secondvm1:9000/twitter_output
+2017-07-01 18:10:45,738 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_r_000001_0' has completed task_201707011808_0001_r_000001 successfully.
+2017-07-01 18:10:46,569 INFO org.apache.hadoop.mapred.TaskRunner: Saved output of task 'attempt_201707011808_0001_r_000000_0' to hdfs://secondvm1:9000/twitter_output
+2017-07-01 18:10:46,569 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_r_000000_0' has completed task_201707011808_0001_r_000000 successfully.
+2017-07-01 18:10:48,033 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_r_000002_1' to tip task_201707011808_0001_r_000002, for tracker 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:10:48,861 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011808_0001_r_000003_1' to tip task_201707011808_0001_r_000003, for tracker 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:10:51,847 INFO org.apache.hadoop.mapred.TaskRunner: Saved output of task 'attempt_201707011808_0001_r_000002_0' to hdfs://secondvm1:9000/twitter_output
+2017-07-01 18:10:51,847 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_r_000002_0' has completed task_201707011808_0001_r_000002 successfully.
+2017-07-01 18:10:51,959 INFO org.apache.hadoop.mapred.TaskRunner: Saved output of task 'attempt_201707011808_0001_r_000003_0' to hdfs://secondvm1:9000/twitter_output
+2017-07-01 18:10:51,959 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011808_0001_r_000003_0' has completed task_201707011808_0001_r_000003 successfully.
+2017-07-01 18:10:51,974 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201707011808_0001 has completed successfully.
+2017-07-01 18:10:51,984 INFO org.apache.hadoop.dfs.DFSClient: org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /twitter_output/_logs/history/secondvm1_1498925325030_job_201707011808_0001_ubuntu_wordcount could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.dfs.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1117)
+	at org.apache.hadoop.dfs.NameNode.addBlock(NameNode.java:330)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:2440)
+	at org.apache.hadoop.dfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:2323)
+	at org.apache.hadoop.dfs.DFSClient$DFSOutputStream.access$1800(DFSClient.java:1735)
+	at org.apache.hadoop.dfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:1912)
+
+2017-07-01 18:10:51,984 WARN org.apache.hadoop.dfs.DFSClient: NotReplicatedYetException sleeping /twitter_output/_logs/history/secondvm1_1498925325030_job_201707011808_0001_ubuntu_wordcount retries left 4
+2017-07-01 18:10:53,062 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000002_0' from 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:10:53,063 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000005_0' from 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:10:53,063 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000009_0' from 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:10:53,063 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000014_0' from 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:10:53,063 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_r_000001_0' from 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:10:53,901 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000000_0' from 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:10:53,902 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000007_0' from 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:10:53,902 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000011_0' from 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:10:53,902 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000015_0' from 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:10:53,902 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_r_000000_0' from 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:10:55,212 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000003_0' from 'tracker_secondvm4:ip6-localhost/127.0.0.1:58918'
+2017-07-01 18:10:55,212 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000004_0' from 'tracker_secondvm4:ip6-localhost/127.0.0.1:58918'
+2017-07-01 18:10:55,213 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000008_0' from 'tracker_secondvm4:ip6-localhost/127.0.0.1:58918'
+2017-07-01 18:10:55,214 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000012_0' from 'tracker_secondvm4:ip6-localhost/127.0.0.1:58918'
+2017-07-01 18:10:55,214 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_r_000002_0' from 'tracker_secondvm4:ip6-localhost/127.0.0.1:58918'
+2017-07-01 18:10:55,494 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000001_0' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:37871'
+2017-07-01 18:10:55,495 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000006_0' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:37871'
+2017-07-01 18:10:55,495 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000010_0' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:37871'
+2017-07-01 18:10:55,495 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_m_000013_0' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:37871'
+2017-07-01 18:10:55,495 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_r_000003_0' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:37871'
+2017-07-01 18:10:55,720 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_r_000002_1' from 'tracker_secondvm5:ip6-localhost/127.0.0.1:60210'
+2017-07-01 18:10:56,554 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011808_0001_r_000003_1' from 'tracker_secondvm2:ip6-localhost/127.0.0.1:36202'
+2017-07-01 18:13:16,592 INFO org.apache.hadoop.mapred.JobTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down JobTracker at secondvm1/192.168.1.155
+************************************************************/
+2017-07-01 18:13:25,588 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = secondvm1/192.168.1.155
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-07-01 18:13:25,699 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=9001
+2017-07-01 18:13:25,705 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9001: starting
+2017-07-01 18:13:25,706 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-07-01 18:13:25,706 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9001: starting
+2017-07-01 18:13:25,706 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9001: starting
+2017-07-01 18:13:25,715 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9001: starting
+2017-07-01 18:13:25,715 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9001: starting
+2017-07-01 18:13:25,715 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9001: starting
+2017-07-01 18:13:25,715 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9001: starting
+2017-07-01 18:13:25,715 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9001: starting
+2017-07-01 18:13:25,715 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9001: starting
+2017-07-01 18:13:25,715 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9001: starting
+2017-07-01 18:13:25,716 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9001: starting
+2017-07-01 18:13:25,763 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-07-01 18:13:25,841 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-07-01 18:13:25,842 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-07-01 18:13:25,842 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-07-01 18:13:26,157 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@1697ad3
+2017-07-01 18:13:26,189 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-07-01 18:13:26,191 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50030
+2017-07-01 18:13:26,191 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@a1eccb
+2017-07-01 18:13:26,192 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2017-07-01 18:13:26,193 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 9001
+2017-07-01 18:13:26,193 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2017-07-01 18:13:26,320 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 0.0000 has not reached the threshold 0.9990. Safe mode will be turned off automatically.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:13:36,326 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 20 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:13:46,336 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 10 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:13:56,343 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 0 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:14:06,404 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2017-07-01 18:14:06,410 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm5
+2017-07-01 18:14:06,412 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm3
+2017-07-01 18:14:06,412 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm2
+2017-07-01 18:14:06,412 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/secondvm4
+2017-07-01 18:16:14,617 INFO org.apache.hadoop.mapred.JobInProgress: Split info for job:job_201707011813_0002
+2017-07-01 18:16:14,617 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000000 has split on node:/default-rack/secondvm5
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000000 has split on node:/default-rack/secondvm4
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000000 has split on node:/default-rack/secondvm2
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000000 has split on node:/default-rack/secondvm3
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000001 has split on node:/default-rack/secondvm5
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000001 has split on node:/default-rack/secondvm4
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000001 has split on node:/default-rack/secondvm2
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000001 has split on node:/default-rack/secondvm3
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000002 has split on node:/default-rack/secondvm3
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000002 has split on node:/default-rack/secondvm4
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000002 has split on node:/default-rack/secondvm2
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000002 has split on node:/default-rack/secondvm5
+2017-07-01 18:16:14,618 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000003 has split on node:/default-rack/secondvm3
+2017-07-01 18:16:14,619 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000003 has split on node:/default-rack/secondvm4
+2017-07-01 18:16:14,619 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000003 has split on node:/default-rack/secondvm2
+2017-07-01 18:16:14,619 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000003 has split on node:/default-rack/secondvm5
+2017-07-01 18:16:14,619 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000004 has split on node:/default-rack/secondvm2
+2017-07-01 18:16:14,619 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000004 has split on node:/default-rack/secondvm4
+2017-07-01 18:16:14,619 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000004 has split on node:/default-rack/secondvm3
+2017-07-01 18:16:14,619 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000004 has split on node:/default-rack/secondvm5
+2017-07-01 18:16:14,619 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000005 has split on node:/default-rack/secondvm4
+2017-07-01 18:16:14,619 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000005 has split on node:/default-rack/secondvm3
+2017-07-01 18:16:14,620 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000005 has split on node:/default-rack/secondvm2
+2017-07-01 18:16:14,620 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000005 has split on node:/default-rack/secondvm5
+2017-07-01 18:16:14,620 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000006 has split on node:/default-rack/secondvm3
+2017-07-01 18:16:14,620 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000006 has split on node:/default-rack/secondvm4
+2017-07-01 18:16:14,620 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000006 has split on node:/default-rack/secondvm2
+2017-07-01 18:16:14,620 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000006 has split on node:/default-rack/secondvm5
+2017-07-01 18:16:14,620 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000007 has split on node:/default-rack/secondvm4
+2017-07-01 18:16:14,620 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000007 has split on node:/default-rack/secondvm3
+2017-07-01 18:16:14,620 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000007 has split on node:/default-rack/secondvm2
+2017-07-01 18:16:14,620 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201707011813_0002_m_000007 has split on node:/default-rack/secondvm5
+2017-07-01 18:16:17,770 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011813_0002_m_000000
+2017-07-01 18:16:17,800 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000000_0' to tip task_201707011813_0002_m_000000, for tracker 'tracker_secondvm5:ip6-localhost/127.0.0.1:35695'
+2017-07-01 18:16:17,822 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011813_0002_m_000001
+2017-07-01 18:16:17,822 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000001_0' to tip task_201707011813_0002_m_000001, for tracker 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:16:17,834 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011813_0002_m_000002
+2017-07-01 18:16:17,835 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000002_0' to tip task_201707011813_0002_m_000002, for tracker 'tracker_secondvm2:ip6-localhost/127.0.0.1:34304'
+2017-07-01 18:16:17,898 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011813_0002_m_000003
+2017-07-01 18:16:17,898 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000003_0' to tip task_201707011813_0002_m_000003, for tracker 'tracker_secondvm4:ip6-localhost/127.0.0.1:39283'
+2017-07-01 18:16:18,139 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_r_000000_0' to tip task_201707011813_0002_r_000000, for tracker 'tracker_secondvm5:ip6-localhost/127.0.0.1:35695'
+2017-07-01 18:16:18,141 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_r_000001_0' to tip task_201707011813_0002_r_000001, for tracker 'tracker_secondvm2:ip6-localhost/127.0.0.1:34304'
+2017-07-01 18:16:18,154 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_r_000002_0' to tip task_201707011813_0002_r_000002, for tracker 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:16:18,234 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_r_000003_0' to tip task_201707011813_0002_r_000003, for tracker 'tracker_secondvm4:ip6-localhost/127.0.0.1:39283'
+2017-07-01 18:16:40,067 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011813_0002_m_000003_0' has completed task_201707011813_0002_m_000003 successfully.
+2017-07-01 18:16:40,075 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011813_0002_m_000004
+2017-07-01 18:16:40,076 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000004_0' to tip task_201707011813_0002_m_000004, for tracker 'tracker_secondvm4:ip6-localhost/127.0.0.1:39283'
+2017-07-01 18:16:40,941 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011813_0002_m_000002_0' has completed task_201707011813_0002_m_000002 successfully.
+2017-07-01 18:16:40,947 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011813_0002_m_000005
+2017-07-01 18:16:40,948 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000005_0' to tip task_201707011813_0002_m_000005, for tracker 'tracker_secondvm2:ip6-localhost/127.0.0.1:34304'
+2017-07-01 18:16:41,974 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011813_0002_m_000001_0' has completed task_201707011813_0002_m_000001 successfully.
+2017-07-01 18:16:41,977 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011813_0002_m_000006
+2017-07-01 18:16:41,977 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000006_0' to tip task_201707011813_0002_m_000006, for tracker 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:16:44,909 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011813_0002_m_000000_0' has completed task_201707011813_0002_m_000000 successfully.
+2017-07-01 18:16:44,914 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011813_0002_m_000007
+2017-07-01 18:16:44,915 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000007_0' to tip task_201707011813_0002_m_000007, for tracker 'tracker_secondvm5:ip6-localhost/127.0.0.1:35695'
+2017-07-01 18:16:58,263 INFO org.apache.hadoop.mapred.TaskInProgress: Error from attempt_201707011813_0002_m_000006_0: java.io.IOException: Spill failed
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:425)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:74)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:61)
+	at org.apache.hadoop.mapred.MapRunner.run(MapRunner.java:47)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:227)
+	at org.apache.hadoop.mapred.TaskTracker$Child.main(TaskTracker.java:2209)
+Caused by: org.apache.hadoop.util.DiskChecker$DiskErrorException: Could not find any valid local directory for taskTracker/jobcache/job_201707011813_0002/attempt_201707011813_0002_m_000006_0/output/spill31.out
+	at org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext.getLocalPathForWrite(LocalDirAllocator.java:313)
+	at org.apache.hadoop.fs.LocalDirAllocator.getLocalPathForWrite(LocalDirAllocator.java:124)
+	at org.apache.hadoop.mapred.MapOutputFile.getSpillFileForWrite(MapOutputFile.java:107)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:739)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.access$1600(MapTask.java:286)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer$SpillThread.run(MapTask.java:712)
+
+2017-07-01 18:16:58,336 INFO org.apache.hadoop.mapred.TaskInProgress: Error from attempt_201707011813_0002_m_000004_0: java.io.IOException: Spill failed
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:425)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:74)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:61)
+	at org.apache.hadoop.mapred.MapRunner.run(MapRunner.java:47)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:227)
+	at org.apache.hadoop.mapred.TaskTracker$Child.main(TaskTracker.java:2209)
+Caused by: org.apache.hadoop.util.DiskChecker$DiskErrorException: Could not find any valid local directory for taskTracker/jobcache/job_201707011813_0002/attempt_201707011813_0002_m_000004_0/output/spill31.out
+	at org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext.getLocalPathForWrite(LocalDirAllocator.java:313)
+	at org.apache.hadoop.fs.LocalDirAllocator.getLocalPathForWrite(LocalDirAllocator.java:124)
+	at org.apache.hadoop.mapred.MapOutputFile.getSpillFileForWrite(MapOutputFile.java:107)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:739)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.access$1600(MapTask.java:286)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer$SpillThread.run(MapTask.java:712)
+
+2017-07-01 18:16:59,781 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000004_0' from 'tracker_secondvm4:ip6-localhost/127.0.0.1:39283'
+2017-07-01 18:17:01,768 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011813_0002_m_000004
+2017-07-01 18:17:01,769 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000004_1' to tip task_201707011813_0002_m_000004, for tracker 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:17:01,770 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000006_0' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:17:03,248 INFO org.apache.hadoop.mapred.TaskInProgress: Error from attempt_201707011813_0002_m_000007_0: java.io.IOException: Spill failed
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:425)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:74)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:61)
+	at org.apache.hadoop.mapred.MapRunner.run(MapRunner.java:47)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:227)
+	at org.apache.hadoop.mapred.TaskTracker$Child.main(TaskTracker.java:2209)
+Caused by: org.apache.hadoop.util.DiskChecker$DiskErrorException: Could not find any valid local directory for taskTracker/jobcache/job_201707011813_0002/attempt_201707011813_0002_m_000007_0/output/spill31.out
+	at org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext.getLocalPathForWrite(LocalDirAllocator.java:313)
+	at org.apache.hadoop.fs.LocalDirAllocator.getLocalPathForWrite(LocalDirAllocator.java:124)
+	at org.apache.hadoop.mapred.MapOutputFile.getSpillFileForWrite(MapOutputFile.java:107)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:739)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.access$1600(MapTask.java:286)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer$SpillThread.run(MapTask.java:712)
+
+2017-07-01 18:17:03,264 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011813_0002_m_000005_0' has completed task_201707011813_0002_m_000005 successfully.
+2017-07-01 18:17:03,270 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011813_0002_m_000006
+2017-07-01 18:17:03,271 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000006_1' to tip task_201707011813_0002_m_000006, for tracker 'tracker_secondvm2:ip6-localhost/127.0.0.1:34304'
+2017-07-01 18:17:06,706 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000007_0' from 'tracker_secondvm5:ip6-localhost/127.0.0.1:35695'
+2017-07-01 18:17:08,344 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201707011813_0002_m_000007
+2017-07-01 18:17:08,346 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000007_1' to tip task_201707011813_0002_m_000007, for tracker 'tracker_secondvm4:ip6-localhost/127.0.0.1:39283'
+2017-07-01 18:17:14,965 INFO org.apache.hadoop.mapred.JobInProgress: Choosing a data-local task task_201707011813_0002_m_000004 for speculation
+2017-07-01 18:17:14,966 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000004_2' to tip task_201707011813_0002_m_000004, for tracker 'tracker_secondvm5:ip6-localhost/127.0.0.1:35695'
+2017-07-01 18:17:18,282 INFO org.apache.hadoop.mapred.TaskInProgress: Error from attempt_201707011813_0002_m_000004_1: java.io.IOException: Spill failed
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:425)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:74)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:61)
+	at org.apache.hadoop.mapred.MapRunner.run(MapRunner.java:47)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:227)
+	at org.apache.hadoop.mapred.TaskTracker$Child.main(TaskTracker.java:2209)
+Caused by: org.apache.hadoop.util.DiskChecker$DiskErrorException: Could not find any valid local directory for taskTracker/jobcache/job_201707011813_0002/attempt_201707011813_0002_m_000004_1/output/spill31.out
+	at org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext.getLocalPathForWrite(LocalDirAllocator.java:313)
+	at org.apache.hadoop.fs.LocalDirAllocator.getLocalPathForWrite(LocalDirAllocator.java:124)
+	at org.apache.hadoop.mapred.MapOutputFile.getSpillFileForWrite(MapOutputFile.java:107)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:739)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.access$1600(MapTask.java:286)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer$SpillThread.run(MapTask.java:712)
+
+2017-07-01 18:17:21,595 INFO org.apache.hadoop.mapred.JobInProgress: Choosing a data-local task task_201707011813_0002_m_000007 for speculation
+2017-07-01 18:17:21,596 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000007_2' to tip task_201707011813_0002_m_000007, for tracker 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:17:21,596 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000004_1' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:17:25,084 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201707011813_0002_m_000006_1' has completed task_201707011813_0002_m_000006 successfully.
+2017-07-01 18:17:25,092 INFO org.apache.hadoop.mapred.JobInProgress: Choosing a data-local task task_201707011813_0002_m_000004 for speculation
+2017-07-01 18:17:25,092 INFO org.apache.hadoop.mapred.JobTracker: Adding task 'attempt_201707011813_0002_m_000004_3' to tip task_201707011813_0002_m_000004, for tracker 'tracker_secondvm2:ip6-localhost/127.0.0.1:34304'
+2017-07-01 18:17:26,411 INFO org.apache.hadoop.mapred.JobTracker: attempt_201707011813_0002_m_000004_3 is 1319 ms debug.
+2017-07-01 18:17:28,412 INFO org.apache.hadoop.mapred.TaskInProgress: Error from attempt_201707011813_0002_m_000007_1: java.io.IOException: Spill failed
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:425)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:74)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:61)
+	at org.apache.hadoop.mapred.MapRunner.run(MapRunner.java:47)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:227)
+	at org.apache.hadoop.mapred.TaskTracker$Child.main(TaskTracker.java:2209)
+Caused by: org.apache.hadoop.util.DiskChecker$DiskErrorException: Could not find any valid local directory for taskTracker/jobcache/job_201707011813_0002/attempt_201707011813_0002_m_000007_1/output/spill31.out
+	at org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext.getLocalPathForWrite(LocalDirAllocator.java:313)
+	at org.apache.hadoop.fs.LocalDirAllocator.getLocalPathForWrite(LocalDirAllocator.java:124)
+	at org.apache.hadoop.mapred.MapOutputFile.getSpillFileForWrite(MapOutputFile.java:107)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:739)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.access$1600(MapTask.java:286)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer$SpillThread.run(MapTask.java:712)
+
+2017-07-01 18:17:29,131 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000007_1' from 'tracker_secondvm4:ip6-localhost/127.0.0.1:39283'
+2017-07-01 18:17:35,031 INFO org.apache.hadoop.mapred.TaskInProgress: Error from attempt_201707011813_0002_m_000004_2: java.io.IOException: Spill failed
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:425)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:74)
+	at org.apache.hadoop.examples.WordCount$MapClass.map(WordCount.java:61)
+	at org.apache.hadoop.mapred.MapRunner.run(MapRunner.java:47)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:227)
+	at org.apache.hadoop.mapred.TaskTracker$Child.main(TaskTracker.java:2209)
+Caused by: org.apache.hadoop.util.DiskChecker$DiskErrorException: Could not find any valid local directory for taskTracker/jobcache/job_201707011813_0002/attempt_201707011813_0002_m_000004_2/output/spill31.out
+	at org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext.getLocalPathForWrite(LocalDirAllocator.java:313)
+	at org.apache.hadoop.fs.LocalDirAllocator.getLocalPathForWrite(LocalDirAllocator.java:124)
+	at org.apache.hadoop.mapred.MapOutputFile.getSpillFileForWrite(MapOutputFile.java:107)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:739)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.access$1600(MapTask.java:286)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer$SpillThread.run(MapTask.java:712)
+
+2017-07-01 18:17:35,814 INFO org.apache.hadoop.mapred.TaskInProgress: TaskInProgress task_201707011813_0002_m_000004 has failed 3 times.
+2017-07-01 18:17:35,814 INFO org.apache.hadoop.mapred.JobInProgress: Aborting job job_201707011813_0002
+2017-07-01 18:17:35,837 INFO org.apache.hadoop.mapred.JobInProgress: Killing job 'job_201707011813_0002'
+2017-07-01 18:17:35,848 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000000_0' from 'tracker_secondvm5:ip6-localhost/127.0.0.1:35695'
+2017-07-01 18:17:35,848 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000004_2' from 'tracker_secondvm5:ip6-localhost/127.0.0.1:35695'
+2017-07-01 18:17:35,848 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000007_0' from 'tracker_secondvm5:ip6-localhost/127.0.0.1:35695'
+2017-07-01 18:17:36,636 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000001_0' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:17:36,637 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000004_1' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:17:36,637 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000006_0' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:17:38,316 WARN org.apache.hadoop.mapred.JobInProgress: Running cache for maps missing!! Job details are missing.
+2017-07-01 18:17:38,317 WARN org.apache.hadoop.mapred.JobInProgress: Non-running cache for maps missing!! Job details are missing.
+2017-07-01 18:17:38,317 WARN org.apache.hadoop.mapred.JobInProgress: Running list for reducers missing!! Job details are missing.
+2017-07-01 18:17:38,317 WARN org.apache.hadoop.mapred.JobInProgress: Failed cache for reducers missing!! Job details are missing.
+2017-07-01 18:17:38,319 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000007_2' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:17:38,320 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_r_000002_0' from 'tracker_secondvm3:ip6-localhost/127.0.0.1:53530'
+2017-07-01 18:17:38,418 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000003_0' from 'tracker_secondvm4:ip6-localhost/127.0.0.1:39283'
+2017-07-01 18:17:38,419 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000004_0' from 'tracker_secondvm4:ip6-localhost/127.0.0.1:39283'
+2017-07-01 18:17:38,419 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000007_1' from 'tracker_secondvm4:ip6-localhost/127.0.0.1:39283'
+2017-07-01 18:17:38,681 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000002_0' from 'tracker_secondvm2:ip6-localhost/127.0.0.1:34304'
+2017-07-01 18:17:38,681 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000005_0' from 'tracker_secondvm2:ip6-localhost/127.0.0.1:34304'
+2017-07-01 18:17:38,682 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000006_1' from 'tracker_secondvm2:ip6-localhost/127.0.0.1:34304'
+2017-07-01 18:17:39,142 WARN org.apache.hadoop.mapred.JobInProgress: Running list for reducers missing!! Job details are missing.
+2017-07-01 18:17:39,142 WARN org.apache.hadoop.mapred.JobInProgress: Failed cache for reducers missing!! Job details are missing.
+2017-07-01 18:17:39,142 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_r_000003_0' from 'tracker_secondvm4:ip6-localhost/127.0.0.1:39283'
+2017-07-01 18:17:40,038 WARN org.apache.hadoop.mapred.JobInProgress: Running list for reducers missing!! Job details are missing.
+2017-07-01 18:17:40,038 WARN org.apache.hadoop.mapred.JobInProgress: Failed cache for reducers missing!! Job details are missing.
+2017-07-01 18:17:40,039 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_r_000000_0' from 'tracker_secondvm5:ip6-localhost/127.0.0.1:35695'
+2017-07-01 18:17:40,137 INFO org.apache.hadoop.mapred.TaskInProgress: TaskInProgress task_201707011813_0002_m_000004 has failed 3 times.
+2017-07-01 18:17:40,137 WARN org.apache.hadoop.mapred.JobInProgress: Running cache for maps missing!! Job details are missing.
+2017-07-01 18:17:40,137 WARN org.apache.hadoop.mapred.JobInProgress: Non-running cache for maps missing!! Job details are missing.
+2017-07-01 18:17:40,137 WARN org.apache.hadoop.mapred.JobInProgress: Running list for reducers missing!! Job details are missing.
+2017-07-01 18:17:40,137 WARN org.apache.hadoop.mapred.JobInProgress: Failed cache for reducers missing!! Job details are missing.
+2017-07-01 18:17:40,138 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_m_000004_3' from 'tracker_secondvm2:ip6-localhost/127.0.0.1:34304'
+2017-07-01 18:17:40,138 INFO org.apache.hadoop.mapred.JobTracker: Removed completed task 'attempt_201707011813_0002_r_000001_0' from 'tracker_secondvm2:ip6-localhost/127.0.0.1:34304'
+2017-07-01 18:20:23,233 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = secondvm1/192.168.1.155
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-07-01 18:20:23,335 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=9001
+2017-07-01 18:20:23,343 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9001: starting
+2017-07-01 18:20:23,344 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-07-01 18:20:23,346 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9001: starting
+2017-07-01 18:20:23,346 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9001: starting
+2017-07-01 18:20:23,358 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9001: starting
+2017-07-01 18:20:23,358 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9001: starting
+2017-07-01 18:20:23,360 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9001: starting
+2017-07-01 18:20:23,361 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9001: starting
+2017-07-01 18:20:23,361 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9001: starting
+2017-07-01 18:20:23,361 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9001: starting
+2017-07-01 18:20:23,362 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9001: starting
+2017-07-01 18:20:23,363 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9001: starting
+2017-07-01 18:20:23,420 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-07-01 18:20:23,517 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-07-01 18:20:23,518 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-07-01 18:20:23,518 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-07-01 18:20:23,936 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@62ed3a
+2017-07-01 18:20:23,977 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-07-01 18:20:23,979 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50030
+2017-07-01 18:20:23,979 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1a3a9db
+2017-07-01 18:20:23,981 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2017-07-01 18:20:23,981 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 9001
+2017-07-01 18:20:23,981 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2017-07-01 18:20:24,087 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 0.0000 has not reached the threshold 0.9990. Safe mode will be turned off automatically.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:20:34,096 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://secondvm1:9000/home/ubuntu/old_hadoop_temp/mapred/system
+org.apache.hadoop.ipc.RemoteException: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 20 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy4.delete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient.delete(DFSClient.java:529)
+	at org.apache.hadoop.dfs.DistributedFileSystem.delete(DistributedFileSystem.java:192)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:715)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+2017-07-01 18:20:35,973 INFO org.apache.hadoop.mapred.JobTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down JobTracker at secondvm1/192.168.1.155
+************************************************************/

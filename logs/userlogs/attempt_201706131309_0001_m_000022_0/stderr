@@ -1,0 +1,20 @@
+log4j:ERROR Failed to flush writer,
+java.io.IOException: No space left on device
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	at org.apache.commons.logging.impl.Log4JLogger.warn(Log4JLogger.java:169)
+	at org.apache.hadoop.mapred.TaskTracker$Child.main(TaskTracker.java:2214)

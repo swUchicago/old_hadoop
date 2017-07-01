@@ -1,0 +1,96 @@
+2017-03-29 00:33:10,686 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 00:33:10,687 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 00:33:10,766 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 00:33:10,767 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 01:33:10,856 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 01:33:10,857 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 01:33:10,940 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 01:33:10,941 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 02:33:11,025 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 02:33:11,026 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 02:33:11,102 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 02:33:11,102 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 03:33:11,186 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 03:33:11,186 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 03:33:11,265 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 03:33:11,266 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 04:33:11,345 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 04:33:11,346 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 04:33:11,425 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 04:33:11,425 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 05:33:11,515 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 05:33:11,515 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 05:33:11,585 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 05:33:11,585 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 06:33:11,669 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 06:33:11,669 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 06:33:11,739 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 06:33:11,740 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 07:33:11,814 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 07:33:11,814 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 07:33:11,900 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 07:33:11,900 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 08:33:11,977 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 08:33:11,978 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 08:33:12,056 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 08:33:12,056 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 09:33:12,137 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 09:33:12,137 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 09:33:12,205 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 09:33:12,205 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 10:33:12,290 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 10:33:12,291 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 10:33:12,373 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 10:33:12,373 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 11:33:12,459 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 11:33:12,459 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 11:33:12,529 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 11:33:12,529 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 12:33:12,611 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 12:33:12,612 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 12:33:12,683 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 12:33:12,683 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 13:33:12,765 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 13:33:12,765 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 13:33:12,848 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 13:33:12,848 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 14:33:12,944 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 14:33:12,944 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 14:33:13,019 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 14:33:13,019 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 15:33:13,100 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 15:33:13,100 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 15:33:13,177 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 15:33:13,177 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 16:33:13,269 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 16:33:13,269 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 16:33:13,351 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 16:33:13,351 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 17:33:13,427 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 17:33:13,427 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 17:33:13,508 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 17:33:13,509 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 18:33:13,593 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 18:33:13,594 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 18:33:13,668 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 18:33:13,669 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 19:33:13,756 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 19:33:13,756 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 19:33:13,835 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 19:33:13,835 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 20:33:13,911 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 20:33:13,912 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 20:33:13,989 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 20:33:13,989 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 21:33:14,076 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 21:33:14,077 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 21:33:14,151 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 21:33:14,151 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 22:33:14,230 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 22:33:14,231 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 22:33:14,310 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 22:33:14,310 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 23:33:14,388 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-29 23:33:14,388 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-29 23:33:14,472 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-29 23:33:14,472 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 

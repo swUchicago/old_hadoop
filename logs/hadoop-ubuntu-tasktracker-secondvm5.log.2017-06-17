@@ -1,0 +1,780 @@
+2017-06-17 17:54:03,372 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:00:28,402 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:00:28,572 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:00:28,667 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:00:28,668 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:00:28,668 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:00:28,916 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@de5f11
+2017-06-17 18:00:28,953 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:00:28,959 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:00:28,959 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@14fb163
+2017-06-17 18:00:28,963 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:00:28,982 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=42994
+2017-06-17 18:00:29,064 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:00:29,065 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 42994: starting
+2017-06-17 18:00:29,066 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 42994: starting
+2017-06-17 18:00:29,067 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 42994: starting
+2017-06-17 18:00:29,067 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 42994: starting
+2017-06-17 18:00:29,068 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 42994: starting
+2017-06-17 18:00:29,069 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 42994: starting
+2017-06-17 18:00:29,070 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:42994
+2017-06-17 18:00:29,070 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 42994: starting
+2017-06-17 18:00:29,070 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:42994
+2017-06-17 18:00:29,117 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:42994
+2017-06-17 18:00:29,120 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:01:47 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:00:29,126 INFO org.apache.hadoop.ipc.Server: Stopping server on 42994
+2017-06-17 18:00:29,126 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:42994
+2017-06-17 18:00:29,127 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 42994: exiting
+2017-06-17 18:00:29,127 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 42994: exiting
+2017-06-17 18:00:29,127 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 42994: exiting
+2017-06-17 18:00:29,127 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 42994: exiting
+2017-06-17 18:00:29,127 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:00:29,127 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 42994: exiting
+2017-06-17 18:00:29,127 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 42994
+2017-06-17 18:00:29,127 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 42994: exiting
+2017-06-17 18:00:29,228 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:00:29,229 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:00:29,230 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=53937
+2017-06-17 18:00:29,231 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:00:29,232 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 53937: starting
+2017-06-17 18:00:29,232 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 53937: starting
+2017-06-17 18:00:29,233 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 53937: starting
+2017-06-17 18:00:29,233 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 53937: starting
+2017-06-17 18:00:29,234 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 53937: starting
+2017-06-17 18:00:29,234 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 53937: starting
+2017-06-17 18:00:29,235 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 53937: starting
+2017-06-17 18:00:29,235 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:53937
+2017-06-17 18:00:29,235 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:53937
+2017-06-17 18:00:29,241 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:53937
+2017-06-17 18:00:29,242 INFO org.apache.hadoop.ipc.Server: Stopping server on 53937
+2017-06-17 18:00:29,242 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 53937: exiting
+2017-06-17 18:00:29,242 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 53937: exiting
+2017-06-17 18:00:29,243 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 53937
+2017-06-17 18:00:29,243 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:00:29,243 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:53937
+2017-06-17 18:00:29,243 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 53937: exiting
+2017-06-17 18:00:29,244 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 53937: exiting
+2017-06-17 18:00:29,244 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 53937: exiting
+2017-06-17 18:00:29,244 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 53937: exiting
+2017-06-17 18:00:29,343 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:00:29,345 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:00:29,350 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:00:29,389 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:00:29,411 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:00:29,411 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@de5f11
+2017-06-17 18:00:29,432 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:00:29,432 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@14fb163
+2017-06-17 18:00:29,435 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:08:22,132 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:08:22,304 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:08:22,398 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:08:22,399 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:08:22,399 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:08:22,654 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@184222a
+2017-06-17 18:08:22,691 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:08:22,697 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:08:22,697 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@14fb163
+2017-06-17 18:08:22,702 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:08:22,721 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=53344
+2017-06-17 18:08:22,803 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:08:22,804 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 53344: starting
+2017-06-17 18:08:22,805 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 53344: starting
+2017-06-17 18:08:22,805 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 53344: starting
+2017-06-17 18:08:22,806 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 53344: starting
+2017-06-17 18:08:22,806 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 53344: starting
+2017-06-17 18:08:22,807 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 53344: starting
+2017-06-17 18:08:22,807 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 53344: starting
+2017-06-17 18:08:22,807 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:53344
+2017-06-17 18:08:22,807 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:53344
+2017-06-17 18:08:22,853 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:53344
+2017-06-17 18:08:22,857 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:08:32 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:08:22,861 INFO org.apache.hadoop.ipc.Server: Stopping server on 53344
+2017-06-17 18:08:22,861 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:53344
+2017-06-17 18:08:22,861 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 53344: exiting
+2017-06-17 18:08:22,862 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 53344: exiting
+2017-06-17 18:08:22,862 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 53344: exiting
+2017-06-17 18:08:22,862 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 53344: exiting
+2017-06-17 18:08:22,862 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 53344: exiting
+2017-06-17 18:08:22,863 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 53344: exiting
+2017-06-17 18:08:22,863 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 53344
+2017-06-17 18:08:22,864 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:08:22,963 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:08:22,964 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:08:22,965 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=54007
+2017-06-17 18:08:22,966 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:08:22,967 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 54007: starting
+2017-06-17 18:08:22,967 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 54007: starting
+2017-06-17 18:08:22,968 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 54007: starting
+2017-06-17 18:08:22,968 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 54007: starting
+2017-06-17 18:08:22,969 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 54007: starting
+2017-06-17 18:08:22,969 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 54007: starting
+2017-06-17 18:08:22,970 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:54007
+2017-06-17 18:08:22,970 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:54007
+2017-06-17 18:08:22,970 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 54007: starting
+2017-06-17 18:08:22,975 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:54007
+2017-06-17 18:08:22,976 INFO org.apache.hadoop.ipc.Server: Stopping server on 54007
+2017-06-17 18:08:22,976 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 54007: exiting
+2017-06-17 18:08:22,976 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:54007
+2017-06-17 18:08:22,976 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 54007: exiting
+2017-06-17 18:08:22,976 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 54007
+2017-06-17 18:08:22,977 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 54007: exiting
+2017-06-17 18:08:22,977 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 54007: exiting
+2017-06-17 18:08:22,977 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 54007: exiting
+2017-06-17 18:08:22,977 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 54007: exiting
+2017-06-17 18:08:22,977 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:08:23,077 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:08:23,080 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:08:23,084 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:08:23,119 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:08:23,140 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:08:23,141 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@184222a
+2017-06-17 18:08:23,160 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:08:23,160 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@14fb163
+2017-06-17 18:08:23,164 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:09:57,404 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:09:57,578 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:09:57,679 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:09:57,680 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:09:57,680 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:09:57,928 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@13ac62e
+2017-06-17 18:09:57,963 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:09:57,968 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:09:57,968 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b3ec12
+2017-06-17 18:09:57,974 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:09:57,993 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=40946
+2017-06-17 18:09:58,074 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:09:58,075 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 40946: starting
+2017-06-17 18:09:58,076 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 40946: starting
+2017-06-17 18:09:58,077 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:40946
+2017-06-17 18:09:58,077 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 40946: starting
+2017-06-17 18:09:58,077 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:40946
+2017-06-17 18:09:58,122 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:40946
+2017-06-17 18:09:58,125 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:08:32 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:09:58,130 INFO org.apache.hadoop.ipc.Server: Stopping server on 40946
+2017-06-17 18:09:58,131 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:40946
+2017-06-17 18:09:58,131 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 40946: exiting
+2017-06-17 18:09:58,131 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:09:58,131 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 40946
+2017-06-17 18:09:58,131 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 40946: exiting
+2017-06-17 18:09:58,232 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:09:58,233 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:09:58,235 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=45512
+2017-06-17 18:09:58,236 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:09:58,236 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 45512: starting
+2017-06-17 18:09:58,236 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 45512: starting
+2017-06-17 18:09:58,237 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 45512: starting
+2017-06-17 18:09:58,237 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:45512
+2017-06-17 18:09:58,238 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:45512
+2017-06-17 18:09:58,244 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:45512
+2017-06-17 18:09:58,245 INFO org.apache.hadoop.ipc.Server: Stopping server on 45512
+2017-06-17 18:09:58,245 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 45512: exiting
+2017-06-17 18:09:58,245 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 45512
+2017-06-17 18:09:58,245 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 45512: exiting
+2017-06-17 18:09:58,245 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:09:58,246 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:45512
+2017-06-17 18:09:58,346 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:09:58,348 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:09:58,352 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:09:58,392 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:09:58,413 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:09:58,413 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@13ac62e
+2017-06-17 18:09:58,437 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:09:58,437 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@1b3ec12
+2017-06-17 18:09:58,441 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:13:55,600 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:13:55,772 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:13:55,866 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:13:55,867 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:13:55,868 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:13:56,119 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@184222a
+2017-06-17 18:13:56,153 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:13:56,159 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:13:56,159 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@14fb163
+2017-06-17 18:13:56,164 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:13:56,183 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=43215
+2017-06-17 18:13:56,264 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:13:56,265 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 43215: starting
+2017-06-17 18:13:56,266 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 43215: starting
+2017-06-17 18:13:56,266 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:43215
+2017-06-17 18:13:56,266 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 43215: starting
+2017-06-17 18:13:56,266 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:43215
+2017-06-17 18:13:56,310 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:43215
+2017-06-17 18:13:56,312 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:08:32 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:13:56,316 INFO org.apache.hadoop.ipc.Server: Stopping server on 43215
+2017-06-17 18:13:56,317 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 43215: exiting
+2017-06-17 18:13:56,317 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:43215
+2017-06-17 18:13:56,317 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 43215: exiting
+2017-06-17 18:13:56,318 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 43215
+2017-06-17 18:13:56,319 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:13:56,418 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:13:56,419 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:13:56,420 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=57385
+2017-06-17 18:13:56,421 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:13:56,422 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 57385: starting
+2017-06-17 18:13:56,422 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 57385: starting
+2017-06-17 18:13:56,423 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:57385
+2017-06-17 18:13:56,423 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:57385
+2017-06-17 18:13:56,423 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 57385: starting
+2017-06-17 18:13:56,430 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:57385
+2017-06-17 18:13:56,431 INFO org.apache.hadoop.ipc.Server: Stopping server on 57385
+2017-06-17 18:13:56,431 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:57385
+2017-06-17 18:13:56,432 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 57385
+2017-06-17 18:13:56,432 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:13:56,432 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 57385: exiting
+2017-06-17 18:13:56,432 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 57385: exiting
+2017-06-17 18:13:56,532 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:13:56,534 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:13:56,539 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:13:56,579 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:13:56,607 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:13:56,608 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@184222a
+2017-06-17 18:13:56,626 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:13:56,626 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@14fb163
+2017-06-17 18:13:56,630 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:25:50,133 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:25:50,309 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:25:50,408 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:25:50,409 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:25:50,409 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:25:50,648 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@1339522
+2017-06-17 18:25:50,676 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:25:50,681 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:25:50,681 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@14fb163
+2017-06-17 18:25:50,684 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:25:50,701 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=40012
+2017-06-17 18:25:50,766 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:25:50,767 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 40012: starting
+2017-06-17 18:25:50,768 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 40012: starting
+2017-06-17 18:25:50,769 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 40012: starting
+2017-06-17 18:25:50,769 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:40012
+2017-06-17 18:25:50,769 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:40012
+2017-06-17 18:25:50,811 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:40012
+2017-06-17 18:25:50,815 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:08:32 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:25:50,821 INFO org.apache.hadoop.ipc.Server: Stopping server on 40012
+2017-06-17 18:25:50,821 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:40012
+2017-06-17 18:25:50,821 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 40012: exiting
+2017-06-17 18:25:50,822 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:25:50,822 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 40012
+2017-06-17 18:25:50,822 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 40012: exiting
+2017-06-17 18:25:50,923 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:25:50,924 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:25:50,926 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=39173
+2017-06-17 18:25:50,927 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:25:50,927 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 39173: starting
+2017-06-17 18:25:50,928 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 39173: starting
+2017-06-17 18:25:50,929 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:39173
+2017-06-17 18:25:50,929 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 39173: starting
+2017-06-17 18:25:50,929 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:39173
+2017-06-17 18:25:50,946 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:39173
+2017-06-17 18:25:50,946 INFO org.apache.hadoop.ipc.Server: Stopping server on 39173
+2017-06-17 18:25:50,946 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 39173: exiting
+2017-06-17 18:25:50,946 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 39173
+2017-06-17 18:25:50,947 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:25:50,946 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 39173: exiting
+2017-06-17 18:25:50,947 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:39173
+2017-06-17 18:25:51,047 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:25:51,050 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:25:51,054 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:25:51,093 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:25:51,116 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:25:51,117 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@1339522
+2017-06-17 18:25:51,140 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:25:51,141 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@14fb163
+2017-06-17 18:25:51,144 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:26:09,050 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:26:09,224 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:26:09,326 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:26:09,327 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:26:09,327 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:26:09,581 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@1339522
+2017-06-17 18:26:09,615 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:26:09,622 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:26:09,622 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@14fb163
+2017-06-17 18:26:09,627 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:26:09,647 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=46216
+2017-06-17 18:26:09,730 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:26:09,730 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 46216: starting
+2017-06-17 18:26:09,732 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 46216: starting
+2017-06-17 18:26:09,732 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:46216
+2017-06-17 18:26:09,732 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:46216
+2017-06-17 18:26:09,732 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 46216: starting
+2017-06-17 18:26:09,778 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:46216
+2017-06-17 18:26:09,782 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:26:12 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:26:09,787 INFO org.apache.hadoop.ipc.Server: Stopping server on 46216
+2017-06-17 18:26:09,787 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 46216: exiting
+2017-06-17 18:26:09,788 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:46216
+2017-06-17 18:26:09,788 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 46216
+2017-06-17 18:26:09,788 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 46216: exiting
+2017-06-17 18:26:09,788 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:26:09,890 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:26:09,891 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:26:09,892 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=41274
+2017-06-17 18:26:09,893 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:26:09,894 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 41274: starting
+2017-06-17 18:26:09,894 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 41274: starting
+2017-06-17 18:26:09,894 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:41274
+2017-06-17 18:26:09,895 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:41274
+2017-06-17 18:26:09,894 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 41274: starting
+2017-06-17 18:26:09,902 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:41274
+2017-06-17 18:26:09,902 INFO org.apache.hadoop.ipc.Server: Stopping server on 41274
+2017-06-17 18:26:09,902 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 41274: exiting
+2017-06-17 18:26:09,903 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 41274
+2017-06-17 18:26:09,903 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:26:09,903 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:41274
+2017-06-17 18:26:09,903 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 41274: exiting
+2017-06-17 18:26:10,003 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:26:10,005 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:26:10,013 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:26:10,049 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:26:10,069 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:26:10,069 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@1339522
+2017-06-17 18:26:10,088 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:26:10,088 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@14fb163
+2017-06-17 18:26:10,091 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:27:24,403 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:27:24,573 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:27:24,672 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:27:24,673 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:27:24,673 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:27:24,925 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@1def740
+2017-06-17 18:27:24,960 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:27:24,965 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:27:24,966 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@14fb163
+2017-06-17 18:27:24,970 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:27:24,989 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=48177
+2017-06-17 18:27:25,075 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:27:25,076 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 48177: starting
+2017-06-17 18:27:25,077 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 48177: starting
+2017-06-17 18:27:25,077 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:48177
+2017-06-17 18:27:25,078 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 48177: starting
+2017-06-17 18:27:25,078 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:48177
+2017-06-17 18:27:25,122 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:48177
+2017-06-17 18:27:25,125 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:26:12 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:27:25,130 INFO org.apache.hadoop.ipc.Server: Stopping server on 48177
+2017-06-17 18:27:25,130 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:48177
+2017-06-17 18:27:25,130 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 48177: exiting
+2017-06-17 18:27:25,130 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:27:25,131 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 48177: exiting
+2017-06-17 18:27:25,131 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 48177
+2017-06-17 18:27:25,231 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:27:25,232 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:27:25,233 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=55171
+2017-06-17 18:27:25,234 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:27:25,235 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 55171: starting
+2017-06-17 18:27:25,235 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 55171: starting
+2017-06-17 18:27:25,236 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 55171: starting
+2017-06-17 18:27:25,236 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:55171
+2017-06-17 18:27:25,236 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:55171
+2017-06-17 18:27:25,242 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:55171
+2017-06-17 18:27:25,243 INFO org.apache.hadoop.ipc.Server: Stopping server on 55171
+2017-06-17 18:27:25,243 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:55171
+2017-06-17 18:27:25,243 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 55171: exiting
+2017-06-17 18:27:25,243 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 55171
+2017-06-17 18:27:25,243 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 55171: exiting
+2017-06-17 18:27:25,243 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:27:25,344 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:27:25,346 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:27:25,350 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:27:25,392 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:27:25,412 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:27:25,412 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@1def740
+2017-06-17 18:27:25,432 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:27:25,432 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@14fb163
+2017-06-17 18:27:25,435 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:32:38,232 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:32:38,384 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:32:38,481 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:32:38,482 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:32:38,482 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:32:38,732 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@19ca496
+2017-06-17 18:32:38,767 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:32:38,773 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:32:38,773 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@14fb163
+2017-06-17 18:32:38,777 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:32:38,795 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=49200
+2017-06-17 18:32:38,863 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:32:38,864 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 49200: starting
+2017-06-17 18:32:38,865 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 49200: starting
+2017-06-17 18:32:38,866 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 49200: starting
+2017-06-17 18:32:38,866 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:49200
+2017-06-17 18:32:38,866 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:49200
+2017-06-17 18:32:38,917 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:49200
+2017-06-17 18:32:38,920 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:26:12 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:32:38,925 INFO org.apache.hadoop.ipc.Server: Stopping server on 49200
+2017-06-17 18:32:38,925 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:49200
+2017-06-17 18:32:38,925 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 49200: exiting
+2017-06-17 18:32:38,925 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 49200: exiting
+2017-06-17 18:32:38,925 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:32:38,925 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 49200
+2017-06-17 18:32:39,026 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:32:39,027 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:32:39,029 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=34731
+2017-06-17 18:32:39,030 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:32:39,030 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 34731: starting
+2017-06-17 18:32:39,030 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 34731: starting
+2017-06-17 18:32:39,031 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 34731: starting
+2017-06-17 18:32:39,031 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:34731
+2017-06-17 18:32:39,031 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:34731
+2017-06-17 18:32:39,037 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:34731
+2017-06-17 18:32:39,037 INFO org.apache.hadoop.ipc.Server: Stopping server on 34731
+2017-06-17 18:32:39,038 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 34731: exiting
+2017-06-17 18:32:39,038 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 34731
+2017-06-17 18:32:39,038 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 34731: exiting
+2017-06-17 18:32:39,038 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:32:39,039 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:34731
+2017-06-17 18:32:39,139 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:32:39,141 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:32:39,144 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:32:39,183 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:32:39,204 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:32:39,205 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@19ca496
+2017-06-17 18:32:39,225 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:32:39,226 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@14fb163
+2017-06-17 18:32:39,229 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:33:15,163 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:33:15,338 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:33:15,438 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:33:15,439 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:33:15,439 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:33:15,689 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@1def740
+2017-06-17 18:33:15,724 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:33:15,730 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:33:15,730 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@14fb163
+2017-06-17 18:33:15,735 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:33:15,755 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=47506
+2017-06-17 18:33:15,836 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:33:15,837 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 47506: starting
+2017-06-17 18:33:15,838 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 47506: starting
+2017-06-17 18:33:15,838 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:47506
+2017-06-17 18:33:15,838 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:47506
+2017-06-17 18:33:15,838 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 47506: starting
+2017-06-17 18:33:15,883 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:47506
+2017-06-17 18:33:15,887 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:26:12 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:33:15,892 INFO org.apache.hadoop.ipc.Server: Stopping server on 47506
+2017-06-17 18:33:15,892 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 47506: exiting
+2017-06-17 18:33:15,893 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 47506: exiting
+2017-06-17 18:33:15,893 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:33:15,893 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:47506
+2017-06-17 18:33:15,893 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 47506
+2017-06-17 18:33:15,994 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:33:15,995 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:33:15,996 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=43600
+2017-06-17 18:33:15,997 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:33:15,998 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 43600: starting
+2017-06-17 18:33:15,998 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 43600: starting
+2017-06-17 18:33:15,999 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:43600
+2017-06-17 18:33:15,999 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:43600
+2017-06-17 18:33:15,999 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 43600: starting
+2017-06-17 18:33:16,005 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:43600
+2017-06-17 18:33:16,005 INFO org.apache.hadoop.ipc.Server: Stopping server on 43600
+2017-06-17 18:33:16,006 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:43600
+2017-06-17 18:33:16,006 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 43600
+2017-06-17 18:33:16,006 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 43600: exiting
+2017-06-17 18:33:16,007 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 43600: exiting
+2017-06-17 18:33:16,006 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:33:16,107 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:33:16,109 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:33:16,113 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:33:16,155 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:33:16,175 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:33:16,176 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@1def740
+2017-06-17 18:33:16,197 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:33:16,198 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@14fb163
+2017-06-17 18:33:16,201 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:34:50,839 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:34:51,010 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:34:51,110 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:34:51,111 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:34:51,111 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:34:51,358 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@13ac62e
+2017-06-17 18:34:51,387 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:34:51,392 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:34:51,392 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b3ec12
+2017-06-17 18:34:51,396 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:34:51,411 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=59573
+2017-06-17 18:34:51,480 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:34:51,482 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 59573: starting
+2017-06-17 18:34:51,483 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 59573: starting
+2017-06-17 18:34:51,483 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:59573
+2017-06-17 18:34:51,483 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 59573: starting
+2017-06-17 18:34:51,484 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:59573
+2017-06-17 18:34:51,528 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:59573
+2017-06-17 18:34:51,532 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:26:12 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:34:51,537 INFO org.apache.hadoop.ipc.Server: Stopping server on 59573
+2017-06-17 18:34:51,538 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:59573
+2017-06-17 18:34:51,538 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 59573: exiting
+2017-06-17 18:34:51,538 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 59573: exiting
+2017-06-17 18:34:51,538 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:34:51,539 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 59573
+2017-06-17 18:34:51,639 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:34:51,640 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:34:51,641 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=56518
+2017-06-17 18:34:51,642 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:34:51,642 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 56518: starting
+2017-06-17 18:34:51,643 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 56518: starting
+2017-06-17 18:34:51,644 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:56518
+2017-06-17 18:34:51,644 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 56518: starting
+2017-06-17 18:34:51,644 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:56518
+2017-06-17 18:34:51,649 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:56518
+2017-06-17 18:34:51,650 INFO org.apache.hadoop.ipc.Server: Stopping server on 56518
+2017-06-17 18:34:51,650 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:34:51,650 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 56518: exiting
+2017-06-17 18:34:51,650 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 56518
+2017-06-17 18:34:51,650 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:56518
+2017-06-17 18:34:51,650 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 56518: exiting
+2017-06-17 18:34:51,751 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:34:51,752 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:34:51,756 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:34:51,794 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:34:51,815 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:34:51,816 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@13ac62e
+2017-06-17 18:34:51,835 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:34:51,835 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@1b3ec12
+2017-06-17 18:34:51,838 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:36:50,431 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:36:50,602 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:36:50,703 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:36:50,704 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:36:50,704 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:36:50,952 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@184222a
+2017-06-17 18:36:50,985 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:36:50,990 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:36:50,990 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@14fb163
+2017-06-17 18:36:50,995 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:36:51,013 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=58951
+2017-06-17 18:36:51,088 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:36:51,088 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 58951: starting
+2017-06-17 18:36:51,089 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 58951: starting
+2017-06-17 18:36:51,090 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:58951
+2017-06-17 18:36:51,090 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 58951: starting
+2017-06-17 18:36:51,090 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:58951
+2017-06-17 18:36:51,128 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:58951
+2017-06-17 18:36:51,131 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:26:12 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:36:51,135 INFO org.apache.hadoop.ipc.Server: Stopping server on 58951
+2017-06-17 18:36:51,136 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 58951: exiting
+2017-06-17 18:36:51,136 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:36:51,136 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 58951: exiting
+2017-06-17 18:36:51,136 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:58951
+2017-06-17 18:36:51,136 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 58951
+2017-06-17 18:36:51,137 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:36:51,138 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:36:51,139 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=39401
+2017-06-17 18:36:51,140 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:36:51,140 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 39401: starting
+2017-06-17 18:36:51,141 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 39401: starting
+2017-06-17 18:36:51,141 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:39401
+2017-06-17 18:36:51,141 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 39401: starting
+2017-06-17 18:36:51,141 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:39401
+2017-06-17 18:36:51,146 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:39401
+2017-06-17 18:36:51,146 INFO org.apache.hadoop.ipc.Server: Stopping server on 39401
+2017-06-17 18:36:51,147 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:39401
+2017-06-17 18:36:51,147 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 39401
+2017-06-17 18:36:51,147 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:36:51,147 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 39401: exiting
+2017-06-17 18:36:51,147 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 39401: exiting
+2017-06-17 18:36:51,247 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:36:51,249 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:36:51,252 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:36:51,297 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:36:51,319 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:36:51,320 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@184222a
+2017-06-17 18:36:51,342 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:36:51,342 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@14fb163
+2017-06-17 18:36:51,346 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/
+2017-06-17 18:38:54,736 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-17 18:38:54,898 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-17 18:38:54,998 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-17 18:38:54,999 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-17 18:38:54,999 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-17 18:38:55,250 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@13ac62e
+2017-06-17 18:38:55,284 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-17 18:38:55,289 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-06-17 18:38:55,289 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@14fb163
+2017-06-17 18:38:55,293 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-06-17 18:38:55,312 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=40159
+2017-06-17 18:38:55,393 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:38:55,394 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 40159: starting
+2017-06-17 18:38:55,395 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 40159: starting
+2017-06-17 18:38:55,395 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:40159
+2017-06-17 18:38:55,396 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:40159
+2017-06-17 18:38:55,396 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 40159: starting
+2017-06-17 18:38:55,442 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:40159
+2017-06-17 18:38:55,445 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 0.18.1-dev from  by ubuntu on Sat Jun 17 18:26:12 CEST 2017
+TaskTracker's: 0.18.0 from 686010 by hadoopqa on Thu Aug 14 19:48:33 UTC 2008
+2017-06-17 18:38:55,450 INFO org.apache.hadoop.ipc.Server: Stopping server on 40159
+2017-06-17 18:38:55,450 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:40159
+2017-06-17 18:38:55,450 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 40159: exiting
+2017-06-17 18:38:55,450 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 40159: exiting
+2017-06-17 18:38:55,451 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:38:55,451 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 40159
+2017-06-17 18:38:55,552 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2017-06-17 18:38:55,553 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2017-06-17 18:38:55,554 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=33992
+2017-06-17 18:38:55,556 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-17 18:38:55,556 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 33992: starting
+2017-06-17 18:38:55,556 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 33992: starting
+2017-06-17 18:38:55,557 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:33992
+2017-06-17 18:38:55,557 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_secondvm5:ip6-localhost/127.0.0.1:33992
+2017-06-17 18:38:55,557 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 33992: starting
+2017-06-17 18:38:55,563 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:33992
+2017-06-17 18:38:55,563 INFO org.apache.hadoop.ipc.Server: Stopping server on 33992
+2017-06-17 18:38:55,564 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 33992: exiting
+2017-06-17 18:38:55,564 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 33992
+2017-06-17 18:38:55,564 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-06-17 18:38:55,564 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_secondvm5:ip6-localhost/127.0.0.1:33992
+2017-06-17 18:38:55,564 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 33992: exiting
+2017-06-17 18:38:55,665 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2017-06-17 18:38:55,667 INFO org.mortbay.util.ThreadedServer: Stopping Acceptor ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=50060]
+2017-06-17 18:38:55,672 INFO org.mortbay.http.SocketListener: Stopped SocketListener on 0.0.0.0:50060
+2017-06-17 18:38:55,712 INFO org.mortbay.util.Container: Stopped HttpContext[/static,/static]
+2017-06-17 18:38:55,734 INFO org.mortbay.util.Container: Stopped HttpContext[/logs,/logs]
+2017-06-17 18:38:55,735 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.servlet.WebApplicationHandler@13ac62e
+2017-06-17 18:38:55,759 INFO org.mortbay.util.Container: Stopped WebApplicationContext[/,/]
+2017-06-17 18:38:55,760 INFO org.mortbay.util.Container: Stopped org.mortbay.jetty.Server@14fb163
+2017-06-17 18:38:55,763 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at secondvm5/192.168.1.159
+************************************************************/

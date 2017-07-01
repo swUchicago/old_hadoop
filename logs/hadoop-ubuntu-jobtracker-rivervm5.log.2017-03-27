@@ -1,0 +1,252 @@
+2017-03-27 09:04:52,493 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-03-27 09:04:52,624 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=9001
+2017-03-27 09:04:52,631 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-03-27 09:04:52,631 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9001: starting
+2017-03-27 09:04:52,633 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9001: starting
+2017-03-27 09:04:52,634 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9001: starting
+2017-03-27 09:04:52,634 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9001: starting
+2017-03-27 09:04:52,635 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9001: starting
+2017-03-27 09:04:52,635 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9001: starting
+2017-03-27 09:04:52,636 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9001: starting
+2017-03-27 09:04:52,636 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9001: starting
+2017-03-27 09:04:52,637 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9001: starting
+2017-03-27 09:04:52,638 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9001: starting
+2017-03-27 09:04:52,639 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9001: starting
+2017-03-27 09:04:52,715 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-03-27 09:04:52,804 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-03-27 09:04:52,805 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-03-27 09:04:52,805 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-03-27 09:04:53,168 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e979ea
+2017-03-27 09:04:53,341 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-03-27 09:04:53,344 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50030
+2017-03-27 09:04:53,344 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@827875
+2017-03-27 09:04:53,346 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2017-03-27 09:04:53,347 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 9001
+2017-03-27 09:04:53,347 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2017-03-27 09:04:54,398 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 0 time(s).
+2017-03-27 09:04:55,399 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 1 time(s).
+2017-03-27 09:04:56,400 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 2 time(s).
+2017-03-27 09:04:57,401 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 3 time(s).
+2017-03-27 09:04:58,402 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 4 time(s).
+2017-03-27 09:04:59,403 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 5 time(s).
+2017-03-27 09:05:00,403 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 6 time(s).
+2017-03-27 09:05:01,404 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 7 time(s).
+2017-03-27 09:05:02,405 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 8 time(s).
+2017-03-27 09:05:03,406 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 9 time(s).
+2017-03-27 09:05:03,412 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: null
+java.io.IOException: Call failed on local exception
+	at org.apache.hadoop.ipc.Client.call(Client.java:718)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.getProtocolVersion(Unknown Source)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:319)
+	at org.apache.hadoop.dfs.DFSClient.createRPCNamenode(DFSClient.java:103)
+	at org.apache.hadoop.dfs.DFSClient.<init>(DFSClient.java:173)
+	at org.apache.hadoop.dfs.DistributedFileSystem.initialize(DistributedFileSystem.java:67)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:1339)
+	at org.apache.hadoop.fs.FileSystem.access$300(FileSystem.java:56)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:1351)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:213)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:118)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:708)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:692)
+	at sun.nio.ch.SocketAdaptor.connect(SocketAdaptor.java:115)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:300)
+	at org.apache.hadoop.ipc.Client$Connection.access$1700(Client.java:177)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:789)
+	at org.apache.hadoop.ipc.Client.call(Client.java:704)
+	... 14 more
+2017-03-27 09:05:14,418 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 0 time(s).
+2017-03-27 09:05:15,419 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 1 time(s).
+2017-03-27 09:05:16,420 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 2 time(s).
+2017-03-27 09:05:17,421 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 3 time(s).
+2017-03-27 09:05:18,422 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 4 time(s).
+2017-03-27 09:05:19,423 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 5 time(s).
+2017-03-27 09:05:20,424 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 6 time(s).
+2017-03-27 09:05:21,425 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 7 time(s).
+2017-03-27 09:05:22,426 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 8 time(s).
+2017-03-27 09:05:23,427 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 9 time(s).
+2017-03-27 09:05:23,428 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: null
+java.io.IOException: Call failed on local exception
+	at org.apache.hadoop.ipc.Client.call(Client.java:718)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.getProtocolVersion(Unknown Source)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:319)
+	at org.apache.hadoop.dfs.DFSClient.createRPCNamenode(DFSClient.java:103)
+	at org.apache.hadoop.dfs.DFSClient.<init>(DFSClient.java:173)
+	at org.apache.hadoop.dfs.DistributedFileSystem.initialize(DistributedFileSystem.java:67)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:1339)
+	at org.apache.hadoop.fs.FileSystem.access$300(FileSystem.java:56)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:1351)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:213)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:118)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:708)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:692)
+	at sun.nio.ch.SocketAdaptor.connect(SocketAdaptor.java:115)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:300)
+	at org.apache.hadoop.ipc.Client$Connection.access$1700(Client.java:177)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:789)
+	at org.apache.hadoop.ipc.Client.call(Client.java:704)
+	... 14 more
+2017-03-27 09:05:34,436 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 0 time(s).
+2017-03-27 09:05:35,436 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 1 time(s).
+2017-03-27 09:05:36,437 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 2 time(s).
+2017-03-27 09:05:37,438 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 3 time(s).
+2017-03-27 09:05:38,439 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 4 time(s).
+2017-03-27 09:05:39,440 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 5 time(s).
+2017-03-27 09:05:40,441 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 6 time(s).
+2017-03-27 09:05:41,443 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 7 time(s).
+2017-03-27 09:05:42,448 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 8 time(s).
+2017-03-27 09:05:43,449 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 9 time(s).
+2017-03-27 09:05:43,450 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: null
+java.io.IOException: Call failed on local exception
+	at org.apache.hadoop.ipc.Client.call(Client.java:718)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.getProtocolVersion(Unknown Source)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:319)
+	at org.apache.hadoop.dfs.DFSClient.createRPCNamenode(DFSClient.java:103)
+	at org.apache.hadoop.dfs.DFSClient.<init>(DFSClient.java:173)
+	at org.apache.hadoop.dfs.DistributedFileSystem.initialize(DistributedFileSystem.java:67)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:1339)
+	at org.apache.hadoop.fs.FileSystem.access$300(FileSystem.java:56)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:1351)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:213)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:118)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:708)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:692)
+	at sun.nio.ch.SocketAdaptor.connect(SocketAdaptor.java:115)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:300)
+	at org.apache.hadoop.ipc.Client$Connection.access$1700(Client.java:177)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:789)
+	at org.apache.hadoop.ipc.Client.call(Client.java:704)
+	... 14 more
+2017-03-27 09:05:54,459 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 0 time(s).
+2017-03-27 09:05:55,416 INFO org.apache.hadoop.mapred.JobTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down JobTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-03-27 09:05:55,460 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 1 time(s).
+2017-03-27 09:05:56,460 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 2 time(s).
+2017-03-27 09:05:57,461 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 3 time(s).
+2017-03-27 09:05:58,462 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 4 time(s).
+2017-03-27 09:05:59,463 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 5 time(s).
+2017-03-27 09:06:00,465 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 6 time(s).
+2017-03-27 09:06:01,466 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 7 time(s).
+2017-03-27 09:06:02,467 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 8 time(s).
+2017-03-27 09:06:03,468 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: rivervm5/192.168.1.153:9000. Already tried 9 time(s).
+2017-03-27 09:06:03,469 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: null
+java.io.IOException: Call failed on local exception
+	at org.apache.hadoop.ipc.Client.call(Client.java:718)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.getProtocolVersion(Unknown Source)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:319)
+	at org.apache.hadoop.dfs.DFSClient.createRPCNamenode(DFSClient.java:103)
+	at org.apache.hadoop.dfs.DFSClient.<init>(DFSClient.java:173)
+	at org.apache.hadoop.dfs.DistributedFileSystem.initialize(DistributedFileSystem.java:67)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:1339)
+	at org.apache.hadoop.fs.FileSystem.access$300(FileSystem.java:56)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:1351)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:213)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:118)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:708)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:132)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:2426)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:692)
+	at sun.nio.ch.SocketAdaptor.connect(SocketAdaptor.java:115)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:300)
+	at org.apache.hadoop.ipc.Client$Connection.access$1700(Client.java:177)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:789)
+	at org.apache.hadoop.ipc.Client.call(Client.java:704)
+	... 14 more
+2017-03-27 09:09:32,117 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-03-27 09:09:32,214 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=9001
+2017-03-27 09:09:32,220 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-03-27 09:09:32,220 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9001: starting
+2017-03-27 09:09:32,221 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9001: starting
+2017-03-27 09:09:32,222 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9001: starting
+2017-03-27 09:09:32,223 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9001: starting
+2017-03-27 09:09:32,223 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9001: starting
+2017-03-27 09:09:32,224 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9001: starting
+2017-03-27 09:09:32,224 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9001: starting
+2017-03-27 09:09:32,225 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9001: starting
+2017-03-27 09:09:32,226 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9001: starting
+2017-03-27 09:09:32,227 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9001: starting
+2017-03-27 09:09:32,227 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9001: starting
+2017-03-27 09:09:32,272 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-03-27 09:09:32,342 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-03-27 09:09:32,343 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-03-27 09:09:32,343 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-03-27 09:09:32,573 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@123c55
+2017-03-27 09:09:32,625 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-03-27 09:09:32,627 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50030
+2017-03-27 09:09:32,628 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@176d4a4
+2017-03-27 09:09:32,630 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2017-03-27 09:09:32,630 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 9001
+2017-03-27 09:09:32,630 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2017-03-27 09:09:32,771 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2017-03-27 09:09:34,251 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/rivervm5
+2017-03-27 09:22:19,612 INFO org.apache.hadoop.mapred.JobTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down JobTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-03-27 09:28:03,716 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-03-27 09:28:03,837 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=9006
+2017-03-27 09:28:03,845 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-03-27 09:28:03,847 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9006: starting
+2017-03-27 09:28:03,849 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9006: starting
+2017-03-27 09:28:03,849 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9006: starting
+2017-03-27 09:28:03,850 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9006: starting
+2017-03-27 09:28:03,851 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9006: starting
+2017-03-27 09:28:03,852 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9006: starting
+2017-03-27 09:28:03,853 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9006: starting
+2017-03-27 09:28:03,854 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9006: starting
+2017-03-27 09:28:03,855 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9006: starting
+2017-03-27 09:28:03,856 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9006: starting
+2017-03-27 09:28:03,856 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9006: starting
+2017-03-27 09:28:03,907 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-03-27 09:28:03,978 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-03-27 09:28:03,979 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-03-27 09:28:03,979 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-03-27 09:28:04,226 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e979ea
+2017-03-27 09:28:04,274 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-03-27 09:28:04,277 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50030
+2017-03-27 09:28:04,277 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@827875
+2017-03-27 09:28:04,279 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2017-03-27 09:28:04,280 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 9006
+2017-03-27 09:28:04,280 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2017-03-27 09:28:04,429 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2017-03-27 09:28:05,807 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/rivervm5

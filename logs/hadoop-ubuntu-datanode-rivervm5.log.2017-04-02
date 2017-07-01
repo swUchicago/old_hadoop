@@ -1,0 +1,19 @@
+2017-04-02 00:26:58,052 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 10 msecs
+2017-04-02 01:26:59,477 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 6 msecs
+2017-04-02 02:27:00,901 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 7 msecs
+2017-04-02 03:27:02,364 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 7 msecs
+2017-04-02 04:27:03,802 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 8 msecs
+2017-04-02 05:27:05,288 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 6 msecs
+2017-04-02 06:27:06,752 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 6 msecs
+2017-04-02 07:27:08,261 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 9 msecs
+2017-04-02 08:27:09,733 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 7 msecs
+2017-04-02 09:27:11,231 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 7 msecs
+2017-04-02 10:27:12,670 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 6 msecs
+2017-04-02 11:27:14,125 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 10 msecs
+2017-04-02 12:27:15,636 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 8 msecs
+2017-04-02 13:27:17,096 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 6 msecs
+2017-04-02 14:27:18,519 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 83 blocks got processed in 7 msecs
+2017-04-02 14:29:08,748 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at rivervm5/192.168.1.153
+************************************************************/

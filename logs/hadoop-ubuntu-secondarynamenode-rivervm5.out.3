@@ -1,0 +1,20 @@
+Exception in thread "main" java.io.IOException: Call failed on local exception
+	at org.apache.hadoop.ipc.Client.call(Client.java:718)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy4.getProtocolVersion(Unknown Source)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:319)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:306)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:343)
+	at org.apache.hadoop.ipc.RPC.waitForProxy(RPC.java:288)
+	at org.apache.hadoop.dfs.SecondaryNameNode.initialize(SecondaryNameNode.java:127)
+	at org.apache.hadoop.dfs.SecondaryNameNode.<init>(SecondaryNameNode.java:108)
+	at org.apache.hadoop.dfs.SecondaryNameNode.main(SecondaryNameNode.java:460)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:692)
+	at sun.nio.ch.SocketAdaptor.connect(SocketAdaptor.java:115)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:300)
+	at org.apache.hadoop.ipc.Client$Connection.access$1700(Client.java:177)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:789)
+	at org.apache.hadoop.ipc.Client.call(Client.java:704)
+	... 9 more

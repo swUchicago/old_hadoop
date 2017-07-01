@@ -1,0 +1,22 @@
+log4j:ERROR Failed to flush writer,
+java.io.IOException: No space left on device
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+log4j:WARN No appenders could be found for logger (org.apache.hadoop.mapred.ReduceTask).
+log4j:WARN Please initialize the log4j system properly.

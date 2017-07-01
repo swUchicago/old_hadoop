@@ -1,0 +1,14 @@
+2017-05-19 00:16:50,580 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 8 blocks got processed in 3 msecs
+2017-05-19 01:16:51,903 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 8 blocks got processed in 4 msecs
+2017-05-19 02:16:53,221 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 8 blocks got processed in 2 msecs
+2017-05-19 03:16:54,586 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 8 blocks got processed in 3 msecs
+2017-05-19 04:16:55,895 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 8 blocks got processed in 3 msecs
+2017-05-19 05:16:57,188 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 8 blocks got processed in 2 msecs
+2017-05-19 06:16:58,518 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 8 blocks got processed in 3 msecs
+2017-05-19 07:16:59,820 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 8 blocks got processed in 3 msecs
+2017-05-19 08:17:01,093 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 8 blocks got processed in 3 msecs
+2017-05-19 09:17:02,389 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 8 blocks got processed in 3 msecs
+2017-05-19 09:44:39,723 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at rivervm5/192.168.1.153
+************************************************************/

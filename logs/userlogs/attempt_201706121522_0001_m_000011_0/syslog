@@ -1,0 +1,279 @@
+2017-06-12 15:22:09,272 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=MAP, sessionId=
+2017-06-12 15:22:09,389 INFO org.apache.hadoop.mapred.MapTask: numReduceTasks: 4
+2017-06-12 15:22:09,409 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2017-06-12 15:22:09,502 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2017-06-12 15:22:09,503 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2017-06-12 15:22:10,231 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:10,231 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 3276800; bufvoid = 99614720
+2017-06-12 15:22:10,231 INFO org.apache.hadoop.mapred.MapTask: kvstart = 0; kvend = 262144; length = 327680
+2017-06-12 15:22:10,711 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 490352, 490352)
+2017-06-12 15:22:10,795 INFO org.apache.hadoop.mapred.MapTask: Index: (490352, 492976, 492976)
+2017-06-12 15:22:10,826 INFO org.apache.hadoop.mapred.MapTask: Index: (983328, 487607, 487607)
+2017-06-12 15:22:10,853 INFO org.apache.hadoop.mapred.MapTask: Index: (1470935, 495167, 495167)
+2017-06-12 15:22:10,853 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2017-06-12 15:22:11,117 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:11,117 INFO org.apache.hadoop.mapred.MapTask: bufstart = 3276800; bufend = 6553587; bufvoid = 99614720
+2017-06-12 15:22:11,117 INFO org.apache.hadoop.mapred.MapTask: kvstart = 262144; kvend = 196607; length = 327680
+2017-06-12 15:22:11,387 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 494582, 494582)
+2017-06-12 15:22:11,448 INFO org.apache.hadoop.mapred.MapTask: Index: (494582, 490846, 490846)
+2017-06-12 15:22:11,475 INFO org.apache.hadoop.mapred.MapTask: Index: (985428, 489407, 489407)
+2017-06-12 15:22:11,503 INFO org.apache.hadoop.mapred.MapTask: Index: (1474835, 491252, 491252)
+2017-06-12 15:22:11,503 INFO org.apache.hadoop.mapred.MapTask: Finished spill 1
+2017-06-12 15:22:11,747 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:11,747 INFO org.apache.hadoop.mapred.MapTask: bufstart = 6553587; bufend = 9823349; bufvoid = 99614720
+2017-06-12 15:22:11,747 INFO org.apache.hadoop.mapred.MapTask: kvstart = 196607; kvend = 131070; length = 327680
+2017-06-12 15:22:12,015 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 481557, 481557)
+2017-06-12 15:22:12,071 INFO org.apache.hadoop.mapred.MapTask: Index: (481557, 483609, 483609)
+2017-06-12 15:22:12,113 INFO org.apache.hadoop.mapred.MapTask: Index: (965166, 485629, 485629)
+2017-06-12 15:22:12,144 INFO org.apache.hadoop.mapred.MapTask: Index: (1450795, 484329, 484329)
+2017-06-12 15:22:12,144 INFO org.apache.hadoop.mapred.MapTask: Finished spill 2
+2017-06-12 15:22:12,392 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:12,392 INFO org.apache.hadoop.mapred.MapTask: bufstart = 9823349; bufend = 13072232; bufvoid = 99614720
+2017-06-12 15:22:12,392 INFO org.apache.hadoop.mapred.MapTask: kvstart = 131070; kvend = 65533; length = 327680
+2017-06-12 15:22:12,671 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 411633, 411633)
+2017-06-12 15:22:12,704 INFO org.apache.hadoop.mapred.MapTask: Index: (411633, 413284, 413284)
+2017-06-12 15:22:12,736 INFO org.apache.hadoop.mapred.MapTask: Index: (824917, 412312, 412312)
+2017-06-12 15:22:12,766 INFO org.apache.hadoop.mapred.MapTask: Index: (1237229, 416259, 416259)
+2017-06-12 15:22:12,766 INFO org.apache.hadoop.mapred.MapTask: Finished spill 3
+2017-06-12 15:22:12,955 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:12,955 INFO org.apache.hadoop.mapred.MapTask: bufstart = 13072232; bufend = 16328601; bufvoid = 99614720
+2017-06-12 15:22:12,955 INFO org.apache.hadoop.mapred.MapTask: kvstart = 65533; kvend = 327677; length = 327680
+2017-06-12 15:22:13,203 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 429741, 429741)
+2017-06-12 15:22:13,224 INFO org.apache.hadoop.mapred.MapTask: Index: (429741, 430379, 430379)
+2017-06-12 15:22:13,249 INFO org.apache.hadoop.mapred.MapTask: Index: (860120, 432441, 432441)
+2017-06-12 15:22:13,272 INFO org.apache.hadoop.mapred.MapTask: Index: (1292561, 434598, 434598)
+2017-06-12 15:22:13,272 INFO org.apache.hadoop.mapred.MapTask: Finished spill 4
+2017-06-12 15:22:13,557 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:13,557 INFO org.apache.hadoop.mapred.MapTask: bufstart = 16328601; bufend = 19579728; bufvoid = 99614720
+2017-06-12 15:22:13,557 INFO org.apache.hadoop.mapred.MapTask: kvstart = 327677; kvend = 262140; length = 327680
+2017-06-12 15:22:13,879 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 408715, 408715)
+2017-06-12 15:22:13,911 INFO org.apache.hadoop.mapred.MapTask: Index: (408715, 409589, 409589)
+2017-06-12 15:22:13,957 INFO org.apache.hadoop.mapred.MapTask: Index: (818304, 408239, 408239)
+2017-06-12 15:22:13,997 INFO org.apache.hadoop.mapred.MapTask: Index: (1226543, 405334, 405334)
+2017-06-12 15:22:13,998 INFO org.apache.hadoop.mapred.MapTask: Finished spill 5
+2017-06-12 15:22:14,218 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:14,218 INFO org.apache.hadoop.mapred.MapTask: bufstart = 19579728; bufend = 22830741; bufvoid = 99614720
+2017-06-12 15:22:14,218 INFO org.apache.hadoop.mapred.MapTask: kvstart = 262140; kvend = 196603; length = 327680
+2017-06-12 15:22:14,504 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 413220, 413220)
+2017-06-12 15:22:14,526 INFO org.apache.hadoop.mapred.MapTask: Index: (413220, 416860, 416860)
+2017-06-12 15:22:14,547 INFO org.apache.hadoop.mapred.MapTask: Index: (830080, 409318, 409318)
+2017-06-12 15:22:14,572 INFO org.apache.hadoop.mapred.MapTask: Index: (1239398, 411531, 411531)
+2017-06-12 15:22:14,572 INFO org.apache.hadoop.mapred.MapTask: Finished spill 6
+2017-06-12 15:22:14,805 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:14,805 INFO org.apache.hadoop.mapred.MapTask: bufstart = 22830741; bufend = 26088124; bufvoid = 99614720
+2017-06-12 15:22:14,805 INFO org.apache.hadoop.mapred.MapTask: kvstart = 196603; kvend = 131066; length = 327680
+2017-06-12 15:22:15,077 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 448858, 448858)
+2017-06-12 15:22:15,097 INFO org.apache.hadoop.mapred.MapTask: Index: (448858, 449070, 449070)
+2017-06-12 15:22:15,124 INFO org.apache.hadoop.mapred.MapTask: Index: (897928, 447046, 447046)
+2017-06-12 15:22:15,151 INFO org.apache.hadoop.mapred.MapTask: Index: (1344974, 453722, 453722)
+2017-06-12 15:22:15,151 INFO org.apache.hadoop.mapred.MapTask: Finished spill 7
+2017-06-12 15:22:15,441 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:15,441 INFO org.apache.hadoop.mapred.MapTask: bufstart = 26088124; bufend = 29364911; bufvoid = 99614720
+2017-06-12 15:22:15,441 INFO org.apache.hadoop.mapred.MapTask: kvstart = 131066; kvend = 65529; length = 327680
+2017-06-12 15:22:15,752 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 488177, 488177)
+2017-06-12 15:22:15,770 INFO org.apache.hadoop.mapred.MapTask: Index: (488177, 492647, 492647)
+2017-06-12 15:22:15,807 INFO org.apache.hadoop.mapred.MapTask: Index: (980824, 487951, 487951)
+2017-06-12 15:22:15,824 INFO org.apache.hadoop.mapred.MapTask: Index: (1468775, 497312, 497312)
+2017-06-12 15:22:15,824 INFO org.apache.hadoop.mapred.MapTask: Finished spill 8
+2017-06-12 15:22:16,066 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:16,066 INFO org.apache.hadoop.mapred.MapTask: bufstart = 29364911; bufend = 32629794; bufvoid = 99614720
+2017-06-12 15:22:16,066 INFO org.apache.hadoop.mapred.MapTask: kvstart = 65529; kvend = 327673; length = 327680
+2017-06-12 15:22:16,297 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 481968, 481968)
+2017-06-12 15:22:16,332 INFO org.apache.hadoop.mapred.MapTask: Index: (481968, 481091, 481091)
+2017-06-12 15:22:16,370 INFO org.apache.hadoop.mapred.MapTask: Index: (963059, 482954, 482954)
+2017-06-12 15:22:16,395 INFO org.apache.hadoop.mapred.MapTask: Index: (1446013, 482310, 482310)
+2017-06-12 15:22:16,395 INFO org.apache.hadoop.mapred.MapTask: Finished spill 9
+2017-06-12 15:22:16,646 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:16,646 INFO org.apache.hadoop.mapred.MapTask: bufstart = 32629794; bufend = 35881121; bufvoid = 99614720
+2017-06-12 15:22:16,646 INFO org.apache.hadoop.mapred.MapTask: kvstart = 327673; kvend = 262136; length = 327680
+2017-06-12 15:22:16,881 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 475233, 475233)
+2017-06-12 15:22:16,902 INFO org.apache.hadoop.mapred.MapTask: Index: (475233, 469824, 469824)
+2017-06-12 15:22:16,956 INFO org.apache.hadoop.mapred.MapTask: Index: (945057, 475900, 475900)
+2017-06-12 15:22:16,975 INFO org.apache.hadoop.mapred.MapTask: Index: (1420957, 470531, 470531)
+2017-06-12 15:22:16,976 INFO org.apache.hadoop.mapred.MapTask: Finished spill 10
+2017-06-12 15:22:17,234 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:17,234 INFO org.apache.hadoop.mapred.MapTask: bufstart = 35881121; bufend = 39157908; bufvoid = 99614720
+2017-06-12 15:22:17,234 INFO org.apache.hadoop.mapred.MapTask: kvstart = 262136; kvend = 196599; length = 327680
+2017-06-12 15:22:17,460 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 492316, 492316)
+2017-06-12 15:22:17,478 INFO org.apache.hadoop.mapred.MapTask: Index: (492316, 491717, 491717)
+2017-06-12 15:22:17,495 INFO org.apache.hadoop.mapred.MapTask: Index: (984033, 489497, 489497)
+2017-06-12 15:22:17,515 INFO org.apache.hadoop.mapred.MapTask: Index: (1473530, 492557, 492557)
+2017-06-12 15:22:17,515 INFO org.apache.hadoop.mapred.MapTask: Finished spill 11
+2017-06-12 15:22:17,731 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:17,731 INFO org.apache.hadoop.mapred.MapTask: bufstart = 39157908; bufend = 42434696; bufvoid = 99614720
+2017-06-12 15:22:17,731 INFO org.apache.hadoop.mapred.MapTask: kvstart = 196599; kvend = 131062; length = 327680
+2017-06-12 15:22:17,989 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 494701, 494701)
+2017-06-12 15:22:18,008 INFO org.apache.hadoop.mapred.MapTask: Index: (494701, 489107, 489107)
+2017-06-12 15:22:18,026 INFO org.apache.hadoop.mapred.MapTask: Index: (983808, 488327, 488327)
+2017-06-12 15:22:18,045 INFO org.apache.hadoop.mapred.MapTask: Index: (1472135, 493967, 493967)
+2017-06-12 15:22:18,045 INFO org.apache.hadoop.mapred.MapTask: Finished spill 12
+2017-06-12 15:22:18,261 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:18,261 INFO org.apache.hadoop.mapred.MapTask: bufstart = 42434696; bufend = 45711483; bufvoid = 99614720
+2017-06-12 15:22:18,261 INFO org.apache.hadoop.mapred.MapTask: kvstart = 131062; kvend = 65525; length = 327680
+2017-06-12 15:22:18,508 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 489151, 489151)
+2017-06-12 15:22:18,527 INFO org.apache.hadoop.mapred.MapTask: Index: (489151, 490712, 490712)
+2017-06-12 15:22:18,546 INFO org.apache.hadoop.mapred.MapTask: Index: (979863, 491927, 491927)
+2017-06-12 15:22:18,566 INFO org.apache.hadoop.mapred.MapTask: Index: (1471790, 494297, 494297)
+2017-06-12 15:22:18,566 INFO org.apache.hadoop.mapred.MapTask: Finished spill 13
+2017-06-12 15:22:18,829 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:18,829 INFO org.apache.hadoop.mapred.MapTask: bufstart = 45711483; bufend = 48988283; bufvoid = 99614720
+2017-06-12 15:22:18,829 INFO org.apache.hadoop.mapred.MapTask: kvstart = 65525; kvend = 327669; length = 327680
+2017-06-12 15:22:19,111 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 492766, 492766)
+2017-06-12 15:22:19,161 INFO org.apache.hadoop.mapred.MapTask: Index: (492766, 494237, 494237)
+2017-06-12 15:22:19,184 INFO org.apache.hadoop.mapred.MapTask: Index: (987003, 490277, 490277)
+2017-06-12 15:22:19,227 INFO org.apache.hadoop.mapred.MapTask: Index: (1477280, 488822, 488822)
+2017-06-12 15:22:19,227 INFO org.apache.hadoop.mapred.MapTask: Finished spill 14
+2017-06-12 15:22:19,516 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:19,516 INFO org.apache.hadoop.mapred.MapTask: bufstart = 48988283; bufend = 52265071; bufvoid = 99614720
+2017-06-12 15:22:19,516 INFO org.apache.hadoop.mapred.MapTask: kvstart = 327669; kvend = 262132; length = 327680
+2017-06-12 15:22:19,764 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 495016, 495016)
+2017-06-12 15:22:19,784 INFO org.apache.hadoop.mapred.MapTask: Index: (495016, 490262, 490262)
+2017-06-12 15:22:19,803 INFO org.apache.hadoop.mapred.MapTask: Index: (985278, 489872, 489872)
+2017-06-12 15:22:19,822 INFO org.apache.hadoop.mapred.MapTask: Index: (1475150, 490952, 490952)
+2017-06-12 15:22:19,822 INFO org.apache.hadoop.mapred.MapTask: Finished spill 15
+2017-06-12 15:22:20,026 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:20,026 INFO org.apache.hadoop.mapred.MapTask: bufstart = 52265071; bufend = 55534095; bufvoid = 99614720
+2017-06-12 15:22:20,026 INFO org.apache.hadoop.mapred.MapTask: kvstart = 262132; kvend = 196595; length = 327680
+2017-06-12 15:22:20,286 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 482411, 482411)
+2017-06-12 15:22:20,307 INFO org.apache.hadoop.mapred.MapTask: Index: (482411, 478966, 478966)
+2017-06-12 15:22:20,336 INFO org.apache.hadoop.mapred.MapTask: Index: (961377, 485299, 485299)
+2017-06-12 15:22:20,358 INFO org.apache.hadoop.mapred.MapTask: Index: (1446676, 483492, 483492)
+2017-06-12 15:22:20,358 INFO org.apache.hadoop.mapred.MapTask: Finished spill 16
+2017-06-12 15:22:20,569 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:20,569 INFO org.apache.hadoop.mapred.MapTask: bufstart = 55534095; bufend = 58795792; bufvoid = 99614720
+2017-06-12 15:22:20,569 INFO org.apache.hadoop.mapred.MapTask: kvstart = 196595; kvend = 131058; length = 327680
+2017-06-12 15:22:20,817 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 466071, 466071)
+2017-06-12 15:22:20,838 INFO org.apache.hadoop.mapred.MapTask: Index: (466071, 468500, 468500)
+2017-06-12 15:22:20,858 INFO org.apache.hadoop.mapred.MapTask: Index: (934571, 469555, 469555)
+2017-06-12 15:22:20,888 INFO org.apache.hadoop.mapred.MapTask: Index: (1404126, 470087, 470087)
+2017-06-12 15:22:20,888 INFO org.apache.hadoop.mapred.MapTask: Finished spill 17
+2017-06-12 15:22:21,137 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:21,137 INFO org.apache.hadoop.mapred.MapTask: bufstart = 58795792; bufend = 62054207; bufvoid = 99614720
+2017-06-12 15:22:21,137 INFO org.apache.hadoop.mapred.MapTask: kvstart = 131058; kvend = 65521; length = 327680
+2017-06-12 15:22:21,381 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 447070, 447070)
+2017-06-12 15:22:21,404 INFO org.apache.hadoop.mapred.MapTask: Index: (447070, 444728, 444728)
+2017-06-12 15:22:21,429 INFO org.apache.hadoop.mapred.MapTask: Index: (891798, 444767, 444767)
+2017-06-12 15:22:21,485 INFO org.apache.hadoop.mapred.MapTask: Index: (1336565, 446039, 446039)
+2017-06-12 15:22:21,485 INFO org.apache.hadoop.mapred.MapTask: Finished spill 18
+2017-06-12 15:22:21,734 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:21,734 INFO org.apache.hadoop.mapred.MapTask: bufstart = 62054207; bufend = 65305344; bufvoid = 99614720
+2017-06-12 15:22:21,734 INFO org.apache.hadoop.mapred.MapTask: kvstart = 65521; kvend = 327665; length = 327680
+2017-06-12 15:22:21,999 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 429593, 429593)
+2017-06-12 15:22:22,021 INFO org.apache.hadoop.mapred.MapTask: Index: (429593, 431425, 431425)
+2017-06-12 15:22:22,044 INFO org.apache.hadoop.mapred.MapTask: Index: (861018, 430847, 430847)
+2017-06-12 15:22:22,068 INFO org.apache.hadoop.mapred.MapTask: Index: (1291865, 429502, 429502)
+2017-06-12 15:22:22,068 INFO org.apache.hadoop.mapred.MapTask: Finished spill 19
+2017-06-12 15:22:22,270 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:22,270 INFO org.apache.hadoop.mapred.MapTask: bufstart = 65305344; bufend = 68562136; bufvoid = 99614720
+2017-06-12 15:22:22,271 INFO org.apache.hadoop.mapred.MapTask: kvstart = 327665; kvend = 262128; length = 327680
+2017-06-12 15:22:22,654 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 420737, 420737)
+2017-06-12 15:22:22,676 INFO org.apache.hadoop.mapred.MapTask: Index: (420737, 423291, 423291)
+2017-06-12 15:22:22,710 INFO org.apache.hadoop.mapred.MapTask: Index: (844028, 418794, 418794)
+2017-06-12 15:22:22,733 INFO org.apache.hadoop.mapred.MapTask: Index: (1262822, 418191, 418191)
+2017-06-12 15:22:22,733 INFO org.apache.hadoop.mapred.MapTask: Finished spill 20
+2017-06-12 15:22:22,929 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:22,929 INFO org.apache.hadoop.mapred.MapTask: bufstart = 68562136; bufend = 71834586; bufvoid = 99614720
+2017-06-12 15:22:22,929 INFO org.apache.hadoop.mapred.MapTask: kvstart = 262128; kvend = 196591; length = 327680
+2017-06-12 15:22:23,162 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 485172, 485172)
+2017-06-12 15:22:23,181 INFO org.apache.hadoop.mapred.MapTask: Index: (485172, 481258, 481258)
+2017-06-12 15:22:23,216 INFO org.apache.hadoop.mapred.MapTask: Index: (966430, 488148, 488148)
+2017-06-12 15:22:23,234 INFO org.apache.hadoop.mapred.MapTask: Index: (1454578, 486400, 486400)
+2017-06-12 15:22:23,234 INFO org.apache.hadoop.mapred.MapTask: Finished spill 21
+2017-06-12 15:22:23,467 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:23,467 INFO org.apache.hadoop.mapred.MapTask: bufstart = 71834586; bufend = 75098424; bufvoid = 99614720
+2017-06-12 15:22:23,467 INFO org.apache.hadoop.mapred.MapTask: kvstart = 196591; kvend = 131054; length = 327680
+2017-06-12 15:22:23,713 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 463423, 463423)
+2017-06-12 15:22:23,734 INFO org.apache.hadoop.mapred.MapTask: Index: (463423, 465752, 465752)
+2017-06-12 15:22:23,764 INFO org.apache.hadoop.mapred.MapTask: Index: (929175, 467178, 467178)
+2017-06-12 15:22:23,783 INFO org.apache.hadoop.mapred.MapTask: Index: (1396353, 467000, 467000)
+2017-06-12 15:22:23,783 INFO org.apache.hadoop.mapred.MapTask: Finished spill 22
+2017-06-12 15:22:24,042 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:24,042 INFO org.apache.hadoop.mapred.MapTask: bufstart = 75098424; bufend = 78360037; bufvoid = 99614720
+2017-06-12 15:22:24,042 INFO org.apache.hadoop.mapred.MapTask: kvstart = 131054; kvend = 65517; length = 327680
+2017-06-12 15:22:24,291 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 393417, 393417)
+2017-06-12 15:22:24,315 INFO org.apache.hadoop.mapred.MapTask: Index: (393417, 397733, 397733)
+2017-06-12 15:22:24,344 INFO org.apache.hadoop.mapred.MapTask: Index: (791150, 394382, 394382)
+2017-06-12 15:22:24,365 INFO org.apache.hadoop.mapred.MapTask: Index: (1185532, 392743, 392743)
+2017-06-12 15:22:24,365 INFO org.apache.hadoop.mapred.MapTask: Finished spill 23
+2017-06-12 15:22:24,566 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:24,566 INFO org.apache.hadoop.mapred.MapTask: bufstart = 78360037; bufend = 81609073; bufvoid = 99614720
+2017-06-12 15:22:24,566 INFO org.apache.hadoop.mapred.MapTask: kvstart = 65517; kvend = 327661; length = 327680
+2017-06-12 15:22:24,855 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 421031, 421031)
+2017-06-12 15:22:24,879 INFO org.apache.hadoop.mapred.MapTask: Index: (421031, 420382, 420382)
+2017-06-12 15:22:24,901 INFO org.apache.hadoop.mapred.MapTask: Index: (841413, 421296, 421296)
+2017-06-12 15:22:24,921 INFO org.apache.hadoop.mapred.MapTask: Index: (1262709, 414637, 414637)
+2017-06-12 15:22:24,921 INFO org.apache.hadoop.mapred.MapTask: Finished spill 24
+2017-06-12 15:22:25,120 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:25,120 INFO org.apache.hadoop.mapred.MapTask: bufstart = 81609073; bufend = 84865536; bufvoid = 99614720
+2017-06-12 15:22:25,120 INFO org.apache.hadoop.mapred.MapTask: kvstart = 327661; kvend = 262124; length = 327680
+2017-06-12 15:22:25,416 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 406784, 406784)
+2017-06-12 15:22:25,445 INFO org.apache.hadoop.mapred.MapTask: Index: (406784, 411865, 411865)
+2017-06-12 15:22:25,465 INFO org.apache.hadoop.mapred.MapTask: Index: (818649, 409001, 409001)
+2017-06-12 15:22:25,487 INFO org.apache.hadoop.mapred.MapTask: Index: (1227650, 412830, 412830)
+2017-06-12 15:22:25,487 INFO org.apache.hadoop.mapred.MapTask: Finished spill 25
+2017-06-12 15:22:25,675 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:25,675 INFO org.apache.hadoop.mapred.MapTask: bufstart = 84865536; bufend = 88119828; bufvoid = 99614720
+2017-06-12 15:22:25,675 INFO org.apache.hadoop.mapred.MapTask: kvstart = 262124; kvend = 196587; length = 327680
+2017-06-12 15:22:25,901 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 424565, 424565)
+2017-06-12 15:22:25,921 INFO org.apache.hadoop.mapred.MapTask: Index: (424565, 425426, 425426)
+2017-06-12 15:22:25,942 INFO org.apache.hadoop.mapred.MapTask: Index: (849991, 425343, 425343)
+2017-06-12 15:22:25,966 INFO org.apache.hadoop.mapred.MapTask: Index: (1275334, 421145, 421145)
+2017-06-12 15:22:25,966 INFO org.apache.hadoop.mapred.MapTask: Finished spill 26
+2017-06-12 15:22:26,159 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:26,160 INFO org.apache.hadoop.mapred.MapTask: bufstart = 88119828; bufend = 91368887; bufvoid = 99614720
+2017-06-12 15:22:26,160 INFO org.apache.hadoop.mapred.MapTask: kvstart = 196587; kvend = 131050; length = 327680
+2017-06-12 15:22:26,370 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 430871, 430871)
+2017-06-12 15:22:26,393 INFO org.apache.hadoop.mapred.MapTask: Index: (430871, 432617, 432617)
+2017-06-12 15:22:26,418 INFO org.apache.hadoop.mapred.MapTask: Index: (863488, 433439, 433439)
+2017-06-12 15:22:26,439 INFO org.apache.hadoop.mapred.MapTask: Index: (1296927, 428024, 428024)
+2017-06-12 15:22:26,439 INFO org.apache.hadoop.mapred.MapTask: Finished spill 27
+2017-06-12 15:22:26,638 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:26,639 INFO org.apache.hadoop.mapred.MapTask: bufstart = 91368887; bufend = 94620821; bufvoid = 99614720
+2017-06-12 15:22:26,639 INFO org.apache.hadoop.mapred.MapTask: kvstart = 131050; kvend = 65513; length = 327680
+2017-06-12 15:22:26,852 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 435788, 435788)
+2017-06-12 15:22:26,875 INFO org.apache.hadoop.mapred.MapTask: Index: (435788, 435409, 435409)
+2017-06-12 15:22:26,896 INFO org.apache.hadoop.mapred.MapTask: Index: (871197, 431521, 431521)
+2017-06-12 15:22:26,916 INFO org.apache.hadoop.mapred.MapTask: Index: (1302718, 434171, 434171)
+2017-06-12 15:22:26,916 INFO org.apache.hadoop.mapred.MapTask: Finished spill 28
+2017-06-12 15:22:27,110 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 15:22:27,110 INFO org.apache.hadoop.mapred.MapTask: bufstart = 94620821; bufend = 97869987; bufvoid = 99614720
+2017-06-12 15:22:27,110 INFO org.apache.hadoop.mapred.MapTask: kvstart = 65513; kvend = 327657; length = 327680
+2017-06-12 15:22:27,337 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 419637, 419637)
+2017-06-12 15:22:27,359 INFO org.apache.hadoop.mapred.MapTask: Index: (419637, 420223, 420223)
+2017-06-12 15:22:27,381 INFO org.apache.hadoop.mapred.MapTask: Index: (839860, 418908, 418908)
+2017-06-12 15:22:27,403 INFO org.apache.hadoop.mapred.MapTask: Index: (1258768, 422408, 422408)
+2017-06-12 15:22:27,403 INFO org.apache.hadoop.mapred.MapTask: Finished spill 29
+2017-06-12 15:22:27,439 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2017-06-12 15:22:27,439 INFO org.apache.hadoop.mapred.MapTask: bufstart = 97869987; bufend = 98898121; bufvoid = 99614720
+2017-06-12 15:22:27,439 INFO org.apache.hadoop.mapred.MapTask: kvstart = 327657; kvend = 82994; length = 327680
+2017-06-12 15:22:27,500 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 143167, 143167)
+2017-06-12 15:22:27,507 INFO org.apache.hadoop.mapred.MapTask: Index: (143167, 143511, 143511)
+2017-06-12 15:22:27,515 INFO org.apache.hadoop.mapred.MapTask: Index: (286678, 140770, 140770)
+2017-06-12 15:22:27,523 INFO org.apache.hadoop.mapred.MapTask: Index: (427448, 141080, 141080)
+2017-06-12 15:22:27,523 INFO org.apache.hadoop.mapred.MapTask: Finished spill 30
+2017-06-12 15:22:27,583 INFO org.apache.hadoop.mapred.Merger: Merging 31 sorted segments
+2017-06-12 15:22:27,585 INFO org.apache.hadoop.mapred.Merger: Merging 4 intermediate segments out of a total of 31
+2017-06-12 15:22:27,737 INFO org.apache.hadoop.mapred.Merger: Merging 10 intermediate segments out of a total of 28
+2017-06-12 15:22:27,946 INFO org.apache.hadoop.mapred.Merger: Merging 10 intermediate segments out of a total of 19
+2017-06-12 15:22:28,144 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 13757681 bytes
+2017-06-12 15:22:28,727 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 9575423, 9575423)
+2017-06-12 15:22:28,766 INFO org.apache.hadoop.mapred.Merger: Merging 31 sorted segments
+2017-06-12 15:22:28,767 INFO org.apache.hadoop.mapred.Merger: Merging 4 intermediate segments out of a total of 31
+2017-06-12 15:22:28,842 INFO org.apache.hadoop.mapred.Merger: Merging 10 intermediate segments out of a total of 28
+2017-06-12 15:22:29,028 INFO org.apache.hadoop.mapred.Merger: Merging 10 intermediate segments out of a total of 19
+2017-06-12 15:22:29,227 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 13767254 bytes
+2017-06-12 15:22:29,784 INFO org.apache.hadoop.mapred.MapTask: Index: (9575423, 9580009, 9580009)
+2017-06-12 15:22:29,866 INFO org.apache.hadoop.mapred.Merger: Merging 31 sorted segments
+2017-06-12 15:22:29,866 INFO org.apache.hadoop.mapred.Merger: Merging 4 intermediate segments out of a total of 31
+2017-06-12 15:22:29,934 INFO org.apache.hadoop.mapred.Merger: Merging 10 intermediate segments out of a total of 28
+2017-06-12 15:22:30,105 INFO org.apache.hadoop.mapred.Merger: Merging 10 intermediate segments out of a total of 19
+2017-06-12 15:22:30,306 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 13747910 bytes
+2017-06-12 15:22:30,837 INFO org.apache.hadoop.mapred.MapTask: Index: (19155432, 9567768, 9567768)
+2017-06-12 15:22:30,860 INFO org.apache.hadoop.mapred.Merger: Merging 31 sorted segments
+2017-06-12 15:22:30,860 INFO org.apache.hadoop.mapred.Merger: Merging 4 intermediate segments out of a total of 31
+2017-06-12 15:22:30,920 INFO org.apache.hadoop.mapred.Merger: Merging 10 intermediate segments out of a total of 28
+2017-06-12 15:22:31,083 INFO org.apache.hadoop.mapred.Merger: Merging 10 intermediate segments out of a total of 19
+2017-06-12 15:22:31,273 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 13770647 bytes
+2017-06-12 15:22:31,822 INFO org.apache.hadoop.mapred.MapTask: Index: (28723200, 9594169, 9594169)
+2017-06-12 15:22:31,848 INFO org.apache.hadoop.mapred.TaskRunner: attempt_201706121522_0001_m_000011_0: No outputs to promote from hdfs://secondvm1:9000/twitter_output/_temporary/_attempt_201706121522_0001_m_000011_0
+2017-06-12 15:22:31,849 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201706121522_0001_m_000011_0' done.

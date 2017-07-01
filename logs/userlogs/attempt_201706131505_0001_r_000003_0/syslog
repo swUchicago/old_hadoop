@@ -1,0 +1,113 @@
+2017-06-13 15:05:37,409 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SHUFFLE, sessionId=
+2017-06-13 15:05:37,610 INFO org.apache.hadoop.mapred.ReduceTask: ShuffleRamManager: MemoryLimit=78643200, MaxSingleShuffleLimit=19660800
+2017-06-13 15:05:37,619 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Thread started: Thread for merging on-disk files
+2017-06-13 15:05:37,619 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Thread waiting: Thread for merging on-disk files
+2017-06-13 15:05:37,621 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Need another 32 map output(s) where 0 is already in progress
+2017-06-13 15:05:37,627 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0: Got 4 new map-outputs & number of known map outputs is 4
+2017-06-13 15:05:37,636 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Scheduled 4 of 4 known outputs (0 slow hosts and 0 dup hosts)
+2017-06-13 15:05:37,638 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Thread started: Thread for merging in memory files
+2017-06-13 15:05:37,776 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 5884230 bytes (5884230 raw bytes) into RAM from attempt_201706131505_0001_m_000007_0
+2017-06-13 15:05:37,784 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 3672623 bytes (3672623 raw bytes) into RAM from attempt_201706131505_0001_m_000004_0
+2017-06-13 15:05:37,795 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 7011709 bytes (7011709 raw bytes) into RAM from attempt_201706131505_0001_m_000006_0
+2017-06-13 15:05:37,818 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 5512438 bytes (5512438 raw bytes) into RAM from attempt_201706131505_0001_m_000005_0
+2017-06-13 15:05:37,829 INFO org.apache.hadoop.mapred.ReduceTask: Read 5884230 bytes from map-output for attempt_201706131505_0001_m_000007_0
+2017-06-13 15:05:37,851 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000007_0 -> (9, 4) from secondvm5
+2017-06-13 15:05:37,948 INFO org.apache.hadoop.mapred.ReduceTask: Initiating in-memory merge with 1 segments...
+2017-06-13 15:05:37,954 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2017-06-13 15:05:37,955 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 5884230 bytes
+2017-06-13 15:05:37,996 INFO org.apache.hadoop.mapred.ReduceTask: Read 5512438 bytes from map-output for attempt_201706131505_0001_m_000005_0
+2017-06-13 15:05:37,996 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000005_0 -> (9, 4) from secondvm4
+2017-06-13 15:05:38,045 INFO org.apache.hadoop.mapred.ReduceTask: Read 3672623 bytes from map-output for attempt_201706131505_0001_m_000004_0
+2017-06-13 15:05:38,045 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000004_0 -> (9, 4) from secondvm3
+2017-06-13 15:05:38,206 INFO org.apache.hadoop.mapred.ReduceTask: Read 7011709 bytes from map-output for attempt_201706131505_0001_m_000006_0
+2017-06-13 15:05:38,206 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000006_0 -> (9, 4) from secondvm2
+2017-06-13 15:05:39,081 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Merge of the 1 files in-memory complete. Local file is /home/ubuntu/old_hadoop_temp/mapred/local/taskTracker/jobcache/job_201706131505_0001/attempt_201706131505_0001_r_000003_0/output/map_7.out of size 5884230
+2017-06-13 15:05:39,081 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Thread waiting: Thread for merging on-disk files
+2017-06-13 15:05:49,631 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0: Got 4 new map-outputs & number of known map outputs is 4
+2017-06-13 15:05:49,631 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Scheduled 4 of 4 known outputs (0 slow hosts and 0 dup hosts)
+2017-06-13 15:05:49,637 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 8348329 bytes (8348329 raw bytes) into RAM from attempt_201706131505_0001_m_000000_0
+2017-06-13 15:05:49,638 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 5436867 bytes (5436867 raw bytes) into RAM from attempt_201706131505_0001_m_000002_0
+2017-06-13 15:05:49,693 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 7734002 bytes (7734002 raw bytes) into RAM from attempt_201706131505_0001_m_000001_0
+2017-06-13 15:05:49,696 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 6326802 bytes (6326802 raw bytes) into RAM from attempt_201706131505_0001_m_000003_0
+2017-06-13 15:05:49,754 INFO org.apache.hadoop.mapred.ReduceTask: Read 6326802 bytes from map-output for attempt_201706131505_0001_m_000003_0
+2017-06-13 15:05:49,754 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000003_0 -> (9, 4) from secondvm5
+2017-06-13 15:05:49,882 INFO org.apache.hadoop.mapred.ReduceTask: Read 5436867 bytes from map-output for attempt_201706131505_0001_m_000002_0
+2017-06-13 15:05:49,882 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000002_0 -> (9, 4) from secondvm2
+2017-06-13 15:05:49,925 INFO org.apache.hadoop.mapred.ReduceTask: Read 7734002 bytes from map-output for attempt_201706131505_0001_m_000001_0
+2017-06-13 15:05:49,925 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000001_0 -> (9, 4) from secondvm4
+2017-06-13 15:05:49,991 INFO org.apache.hadoop.mapred.ReduceTask: Read 8348329 bytes from map-output for attempt_201706131505_0001_m_000000_0
+2017-06-13 15:05:49,991 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000000_0 -> (9, 4) from secondvm3
+2017-06-13 15:05:50,629 INFO org.apache.hadoop.mapred.ReduceTask: Ignoring obsolete output of FAILED map-task: 'attempt_201706131505_0001_m_000008_0'
+2017-06-13 15:05:50,630 INFO org.apache.hadoop.mapred.ReduceTask: Ignoring obsolete output of FAILED map-task: 'attempt_201706131505_0001_m_000011_0'
+2017-06-13 15:05:50,630 INFO org.apache.hadoop.mapred.ReduceTask: Ignoring obsolete output of FAILED map-task: 'attempt_201706131505_0001_m_000013_0'
+2017-06-13 15:05:50,630 INFO org.apache.hadoop.mapred.ReduceTask: Ignoring obsolete output of FAILED map-task: 'attempt_201706131505_0001_m_000015_0'
+2017-06-13 15:05:50,631 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0: Got 7 new map-outputs & number of known map outputs is 7
+2017-06-13 15:05:50,631 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0: Got 4 obsolete map-outputs from tasktracker 
+2017-06-13 15:05:51,627 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Scheduled 4 of 7 known outputs (0 slow hosts and 3 dup hosts)
+2017-06-13 15:05:51,642 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 4667967 bytes (4667967 raw bytes) into RAM from attempt_201706131505_0001_m_000023_0
+2017-06-13 15:05:51,655 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 5195990 bytes (5195990 raw bytes) into RAM from attempt_201706131505_0001_m_000010_0
+2017-06-13 15:05:51,659 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 5425523 bytes (5425523 raw bytes) into RAM from attempt_201706131505_0001_m_000012_0
+2017-06-13 15:05:51,705 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 5409330 bytes (5409330 raw bytes) into RAM from attempt_201706131505_0001_m_000021_0
+2017-06-13 15:05:51,712 INFO org.apache.hadoop.mapred.ReduceTask: Read 4667967 bytes from map-output for attempt_201706131505_0001_m_000023_0
+2017-06-13 15:05:51,713 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000023_0 -> (9, 4) from secondvm5
+2017-06-13 15:05:51,949 INFO org.apache.hadoop.mapred.ReduceTask: Read 5409330 bytes from map-output for attempt_201706131505_0001_m_000021_0
+2017-06-13 15:05:51,952 INFO org.apache.hadoop.mapred.ReduceTask: Read 5425523 bytes from map-output for attempt_201706131505_0001_m_000012_0
+2017-06-13 15:05:51,952 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000012_0 -> (9, 4) from secondvm3
+2017-06-13 15:05:51,954 INFO org.apache.hadoop.mapred.ReduceTask: Initiating in-memory merge with 9 segments...
+2017-06-13 15:05:51,954 INFO org.apache.hadoop.mapred.Merger: Merging 9 sorted segments
+2017-06-13 15:05:51,954 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 9 segments left of total size: 54136260 bytes
+2017-06-13 15:05:51,962 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000021_0 -> (9, 4) from secondvm4
+2017-06-13 15:05:51,978 INFO org.apache.hadoop.mapred.ReduceTask: Read 5195990 bytes from map-output for attempt_201706131505_0001_m_000010_0
+2017-06-13 15:05:51,978 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000010_0 -> (9, 4) from secondvm2
+2017-06-13 15:05:53,629 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Scheduled 3 of 3 known outputs (0 slow hosts and 0 dup hosts)
+2017-06-13 15:05:53,635 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 5888070 bytes (5888070 raw bytes) into RAM from attempt_201706131505_0001_m_000019_0
+2017-06-13 15:05:53,636 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 6113407 bytes (6113407 raw bytes) into RAM from attempt_201706131505_0001_m_000009_0
+2017-06-13 15:05:53,636 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 7299536 bytes (7299536 raw bytes) into RAM from attempt_201706131505_0001_m_000014_0
+2017-06-13 15:05:53,650 INFO org.apache.hadoop.mapred.ReduceTask: Read 5888070 bytes from map-output for attempt_201706131505_0001_m_000019_0
+2017-06-13 15:05:53,650 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000019_0 -> (9, 4) from secondvm5
+2017-06-13 15:05:53,719 INFO org.apache.hadoop.mapred.ReduceTask: Read 6113407 bytes from map-output for attempt_201706131505_0001_m_000009_0
+2017-06-13 15:05:53,719 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000009_0 -> (9, 4) from secondvm3
+2017-06-13 15:05:54,087 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Merge of the 9 files in-memory complete. Local file is /home/ubuntu/old_hadoop_temp/mapred/local/taskTracker/jobcache/job_201706131505_0001/attempt_201706131505_0001_r_000003_0/output/map_5.out of size 31223608
+2017-06-13 15:05:54,087 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Thread waiting: Thread for merging on-disk files
+2017-06-13 15:05:54,184 INFO org.apache.hadoop.mapred.ReduceTask: Read 7299536 bytes from map-output for attempt_201706131505_0001_m_000014_0
+2017-06-13 15:05:54,184 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000014_0 -> (9, 4) from secondvm2
+2017-06-13 15:05:55,632 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0: Got 10 new map-outputs & number of known map outputs is 10
+2017-06-13 15:05:55,632 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Scheduled 4 of 10 known outputs (0 slow hosts and 6 dup hosts)
+2017-06-13 15:05:55,643 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 4605230 bytes (4605230 raw bytes) into RAM from attempt_201706131505_0001_m_000025_0
+2017-06-13 15:05:55,645 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 5780661 bytes (5780661 raw bytes) into RAM from attempt_201706131505_0001_m_000017_0
+2017-06-13 15:05:55,646 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 4745407 bytes (4745407 raw bytes) into RAM from attempt_201706131505_0001_m_000018_0
+2017-06-13 15:05:55,653 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 5518033 bytes (5518033 raw bytes) into RAM from attempt_201706131505_0001_m_000027_0
+2017-06-13 15:05:55,752 INFO org.apache.hadoop.mapred.ReduceTask: Read 5518033 bytes from map-output for attempt_201706131505_0001_m_000027_0
+2017-06-13 15:05:55,752 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000027_0 -> (9, 4) from secondvm5
+2017-06-13 15:05:55,810 INFO org.apache.hadoop.mapred.ReduceTask: Read 4605230 bytes from map-output for attempt_201706131505_0001_m_000025_0
+2017-06-13 15:05:55,811 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000025_0 -> (9, 4) from secondvm4
+2017-06-13 15:05:55,871 INFO org.apache.hadoop.mapred.ReduceTask: Read 4745407 bytes from map-output for attempt_201706131505_0001_m_000018_0
+2017-06-13 15:05:55,871 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000018_0 -> (9, 4) from secondvm2
+2017-06-13 15:05:55,896 INFO org.apache.hadoop.mapred.ReduceTask: Read 5780661 bytes from map-output for attempt_201706131505_0001_m_000017_0
+2017-06-13 15:05:55,896 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000017_0 -> (9, 4) from secondvm3
+2017-06-13 15:05:57,631 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Scheduled 4 of 6 known outputs (0 slow hosts and 2 dup hosts)
+2017-06-13 15:05:57,636 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 3760235 bytes (3760235 raw bytes) into RAM from attempt_201706131505_0001_m_000026_0
+2017-06-13 15:05:57,638 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 6572241 bytes (6572241 raw bytes) into RAM from attempt_201706131505_0001_m_000024_0
+2017-06-13 15:05:57,687 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 4536494 bytes (4536494 raw bytes) into RAM from attempt_201706131505_0001_m_000028_0
+2017-06-13 15:05:57,688 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 6077137 bytes (6077137 raw bytes) into RAM from attempt_201706131505_0001_m_000016_0
+2017-06-13 15:05:57,696 INFO org.apache.hadoop.mapred.ReduceTask: Read 4536494 bytes from map-output for attempt_201706131505_0001_m_000028_0
+2017-06-13 15:05:57,697 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000028_0 -> (9, 4) from secondvm5
+2017-06-13 15:05:57,700 INFO org.apache.hadoop.mapred.ReduceTask: Initiating in-memory merge with 10 segments...
+2017-06-13 15:05:57,700 INFO org.apache.hadoop.mapred.Merger: Merging 10 sorted segments
+2017-06-13 15:05:57,700 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 55092158 bytes
+2017-06-13 15:05:57,842 INFO org.apache.hadoop.mapred.ReduceTask: Read 6077137 bytes from map-output for attempt_201706131505_0001_m_000016_0
+2017-06-13 15:05:57,843 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000016_0 -> (8, 4) from secondvm4
+2017-06-13 15:05:57,852 INFO org.apache.hadoop.mapred.ReduceTask: Read 3760235 bytes from map-output for attempt_201706131505_0001_m_000026_0
+2017-06-13 15:05:57,852 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000026_0 -> (9, 4) from secondvm2
+2017-06-13 15:05:57,913 INFO org.apache.hadoop.mapred.ReduceTask: Read 6572241 bytes from map-output for attempt_201706131505_0001_m_000024_0
+2017-06-13 15:05:57,913 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201706131505_0001_m_000024_0 -> (9, 4) from secondvm3
+2017-06-13 15:05:59,576 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201706131505_0001_r_000003_0 Merge of the inmemory files threw an exception: org.apache.hadoop.fs.FSError: java.io.IOException: No space left on device
+	at org.apache.hadoop.fs.RawLocalFileSystem$LocalFSFileOutputStream.write(RawLocalFileSystem.java:199)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:126)
+	at org.apache.hadoop.fs.FSDataOutputStream$PositionCache.write(FSDataOutputStream.java:47)
+	at java.io.DataOutputStream.write(DataOutputStream.java:107)
+	at org.apache.hadoop.fs.ChecksumFileSystem$ChecksumFSOutputSummer.writeChunk(ChecksumFileSystem.java:339)
+	at org.apache.hadoop.fs.FSOutputSummer.writeChecksumChunk(FSOutputSummer.java:155)
+	at org.apache.hadoop.fs.FSOutputSummer.flushBuffer(FSOutputSummer.java:132)
+	at org.apache.hadoop.fs.FSOutputSummer.flushBuffer(FSOutputS

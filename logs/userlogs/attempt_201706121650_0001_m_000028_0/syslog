@@ -1,0 +1,43 @@
+2017-06-12 16:50:55,016 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=MAP, sessionId=
+2017-06-12 16:50:55,184 INFO org.apache.hadoop.mapred.MapTask: numReduceTasks: 4
+2017-06-12 16:50:55,211 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2017-06-12 16:50:55,312 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2017-06-12 16:50:55,312 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2017-06-12 16:50:56,494 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 16:50:56,495 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 3244597; bufvoid = 99614720
+2017-06-12 16:50:56,495 INFO org.apache.hadoop.mapred.MapTask: kvstart = 0; kvend = 262144; length = 327680
+2017-06-12 16:50:57,177 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 383050, 383050)
+2017-06-12 16:50:57,441 INFO org.apache.hadoop.mapred.MapTask: Index: (383050, 386926, 386926)
+2017-06-12 16:50:57,521 INFO org.apache.hadoop.mapred.MapTask: Index: (769976, 386385, 386385)
+2017-06-12 16:50:57,585 INFO org.apache.hadoop.mapred.MapTask: Index: (1156361, 383788, 383788)
+2017-06-12 16:50:57,585 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2017-06-12 16:50:57,975 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 16:50:57,975 INFO org.apache.hadoop.mapred.MapTask: bufstart = 3244597; bufend = 6493977; bufvoid = 99614720
+2017-06-12 16:50:57,975 INFO org.apache.hadoop.mapred.MapTask: kvstart = 262144; kvend = 196607; length = 327680
+2017-06-12 16:50:58,296 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 414651, 414651)
+2017-06-12 16:50:58,327 INFO org.apache.hadoop.mapred.MapTask: Index: (414651, 417374, 417374)
+2017-06-12 16:50:58,388 INFO org.apache.hadoop.mapred.MapTask: Index: (832025, 418925, 418925)
+2017-06-12 16:50:58,428 INFO org.apache.hadoop.mapred.MapTask: Index: (1250950, 416927, 416927)
+2017-06-12 16:50:58,428 INFO org.apache.hadoop.mapred.MapTask: Finished spill 1
+2017-06-12 16:50:58,694 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 16:50:58,694 INFO org.apache.hadoop.mapred.MapTask: bufstart = 6493977; bufend = 9751212; bufvoid = 99614720
+2017-06-12 16:50:58,694 INFO org.apache.hadoop.mapred.MapTask: kvstart = 196607; kvend = 131070; length = 327680
+2017-06-12 16:50:59,063 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 421151, 421151)
+2017-06-12 16:50:59,123 INFO org.apache.hadoop.mapred.MapTask: Index: (421151, 426497, 426497)
+2017-06-12 16:50:59,149 INFO org.apache.hadoop.mapred.MapTask: Index: (847648, 420557, 420557)
+2017-06-12 16:50:59,169 INFO org.apache.hadoop.mapred.MapTask: Index: (1268205, 421426, 421426)
+2017-06-12 16:50:59,169 INFO org.apache.hadoop.mapred.MapTask: Finished spill 2
+2017-06-12 16:50:59,391 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: buffer full = false and record full = true
+2017-06-12 16:50:59,391 INFO org.apache.hadoop.mapred.MapTask: bufstart = 9751212; bufend = 13000572; bufvoid = 99614720
+2017-06-12 16:50:59,391 INFO org.apache.hadoop.mapred.MapTask: kvstart = 131070; kvend = 65533; length = 327680
+2017-06-12 16:50:59,633 INFO org.apache.hadoop.mapred.MapTask: Index: (0, 408244, 408244)
+2017-06-12 16:50:59,654 INFO org.apache.hadoop.mapred.MapTask: Index: (408244, 412429, 412429)
+2017-06-12 16:50:59,677 WARN org.apache.hadoop.mapred.TaskTracker: Error running child
+java.io.IOException: Spill failed
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer$Buffer.write(MapTask.java:589)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer$Buffer.write(MapTask.java:570)
+	at java.io.DataOutputStream.writeByte(DataOutputStream.java:153)
+	at org.apache.hadoop.io.WritableUtils.writeVLong(WritableUtils.java:289)
+	at org.apache.hadoop.io.WritableUtils.writeVInt(WritableUtils.java:269)
+	at org.apache.hadoop.io.Text.write(Text.java:271)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serial

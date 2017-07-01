@@ -1,0 +1,467 @@
+2017-03-27 09:02:50,418 INFO org.apache.hadoop.dfs.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-03-27 09:02:50,525 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=9000
+2017-03-27 09:02:50,530 INFO org.apache.hadoop.dfs.NameNode: Namenode up at: rivervm5/192.168.1.153:9000
+2017-03-27 09:02:50,532 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2017-03-27 09:02:50,626 INFO org.apache.hadoop.dfs.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-03-27 09:02:50,762 INFO org.apache.hadoop.fs.FSNamesystem: fsOwner=ubuntu,ubuntu,adm,dialout,cdrom,plugdev,lpadmin,sambashare,admin
+2017-03-27 09:02:50,762 INFO org.apache.hadoop.fs.FSNamesystem: supergroup=supergroup
+2017-03-27 09:02:50,762 INFO org.apache.hadoop.fs.FSNamesystem: isPermissionEnabled=true
+2017-03-27 09:02:51,030 INFO org.apache.hadoop.dfs.FSNamesystemMetrics: Initializing FSNamesystemMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-03-27 09:02:51,032 INFO org.apache.hadoop.fs.FSNamesystem: Registered FSNamesystemStatusMBean
+2017-03-27 09:02:51,152 INFO org.apache.hadoop.dfs.Storage: Storage directory /home/ubuntu/old_hadoop_temp/dfs/name does not exist.
+2017-03-27 09:02:51,156 ERROR org.apache.hadoop.fs.FSNamesystem: FSNamesystem initialization failed.
+org.apache.hadoop.dfs.InconsistentFSStateException: Directory /home/ubuntu/old_hadoop_temp/dfs/name is in an inconsistent state: storage directory does not exist or is not accessible.
+	at org.apache.hadoop.dfs.FSImage.recoverTransitionRead(FSImage.java:211)
+	at org.apache.hadoop.dfs.FSDirectory.loadFSImage(FSDirectory.java:80)
+	at org.apache.hadoop.dfs.FSNamesystem.initialize(FSNamesystem.java:296)
+	at org.apache.hadoop.dfs.FSNamesystem.<init>(FSNamesystem.java:275)
+	at org.apache.hadoop.dfs.NameNode.initialize(NameNode.java:148)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:193)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:179)
+	at org.apache.hadoop.dfs.NameNode.createNameNode(NameNode.java:830)
+	at org.apache.hadoop.dfs.NameNode.main(NameNode.java:839)
+2017-03-27 09:02:51,158 INFO org.apache.hadoop.ipc.Server: Stopping server on 9000
+2017-03-27 09:02:51,159 ERROR org.apache.hadoop.dfs.NameNode: org.apache.hadoop.dfs.InconsistentFSStateException: Directory /home/ubuntu/old_hadoop_temp/dfs/name is in an inconsistent state: storage directory does not exist or is not accessible.
+	at org.apache.hadoop.dfs.FSImage.recoverTransitionRead(FSImage.java:211)
+	at org.apache.hadoop.dfs.FSDirectory.loadFSImage(FSDirectory.java:80)
+	at org.apache.hadoop.dfs.FSNamesystem.initialize(FSNamesystem.java:296)
+	at org.apache.hadoop.dfs.FSNamesystem.<init>(FSNamesystem.java:275)
+	at org.apache.hadoop.dfs.NameNode.initialize(NameNode.java:148)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:193)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:179)
+	at org.apache.hadoop.dfs.NameNode.createNameNode(NameNode.java:830)
+	at org.apache.hadoop.dfs.NameNode.main(NameNode.java:839)
+
+2017-03-27 09:02:51,160 INFO org.apache.hadoop.dfs.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at rivervm5/192.168.1.153
+************************************************************/
+2017-03-27 09:03:36,208 INFO org.apache.hadoop.dfs.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-03-27 09:03:36,308 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=9000
+2017-03-27 09:03:36,313 INFO org.apache.hadoop.dfs.NameNode: Namenode up at: rivervm5/192.168.1.153:9000
+2017-03-27 09:03:36,315 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2017-03-27 09:03:36,319 INFO org.apache.hadoop.dfs.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-03-27 09:03:36,368 INFO org.apache.hadoop.fs.FSNamesystem: fsOwner=ubuntu,ubuntu,adm,dialout,cdrom,plugdev,lpadmin,sambashare,admin
+2017-03-27 09:03:36,368 INFO org.apache.hadoop.fs.FSNamesystem: supergroup=supergroup
+2017-03-27 09:03:36,368 INFO org.apache.hadoop.fs.FSNamesystem: isPermissionEnabled=true
+2017-03-27 09:03:36,379 INFO org.apache.hadoop.dfs.FSNamesystemMetrics: Initializing FSNamesystemMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-03-27 09:03:36,380 INFO org.apache.hadoop.fs.FSNamesystem: Registered FSNamesystemStatusMBean
+2017-03-27 09:03:36,407 INFO org.apache.hadoop.dfs.Storage: Storage directory /home/ubuntu/old_hadoop_temp/dfs/name does not exist.
+2017-03-27 09:03:36,410 ERROR org.apache.hadoop.fs.FSNamesystem: FSNamesystem initialization failed.
+org.apache.hadoop.dfs.InconsistentFSStateException: Directory /home/ubuntu/old_hadoop_temp/dfs/name is in an inconsistent state: storage directory does not exist or is not accessible.
+	at org.apache.hadoop.dfs.FSImage.recoverTransitionRead(FSImage.java:211)
+	at org.apache.hadoop.dfs.FSDirectory.loadFSImage(FSDirectory.java:80)
+	at org.apache.hadoop.dfs.FSNamesystem.initialize(FSNamesystem.java:296)
+	at org.apache.hadoop.dfs.FSNamesystem.<init>(FSNamesystem.java:275)
+	at org.apache.hadoop.dfs.NameNode.initialize(NameNode.java:148)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:193)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:179)
+	at org.apache.hadoop.dfs.NameNode.createNameNode(NameNode.java:830)
+	at org.apache.hadoop.dfs.NameNode.main(NameNode.java:839)
+2017-03-27 09:03:36,412 INFO org.apache.hadoop.ipc.Server: Stopping server on 9000
+2017-03-27 09:03:36,413 ERROR org.apache.hadoop.dfs.NameNode: org.apache.hadoop.dfs.InconsistentFSStateException: Directory /home/ubuntu/old_hadoop_temp/dfs/name is in an inconsistent state: storage directory does not exist or is not accessible.
+	at org.apache.hadoop.dfs.FSImage.recoverTransitionRead(FSImage.java:211)
+	at org.apache.hadoop.dfs.FSDirectory.loadFSImage(FSDirectory.java:80)
+	at org.apache.hadoop.dfs.FSNamesystem.initialize(FSNamesystem.java:296)
+	at org.apache.hadoop.dfs.FSNamesystem.<init>(FSNamesystem.java:275)
+	at org.apache.hadoop.dfs.NameNode.initialize(NameNode.java:148)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:193)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:179)
+	at org.apache.hadoop.dfs.NameNode.createNameNode(NameNode.java:830)
+	at org.apache.hadoop.dfs.NameNode.main(NameNode.java:839)
+
+2017-03-27 09:03:36,415 INFO org.apache.hadoop.dfs.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at rivervm5/192.168.1.153
+************************************************************/
+2017-03-27 09:04:48,256 INFO org.apache.hadoop.dfs.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-03-27 09:04:48,360 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=9000
+2017-03-27 09:04:48,366 INFO org.apache.hadoop.dfs.NameNode: Namenode up at: rivervm5/192.168.1.153:9000
+2017-03-27 09:04:48,368 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2017-03-27 09:04:48,372 INFO org.apache.hadoop.dfs.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-03-27 09:04:48,423 INFO org.apache.hadoop.fs.FSNamesystem: fsOwner=ubuntu,ubuntu,adm,dialout,cdrom,plugdev,lpadmin,sambashare,admin
+2017-03-27 09:04:48,423 INFO org.apache.hadoop.fs.FSNamesystem: supergroup=supergroup
+2017-03-27 09:04:48,423 INFO org.apache.hadoop.fs.FSNamesystem: isPermissionEnabled=true
+2017-03-27 09:04:48,432 INFO org.apache.hadoop.dfs.FSNamesystemMetrics: Initializing FSNamesystemMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-03-27 09:04:48,433 INFO org.apache.hadoop.fs.FSNamesystem: Registered FSNamesystemStatusMBean
+2017-03-27 09:04:48,460 INFO org.apache.hadoop.dfs.Storage: Storage directory /home/ubuntu/old_hadoop_temp/dfs/name does not exist.
+2017-03-27 09:04:48,463 ERROR org.apache.hadoop.fs.FSNamesystem: FSNamesystem initialization failed.
+org.apache.hadoop.dfs.InconsistentFSStateException: Directory /home/ubuntu/old_hadoop_temp/dfs/name is in an inconsistent state: storage directory does not exist or is not accessible.
+	at org.apache.hadoop.dfs.FSImage.recoverTransitionRead(FSImage.java:211)
+	at org.apache.hadoop.dfs.FSDirectory.loadFSImage(FSDirectory.java:80)
+	at org.apache.hadoop.dfs.FSNamesystem.initialize(FSNamesystem.java:296)
+	at org.apache.hadoop.dfs.FSNamesystem.<init>(FSNamesystem.java:275)
+	at org.apache.hadoop.dfs.NameNode.initialize(NameNode.java:148)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:193)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:179)
+	at org.apache.hadoop.dfs.NameNode.createNameNode(NameNode.java:830)
+	at org.apache.hadoop.dfs.NameNode.main(NameNode.java:839)
+2017-03-27 09:04:48,465 INFO org.apache.hadoop.ipc.Server: Stopping server on 9000
+2017-03-27 09:04:48,466 ERROR org.apache.hadoop.dfs.NameNode: org.apache.hadoop.dfs.InconsistentFSStateException: Directory /home/ubuntu/old_hadoop_temp/dfs/name is in an inconsistent state: storage directory does not exist or is not accessible.
+	at org.apache.hadoop.dfs.FSImage.recoverTransitionRead(FSImage.java:211)
+	at org.apache.hadoop.dfs.FSDirectory.loadFSImage(FSDirectory.java:80)
+	at org.apache.hadoop.dfs.FSNamesystem.initialize(FSNamesystem.java:296)
+	at org.apache.hadoop.dfs.FSNamesystem.<init>(FSNamesystem.java:275)
+	at org.apache.hadoop.dfs.NameNode.initialize(NameNode.java:148)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:193)
+	at org.apache.hadoop.dfs.NameNode.<init>(NameNode.java:179)
+	at org.apache.hadoop.dfs.NameNode.createNameNode(NameNode.java:830)
+	at org.apache.hadoop.dfs.NameNode.main(NameNode.java:839)
+
+2017-03-27 09:04:48,468 INFO org.apache.hadoop.dfs.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at rivervm5/192.168.1.153
+************************************************************/
+2017-03-27 09:09:28,167 INFO org.apache.hadoop.dfs.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-03-27 09:09:28,268 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=9000
+2017-03-27 09:09:28,273 INFO org.apache.hadoop.dfs.NameNode: Namenode up at: rivervm5/192.168.1.153:9000
+2017-03-27 09:09:28,275 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2017-03-27 09:09:28,279 INFO org.apache.hadoop.dfs.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-03-27 09:09:28,329 INFO org.apache.hadoop.fs.FSNamesystem: fsOwner=ubuntu,ubuntu,adm,dialout,cdrom,plugdev,lpadmin,sambashare,admin
+2017-03-27 09:09:28,330 INFO org.apache.hadoop.fs.FSNamesystem: supergroup=supergroup
+2017-03-27 09:09:28,330 INFO org.apache.hadoop.fs.FSNamesystem: isPermissionEnabled=true
+2017-03-27 09:09:28,341 INFO org.apache.hadoop.dfs.FSNamesystemMetrics: Initializing FSNamesystemMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-03-27 09:09:28,342 INFO org.apache.hadoop.fs.FSNamesystem: Registered FSNamesystemStatusMBean
+2017-03-27 09:09:28,376 INFO org.apache.hadoop.dfs.Storage: Number of files = 0
+2017-03-27 09:09:28,377 INFO org.apache.hadoop.dfs.Storage: Number of files under construction = 0
+2017-03-27 09:09:28,377 INFO org.apache.hadoop.dfs.Storage: Image file of size 80 loaded in 0 seconds.
+2017-03-27 09:09:28,377 INFO org.apache.hadoop.dfs.Storage: Edits file edits of size 4 edits # 0 loaded in 0 seconds.
+2017-03-27 09:09:28,378 INFO org.apache.hadoop.fs.FSNamesystem: Finished loading FSImage in 64 msecs
+2017-03-27 09:09:28,380 INFO org.apache.hadoop.dfs.StateChange: STATE* Leaving safe mode after 0 secs.
+2017-03-27 09:09:28,380 INFO org.apache.hadoop.dfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+2017-03-27 09:09:28,380 INFO org.apache.hadoop.dfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2017-03-27 09:09:28,449 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-03-27 09:09:28,498 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-03-27 09:09:28,499 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-03-27 09:09:28,499 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-03-27 09:09:28,748 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@10ecc43
+2017-03-27 09:09:28,777 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-03-27 09:09:28,779 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50070
+2017-03-27 09:09:28,779 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@178e8f0
+2017-03-27 09:09:28,779 INFO org.apache.hadoop.fs.FSNamesystem: Web-server up at: 0.0.0.0:50070
+2017-03-27 09:09:28,782 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9000: starting
+2017-03-27 09:09:28,782 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-03-27 09:09:28,784 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000: starting
+2017-03-27 09:09:28,784 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9000: starting
+2017-03-27 09:09:28,785 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9000: starting
+2017-03-27 09:09:28,786 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000: starting
+2017-03-27 09:09:28,786 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9000: starting
+2017-03-27 09:09:28,786 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000: starting
+2017-03-27 09:09:28,787 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000: starting
+2017-03-27 09:09:28,787 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000: starting
+2017-03-27 09:09:28,787 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9000: starting
+2017-03-27 09:09:28,787 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9000: starting
+2017-03-27 09:09:30,356 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.1.153:50010 storage DS-1958952699-192.168.1.153-50010-1490598570353
+2017-03-27 09:09:30,362 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.1.153:50010
+2017-03-27 09:14:31,729 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 09:14:31,729 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 6 Total time for transactions(ms): 0 Number of syncs: 3 SyncTimes(ms): 15 
+2017-03-27 09:14:32,148 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 09:14:32,148 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 09:22:20,172 INFO org.apache.hadoop.dfs.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at rivervm5/192.168.1.153
+************************************************************/
+2017-03-27 09:27:59,818 INFO org.apache.hadoop.dfs.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-03-27 09:27:59,914 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=9005
+2017-03-27 09:27:59,919 INFO org.apache.hadoop.dfs.NameNode: Namenode up at: rivervm5/192.168.1.153:9005
+2017-03-27 09:27:59,921 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2017-03-27 09:27:59,925 INFO org.apache.hadoop.dfs.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-03-27 09:27:59,974 INFO org.apache.hadoop.fs.FSNamesystem: fsOwner=ubuntu,ubuntu,adm,dialout,cdrom,plugdev,lpadmin,sambashare,admin
+2017-03-27 09:27:59,974 INFO org.apache.hadoop.fs.FSNamesystem: supergroup=supergroup
+2017-03-27 09:27:59,974 INFO org.apache.hadoop.fs.FSNamesystem: isPermissionEnabled=true
+2017-03-27 09:27:59,982 INFO org.apache.hadoop.dfs.FSNamesystemMetrics: Initializing FSNamesystemMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-03-27 09:27:59,983 INFO org.apache.hadoop.fs.FSNamesystem: Registered FSNamesystemStatusMBean
+2017-03-27 09:28:00,013 INFO org.apache.hadoop.dfs.Storage: Number of files = 0
+2017-03-27 09:28:00,013 INFO org.apache.hadoop.dfs.Storage: Number of files under construction = 0
+2017-03-27 09:28:00,013 INFO org.apache.hadoop.dfs.Storage: Image file of size 80 loaded in 0 seconds.
+2017-03-27 09:28:00,013 INFO org.apache.hadoop.dfs.Storage: Edits file edits of size 4 edits # 0 loaded in 0 seconds.
+2017-03-27 09:28:00,014 INFO org.apache.hadoop.fs.FSNamesystem: Finished loading FSImage in 55 msecs
+2017-03-27 09:28:00,016 INFO org.apache.hadoop.dfs.StateChange: STATE* Leaving safe mode after 0 secs.
+2017-03-27 09:28:00,016 INFO org.apache.hadoop.dfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+2017-03-27 09:28:00,016 INFO org.apache.hadoop.dfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2017-03-27 09:28:00,074 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-03-27 09:28:00,122 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-03-27 09:28:00,123 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-03-27 09:28:00,123 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-03-27 09:28:00,360 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@1eeb142
+2017-03-27 09:28:00,398 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-03-27 09:28:00,420 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50070
+2017-03-27 09:28:00,420 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1051274
+2017-03-27 09:28:00,420 INFO org.apache.hadoop.fs.FSNamesystem: Web-server up at: 0.0.0.0:50070
+2017-03-27 09:28:00,422 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9005: starting
+2017-03-27 09:28:00,422 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9005: starting
+2017-03-27 09:28:00,423 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-03-27 09:28:00,423 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9005: starting
+2017-03-27 09:28:00,423 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9005: starting
+2017-03-27 09:28:00,424 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9005: starting
+2017-03-27 09:28:00,424 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9005: starting
+2017-03-27 09:28:00,424 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9005: starting
+2017-03-27 09:28:00,424 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9005: starting
+2017-03-27 09:28:00,424 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9005: starting
+2017-03-27 09:28:00,425 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9005: starting
+2017-03-27 09:28:00,429 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9005: starting
+2017-03-27 09:28:01,826 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.1.153:50010 storage DS-301016798-192.168.1.153-50010-1490599681823
+2017-03-27 09:28:01,830 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.1.153:50010
+2017-03-27 09:33:03,188 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 09:33:03,188 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 6 Total time for transactions(ms): 0 Number of syncs: 3 SyncTimes(ms): 23 
+2017-03-27 09:33:03,542 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 09:33:03,542 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 10:13:56,649 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 1 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 10:13:57,273 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /_distcp_logs_5ypf8a/_logs/history/rivervm1_1490601608804_job_201703271000_0001_conf.xml. blk_2568797060281264624_1002
+2017-03-27 10:13:57,339 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_2568797060281264624_1002 size 14452
+2017-03-27 10:14:00,361 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file24.dat. blk_6080360283470183608_1004
+2017-03-27 10:14:01,222 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file1.dat. blk_-2094866362642099751_1007
+2017-03-27 10:14:01,888 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file2.dat. blk_7827701819542200738_1008
+2017-03-27 10:14:01,993 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-2094866362642099751_1007 size 25165824
+2017-03-27 10:14:02,063 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file10.dat. blk_4999708615291404538_1009
+2017-03-27 10:14:02,977 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_6080360283470183608_1004 size 67108864
+2017-03-27 10:14:02,978 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file24.dat. blk_77156105625159019_1009
+2017-03-27 10:14:05,364 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_7827701819542200738_1008 size 67108864
+2017-03-27 10:14:05,369 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file2.dat. blk_-2164840497644990954_1009
+2017-03-27 10:14:05,389 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_77156105625159019_1009 size 67108864
+2017-03-27 10:14:05,390 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file24.dat. blk_-3483444029799686778_1009
+2017-03-27 10:14:06,043 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_4999708615291404538_1009 size 67108864
+2017-03-27 10:14:06,048 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file10.dat. blk_-8066391900955634049_1009
+2017-03-27 10:14:07,343 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-8066391900955634049_1009 size 37748736
+2017-03-27 10:14:08,473 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-2164840497644990954_1009 size 48234496
+2017-03-27 10:14:08,504 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-3483444029799686778_1009 size 67108864
+2017-03-27 10:14:08,506 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file24.dat. blk_-7493778723727974852_1009
+2017-03-27 10:14:08,523 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file20.dat. blk_-8629272470387052360_1010
+2017-03-27 10:14:08,835 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-7493778723727974852_1009 size 8388608
+2017-03-27 10:14:08,879 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file3.dat. blk_5692112310075549684_1011
+2017-03-27 10:14:09,073 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_5692112310075549684_1011 size 10485760
+2017-03-27 10:14:09,122 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file4.dat. blk_-4253989625423960740_1012
+2017-03-27 10:14:09,530 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-8629272470387052360_1010 size 23068672
+2017-03-27 10:14:09,583 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file21.dat. blk_-1670830419331300172_1013
+2017-03-27 10:14:10,024 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file15.dat. blk_-8590585088902098371_1015
+2017-03-27 10:14:10,143 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-1670830419331300172_1013 size 9437184
+2017-03-27 10:14:10,542 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-4253989625423960740_1012 size 41943040
+2017-03-27 10:14:10,583 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file5.dat. blk_-2302408780964546073_1016
+2017-03-27 10:14:10,659 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-2302408780964546073_1016 size 2097152
+2017-03-27 10:14:10,701 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file6.dat. blk_6208714748447349711_1017
+2017-03-27 10:14:11,530 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_6208714748447349711_1017 size 19922944
+2017-03-27 10:14:12,487 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-8590585088902098371_1015 size 62914560
+2017-03-27 10:14:13,974 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file11.dat. blk_5321136026343912032_1022
+2017-03-27 10:14:13,996 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_-7130303452187537209_1023
+2017-03-27 10:14:14,809 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file13.dat. blk_-4962522951790771042_1025
+2017-03-27 10:14:16,752 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_5321136026343912032_1022 size 67108864
+2017-03-27 10:14:16,757 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file11.dat. blk_-3191059250572155905_1025
+2017-03-27 10:14:17,231 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-7130303452187537209_1023 size 67108864
+2017-03-27 10:14:17,232 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_-2659653320535975599_1025
+2017-03-27 10:14:18,485 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-4962522951790771042_1025 size 67108864
+2017-03-27 10:14:18,487 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file13.dat. blk_-5341759889479327588_1025
+2017-03-27 10:14:19,759 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-3191059250572155905_1025 size 67108864
+2017-03-27 10:14:19,760 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file11.dat. blk_-1686644942677363171_1025
+2017-03-27 10:14:20,600 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_-8236781236896416655_1025
+2017-03-27 10:14:20,601 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-2659653320535975599_1025 size 67108864
+2017-03-27 10:14:21,643 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-1686644942677363171_1025 size 67108864
+2017-03-27 10:14:21,644 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file11.dat. blk_-842084716504846179_1025
+2017-03-27 10:14:22,027 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-5341759889479327588_1025 size 67108864
+2017-03-27 10:14:22,030 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file13.dat. blk_-413038352286815066_1025
+2017-03-27 10:14:23,184 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-842084716504846179_1025 size 29360128
+2017-03-27 10:14:23,693 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-8236781236896416655_1025 size 67108864
+2017-03-27 10:14:23,694 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_3831814425054285226_1025
+2017-03-27 10:14:25,070 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_3831814425054285226_1025 size 67108864
+2017-03-27 10:14:25,072 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_-3154528583702273900_1025
+2017-03-27 10:14:25,332 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-413038352286815066_1025 size 67108864
+2017-03-27 10:14:25,336 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file13.dat. blk_-3331658928826167076_1025
+2017-03-27 10:14:25,685 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file16.dat. blk_592330124942345971_1027
+2017-03-27 10:14:27,950 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-3154528583702273900_1025 size 67108864
+2017-03-27 10:14:27,951 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_4365598953765568592_1027
+2017-03-27 10:14:28,738 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-3331658928826167076_1025 size 67108864
+2017-03-27 10:14:28,781 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_592330124942345971_1027 size 67108864
+2017-03-27 10:14:28,783 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file16.dat. blk_6782146802734596407_1027
+2017-03-27 10:14:28,904 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file13.dat. blk_-2015768638652243797_1027
+2017-03-27 10:14:31,346 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_4365598953765568592_1027 size 67108864
+2017-03-27 10:14:31,361 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_-4721679801125181130_1027
+2017-03-27 10:14:32,379 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_6782146802734596407_1027 size 67108864
+2017-03-27 10:14:32,383 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file16.dat. blk_6807284895884701023_1027
+2017-03-27 10:14:33,331 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-2015768638652243797_1027 size 67108864
+2017-03-27 10:14:33,387 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file14.dat. blk_2730091104899042573_1028
+2017-03-27 10:14:34,154 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-4721679801125181130_1027 size 67108864
+2017-03-27 10:14:34,156 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_6981979748689350957_1028
+2017-03-27 10:14:35,543 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_6807284895884701023_1027 size 67108864
+2017-03-27 10:14:35,546 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file16.dat. blk_-3324837347942857404_1028
+2017-03-27 10:14:36,376 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_6981979748689350957_1028 size 67108864
+2017-03-27 10:14:36,380 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_-47563638886440214_1028
+2017-03-27 10:14:38,190 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-47563638886440214_1028 size 67108864
+2017-03-27 10:14:38,195 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_8943208006973212976_1028
+2017-03-27 10:14:38,885 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_2730091104899042573_1028 size 67108864
+2017-03-27 10:14:38,888 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file14.dat. blk_-3144304914924852603_1028
+2017-03-27 10:14:40,586 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-3324837347942857404_1028 size 67108864
+2017-03-27 10:14:40,588 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file16.dat. blk_-7800672057492068967_1028
+2017-03-27 10:14:40,892 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_8943208006973212976_1028 size 67108864
+2017-03-27 10:14:40,894 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_7788754107479568967_1028
+2017-03-27 10:14:42,106 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-7800672057492068967_1028 size 46137344
+2017-03-27 10:14:42,232 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-3144304914924852603_1028 size 67108864
+2017-03-27 10:14:42,235 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file14.dat. blk_2708130281251666331_1028
+2017-03-27 10:14:42,912 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_7788754107479568967_1028 size 67108864
+2017-03-27 10:14:42,913 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_8796697152303573085_1028
+2017-03-27 10:14:44,559 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file17.dat. blk_-7310046828066742831_1030
+2017-03-27 10:14:44,703 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_2708130281251666331_1028 size 67108864
+2017-03-27 10:14:44,706 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file14.dat. blk_1452222909020542099_1030
+2017-03-27 10:14:44,901 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_8796697152303573085_1028 size 67108864
+2017-03-27 10:14:44,905 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_1918977883823872431_1030
+2017-03-27 10:14:45,025 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_1452222909020542099_1030 size 8388608
+2017-03-27 10:14:46,290 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file22.dat. blk_1790955579169007202_1032
+2017-03-27 10:14:47,914 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_1918977883823872431_1030 size 67108864
+2017-03-27 10:14:47,918 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_8106911049645689647_1032
+2017-03-27 10:14:48,364 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-7310046828066742831_1030 size 67108864
+2017-03-27 10:14:48,367 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file17.dat. blk_-7819798859430863060_1032
+2017-03-27 10:14:48,380 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_1790955579169007202_1032 size 67108864
+2017-03-27 10:14:48,387 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file22.dat. blk_-1981563180420668241_1032
+2017-03-27 10:14:51,253 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-7819798859430863060_1032 size 67108864
+2017-03-27 10:14:51,258 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file17.dat. blk_-928179609182380859_1032
+2017-03-27 10:14:51,263 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_8106911049645689647_1032 size 67108864
+2017-03-27 10:14:51,265 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file12.dat. blk_576845893142373657_1032
+2017-03-27 10:14:51,469 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-1981563180420668241_1032 size 67108864
+2017-03-27 10:14:51,473 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file22.dat. blk_3662703920502032437_1032
+2017-03-27 10:14:51,502 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_576845893142373657_1032 size 4194304
+2017-03-27 10:14:53,693 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file7.dat. blk_-6572918394439012796_1034
+2017-03-27 10:14:53,879 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-928179609182380859_1032 size 67108864
+2017-03-27 10:14:53,881 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file17.dat. blk_2332622332175789243_1034
+2017-03-27 10:14:54,187 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_3662703920502032437_1032 size 67108864
+2017-03-27 10:14:54,219 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file22.dat. blk_8669955310568086937_1034
+2017-03-27 10:14:56,802 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_8669955310568086937_1034 size 67108864
+2017-03-27 10:14:56,806 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file22.dat. blk_1882608459566824213_1034
+2017-03-27 10:14:57,121 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-6572918394439012796_1034 size 67108864
+2017-03-27 10:14:57,124 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file7.dat. blk_-8487695230650922247_1034
+2017-03-27 10:14:57,458 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_2332622332175789243_1034 size 67108864
+2017-03-27 10:14:57,461 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file17.dat. blk_5549696188141485310_1034
+2017-03-27 10:14:59,800 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_5549696188141485310_1034 size 67108864
+2017-03-27 10:14:59,804 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file17.dat. blk_8105802716633108958_1034
+2017-03-27 10:14:59,981 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-8487695230650922247_1034 size 67108864
+2017-03-27 10:14:59,983 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file7.dat. blk_7911304574464441592_1034
+2017-03-27 10:15:01,183 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_1882608459566824213_1034 size 67108864
+2017-03-27 10:15:01,189 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file22.dat. blk_-3074112756728969025_1034
+2017-03-27 10:15:02,992 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_8105802716633108958_1034 size 67108864
+2017-03-27 10:15:02,995 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file17.dat. blk_8010888282962880075_1034
+2017-03-27 10:15:03,821 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-3074112756728969025_1034 size 67108864
+2017-03-27 10:15:03,821 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file22.dat. blk_-2189241805630928199_1034
+2017-03-27 10:15:03,920 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_7911304574464441592_1034 size 67108864
+2017-03-27 10:15:03,924 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file7.dat. blk_-767153949801946804_1034
+2017-03-27 10:15:06,005 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_8010888282962880075_1034 size 67108864
+2017-03-27 10:15:06,008 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file17.dat. blk_-7572059130810255509_1034
+2017-03-27 10:15:06,559 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-2189241805630928199_1034 size 67108864
+2017-03-27 10:15:06,564 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file22.dat. blk_8668568608763850722_1034
+2017-03-27 10:15:07,506 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-767153949801946804_1034 size 67108864
+2017-03-27 10:15:07,507 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file7.dat. blk_-7137661646961799903_1034
+2017-03-27 10:15:09,193 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-7572059130810255509_1034 size 54525952
+2017-03-27 10:15:09,198 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 151 Total time for transactions(ms): 8 Number of syncs: 113 SyncTimes(ms): 851 
+2017-03-27 10:15:09,242 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file18.dat. blk_-5277268978431898042_1035
+2017-03-27 10:15:09,505 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_8668568608763850722_1034 size 67108864
+2017-03-27 10:15:09,530 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file22.dat. blk_70256040114307379_1035
+2017-03-27 10:15:09,627 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-7137661646961799903_1034 size 46137344
+2017-03-27 10:15:09,694 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file8.dat. blk_7837257586932194313_1036
+2017-03-27 10:15:09,909 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_7837257586932194313_1036 size 5242880
+2017-03-27 10:15:10,011 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file9.dat. blk_389057720784272047_1037
+2017-03-27 10:15:10,346 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_389057720784272047_1037 size 8388608
+2017-03-27 10:15:10,503 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-5277268978431898042_1035 size 20971520
+2017-03-27 10:15:10,544 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file19.dat. blk_2821487355214156123_1038
+2017-03-27 10:15:12,165 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_70256040114307379_1035 size 67108864
+2017-03-27 10:15:12,169 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file22.dat. blk_8857719183394296629_1038
+2017-03-27 10:15:13,059 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_2821487355214156123_1038 size 67108864
+2017-03-27 10:15:13,060 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file19.dat. blk_-7806036401123916663_1039
+2017-03-27 10:15:13,173 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_8857719183394296629_1038 size 25165824
+2017-03-27 10:15:13,224 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file23.dat. blk_9188191747911270946_1040
+2017-03-27 10:15:15,170 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_9188191747911270946_1040 size 67108864
+2017-03-27 10:15:15,171 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file23.dat. blk_3389641710431241159_1041
+2017-03-27 10:15:15,562 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-7806036401123916663_1039 size 67108864
+2017-03-27 10:15:15,564 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file19.dat. blk_-6325720429306046991_1041
+2017-03-27 10:15:15,998 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_3389641710431241159_1041 size 27262976
+2017-03-27 10:15:17,032 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-6325720429306046991_1041 size 67108864
+2017-03-27 10:15:17,033 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /distcp/_distcp_tmp_5ypf8a/file19.dat. blk_-6731371227271035089_1041
+2017-03-27 10:15:17,497 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-6731371227271035089_1041 size 18874368
+2017-03-27 10:15:18,756 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.allocateBlock: /_distcp_logs_5ypf8a/_logs/history/rivervm1_1490601608804_job_201703271000_0001_ubuntu_distcp. blk_-153312628154605603_1041
+2017-03-27 10:15:18,765 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.153:50010 is added to blk_-153312628154605603_1041 size 13846
+2017-03-27 10:33:03,637 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 10:33:03,637 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 200 Total time for transactions(ms): 9 Number of syncs: 156 SyncTimes(ms): 1152 
+2017-03-27 10:33:03,746 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 10:33:03,746 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 11:33:03,833 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 11:33:03,833 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 11:33:03,910 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 11:33:03,910 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 12:33:04,011 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 12:33:04,011 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 12:33:04,084 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 12:33:04,084 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 13:33:04,182 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 13:33:04,182 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 13:33:04,258 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 13:33:04,258 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 14:33:04,344 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 14:33:04,345 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 14:33:04,439 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 14:33:04,440 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 15:33:04,538 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 15:33:04,538 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 15:33:04,609 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 15:33:04,609 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 16:33:04,694 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 16:33:04,694 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 16:33:04,776 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 16:33:04,776 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 17:33:04,870 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 17:33:04,870 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 17:33:04,944 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 17:33:04,944 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 18:33:05,022 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 18:33:05,022 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 18:33:05,109 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 18:33:05,110 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 19:33:05,198 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 19:33:05,198 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 19:33:05,838 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 19:33:05,838 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 20:33:06,136 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 20:33:06,136 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 20:33:06,212 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 20:33:06,213 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 21:33:06,301 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 21:33:06,302 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 21:33:06,376 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 21:33:06,376 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 22:33:06,459 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 22:33:06,459 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 22:33:06,537 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 22:33:06,538 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 23:33:06,622 INFO org.apache.hadoop.fs.FSNamesystem: Roll Edit Log from 192.168.1.153
+2017-03-27 23:33:06,622 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-03-27 23:33:06,695 INFO org.apache.hadoop.fs.FSNamesystem: Roll FSImage from 192.168.1.153
+2017-03-27 23:33:06,695 INFO org.apache.hadoop.fs.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0 Number of syncs: 0 SyncTimes(ms): 0 

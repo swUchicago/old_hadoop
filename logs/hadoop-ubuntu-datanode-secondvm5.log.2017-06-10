@@ -1,0 +1,25 @@
+2017-06-10 00:40:49,692 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-10 01:40:50,224 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 02:40:52,928 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 6 msecs
+2017-06-10 03:40:55,470 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 04:40:55,864 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 05:40:56,593 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 06:40:56,634 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 07:40:56,655 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-10 08:40:59,315 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 2 msecs
+2017-06-10 09:41:00,109 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 10:41:00,388 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 11:41:00,890 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 12:41:01,463 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 13:41:04,406 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 14:41:05,441 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 15:41:05,844 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 4 msecs
+2017-06-10 16:41:06,012 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 17:41:06,696 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 18:41:09,235 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 2 msecs
+2017-06-10 19:18:21,741 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_6828596650668451241_1001
+2017-06-10 19:41:09,843 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 20:41:10,854 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 21:41:11,491 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 22:41:14,246 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs
+2017-06-10 23:41:14,862 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 3 msecs

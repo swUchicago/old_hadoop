@@ -1,0 +1,87 @@
+2017-03-27 09:00:20,020 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-03-27 09:04:53,667 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-03-27 09:04:53,845 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-03-27 09:04:53,942 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-03-27 09:04:53,942 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-03-27 09:04:53,943 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-03-27 09:04:54,182 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@1bb4fce
+2017-03-27 09:04:54,215 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-03-27 09:04:54,220 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-03-27 09:04:54,220 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b8a6af
+2017-03-27 09:04:54,234 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-03-27 09:04:54,254 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=34036
+2017-03-27 09:04:54,337 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-03-27 09:04:54,338 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 34036: starting
+2017-03-27 09:04:54,340 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 34036: starting
+2017-03-27 09:04:54,340 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:34036
+2017-03-27 09:04:54,340 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:34036
+2017-03-27 09:04:54,340 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 34036: starting
+2017-03-27 09:04:54,398 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:34036
+2017-03-27 09:05:55,909 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-03-27 09:09:33,567 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-03-27 09:09:33,730 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-03-27 09:09:33,826 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-03-27 09:09:33,827 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-03-27 09:09:33,827 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-03-27 09:09:34,071 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@bcc407
+2017-03-27 09:09:34,100 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-03-27 09:09:34,105 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-03-27 09:09:34,105 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@ca7c93
+2017-03-27 09:09:34,108 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-03-27 09:09:34,128 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=35443
+2017-03-27 09:09:34,191 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-03-27 09:09:34,192 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 35443: starting
+2017-03-27 09:09:34,193 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 35443: starting
+2017-03-27 09:09:34,193 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 35443: starting
+2017-03-27 09:09:34,193 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:35443
+2017-03-27 09:09:34,193 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:35443
+2017-03-27 09:09:34,245 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:35443
+2017-03-27 09:22:20,099 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-03-27 09:28:05,088 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-03-27 09:28:05,260 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-03-27 09:28:05,362 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-03-27 09:28:05,363 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-03-27 09:28:05,363 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-03-27 09:28:05,607 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@16a15c5
+2017-03-27 09:28:05,634 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-03-27 09:28:05,639 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-03-27 09:28:05,639 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@ca7c93
+2017-03-27 09:28:05,647 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-03-27 09:28:05,666 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=48135
+2017-03-27 09:28:05,750 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-03-27 09:28:05,750 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 48135: starting
+2017-03-27 09:28:05,753 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 48135: starting
+2017-03-27 09:28:05,754 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 48135: starting
+2017-03-27 09:28:05,754 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:48135
+2017-03-27 09:28:05,754 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:48135
+2017-03-27 09:28:05,799 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:48135

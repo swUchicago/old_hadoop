@@ -1,0 +1,29 @@
+Exception closing file /twitter_output/_temporary/_attempt_201706181222_0001_r_000001_2/part-00001
+org.apache.hadoop.ipc.RemoteException: java.io.IOException: Could not complete write to file /twitter_output/_temporary/_attempt_201706181222_0001_r_000001_2/part-00001 by DFSClient_attempt_201706181222_0001_r_000001_2
+	at org.apache.hadoop.dfs.NameNode.complete(NameNode.java:357)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:715)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:216)
+	at org.apache.hadoop.dfs.$Proxy1.complete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at org.apache.hadoop.dfs.$Proxy1.complete(Unknown Source)
+	at org.apache.hadoop.dfs.DFSClient$DFSOutputStream.closeInternal(DFSClient.java:2726)
+	at org.apache.hadoop.dfs.DFSClient$DFSOutputStream.close(DFSClient.java:2647)
+	at org.apache.hadoop.dfs.DFSClient.close(DFSClient.java:215)
+	at org.apache.hadoop.dfs.DistributedFileSystem.close(DistributedFileSystem.java:243)
+	at org.apache.hadoop.fs.FileSystem$Cache.closeAll(FileSystem.java:1385)
+	at org.apache.hadoop.fs.FileSystem.closeAll(FileSystem.java:234)
+	at org.apache.hadoop.fs.FileSystem$ClientFinalizer.run(FileSystem.java:219)
+log4j:WARN No appenders could be found for logger (org.apache.hadoop.mapred.TaskRunner).
+log4j:WARN Please initialize the log4j system properly.

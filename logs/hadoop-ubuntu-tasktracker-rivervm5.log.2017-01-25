@@ -1,0 +1,297 @@
+2017-01-25 12:53:10,151 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 12:53:10,259 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because java.lang.RuntimeException: Not a host:port pair: local
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:132)
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:119)
+	at org.apache.hadoop.mapred.JobTracker.getAddress(JobTracker.java:762)
+	at org.apache.hadoop.mapred.TaskTracker.<init>(TaskTracker.java:808)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2354)
+
+2017-01-25 12:53:10,262 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 12:57:04,229 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 12:57:04,331 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because java.lang.RuntimeException: Not a host:port pair: local
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:132)
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:119)
+	at org.apache.hadoop.mapred.JobTracker.getAddress(JobTracker.java:762)
+	at org.apache.hadoop.mapred.TaskTracker.<init>(TaskTracker.java:808)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2354)
+
+2017-01-25 12:57:04,333 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 13:02:33,915 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 13:02:34,017 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because java.lang.RuntimeException: Not a host:port pair: local
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:132)
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:119)
+	at org.apache.hadoop.mapred.JobTracker.getAddress(JobTracker.java:762)
+	at org.apache.hadoop.mapred.TaskTracker.<init>(TaskTracker.java:808)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2354)
+
+2017-01-25 13:02:34,018 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 13:13:19,003 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 13:13:19,106 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because java.lang.RuntimeException: Not a host:port pair: local
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:132)
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:119)
+	at org.apache.hadoop.mapred.JobTracker.getAddress(JobTracker.java:762)
+	at org.apache.hadoop.mapred.TaskTracker.<init>(TaskTracker.java:808)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2354)
+
+2017-01-25 13:13:19,108 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 13:19:22,136 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 13:19:22,237 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because java.lang.RuntimeException: Not a host:port pair: local
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:132)
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:119)
+	at org.apache.hadoop.mapred.JobTracker.getAddress(JobTracker.java:762)
+	at org.apache.hadoop.mapred.TaskTracker.<init>(TaskTracker.java:808)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2354)
+
+2017-01-25 13:19:22,239 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 13:31:29,586 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 13:31:29,689 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because java.lang.RuntimeException: Not a host:port pair: local
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:132)
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:119)
+	at org.apache.hadoop.mapred.JobTracker.getAddress(JobTracker.java:762)
+	at org.apache.hadoop.mapred.TaskTracker.<init>(TaskTracker.java:808)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2354)
+
+2017-01-25 13:31:29,690 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 13:33:29,909 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 13:33:30,011 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because java.lang.RuntimeException: Not a host:port pair: local
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:132)
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:119)
+	at org.apache.hadoop.mapred.JobTracker.getAddress(JobTracker.java:762)
+	at org.apache.hadoop.mapred.TaskTracker.<init>(TaskTracker.java:808)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2354)
+
+2017-01-25 13:33:30,012 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 13:37:08,271 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 13:37:08,373 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because java.lang.RuntimeException: Not a host:port pair: local
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:132)
+	at org.apache.hadoop.net.NetUtils.createSocketAddr(NetUtils.java:119)
+	at org.apache.hadoop.mapred.JobTracker.getAddress(JobTracker.java:762)
+	at org.apache.hadoop.mapred.TaskTracker.<init>(TaskTracker.java:808)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:2354)
+
+2017-01-25 13:37:08,374 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 13:38:52,307 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 13:38:52,469 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-25 13:38:52,589 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-25 13:38:52,590 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-25 13:38:52,590 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-25 13:38:52,833 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e5ccce
+2017-01-25 13:38:52,867 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-25 13:38:52,873 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-25 13:38:52,873 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@ca7c93
+2017-01-25 13:38:52,877 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-25 13:38:52,895 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=60842
+2017-01-25 13:38:52,974 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-25 13:38:52,974 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 60842: starting
+2017-01-25 13:38:52,976 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 60842: starting
+2017-01-25 13:38:52,976 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:60842
+2017-01-25 13:38:52,976 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 60842: starting
+2017-01-25 13:38:52,976 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:60842
+2017-01-25 13:38:53,020 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:60842
+2017-01-25 13:51:06,658 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 13:51:36,986 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 13:51:37,156 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-25 13:51:37,256 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-25 13:51:37,257 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-25 13:51:37,258 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-25 13:51:37,497 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e9e26a
+2017-01-25 13:51:37,531 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-25 13:51:37,536 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-25 13:51:37,536 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b8a6af
+2017-01-25 13:51:37,541 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-25 13:51:37,558 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=48043
+2017-01-25 13:51:37,622 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-25 13:51:37,623 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 48043: starting
+2017-01-25 13:51:37,624 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 48043: starting
+2017-01-25 13:51:37,625 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:48043
+2017-01-25 13:51:37,625 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 48043: starting
+2017-01-25 13:51:37,625 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:48043
+2017-01-25 13:51:37,666 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:48043
+2017-01-25 13:55:23,505 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 13:55:37,826 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 13:55:37,973 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-25 13:55:38,052 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-25 13:55:38,053 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-25 13:55:38,053 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-25 13:55:38,289 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e91e2f
+2017-01-25 13:55:38,322 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-25 13:55:38,327 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-25 13:55:38,327 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@ca7c93
+2017-01-25 13:55:38,332 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-25 13:55:38,350 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=45008
+2017-01-25 13:55:38,428 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-25 13:55:38,428 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 45008: starting
+2017-01-25 13:55:38,429 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 45008: starting
+2017-01-25 13:55:38,430 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:45008
+2017-01-25 13:55:38,430 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 45008: starting
+2017-01-25 13:55:38,430 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:45008
+2017-01-25 13:55:38,473 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:45008
+2017-01-25 13:57:45,024 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 13:59:53,731 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 13:59:53,898 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-25 13:59:54,004 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-25 13:59:54,005 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-25 13:59:54,005 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-25 13:59:54,252 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@e9e26a
+2017-01-25 13:59:54,280 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-25 13:59:54,285 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-25 13:59:54,285 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1b8a6af
+2017-01-25 13:59:54,288 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-25 13:59:54,304 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=55958
+2017-01-25 13:59:54,369 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-25 13:59:54,370 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 55958: starting
+2017-01-25 13:59:54,371 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 55958: starting
+2017-01-25 13:59:54,371 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 55958: starting
+2017-01-25 13:59:54,371 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:55958
+2017-01-25 13:59:54,372 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:55958
+2017-01-25 13:59:54,424 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:55958
+2017-01-25 14:04:00,779 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/
+2017-01-25 14:04:23,780 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-01-25 14:04:23,947 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-01-25 14:04:24,041 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-01-25 14:04:24,042 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-01-25 14:04:24,042 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-01-25 14:04:24,289 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@bcc407
+2017-01-25 14:04:24,324 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-01-25 14:04:24,329 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50060
+2017-01-25 14:04:24,329 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@ca7c93
+2017-01-25 14:04:24,333 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2017-01-25 14:04:24,350 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=35536
+2017-01-25 14:04:24,414 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-25 14:04:24,414 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 35536: starting
+2017-01-25 14:04:24,416 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 35536: starting
+2017-01-25 14:04:24,416 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: ip6-localhost/127.0.0.1:35536
+2017-01-25 14:04:24,416 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 35536: starting
+2017-01-25 14:04:24,416 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_rivervm5:ip6-localhost/127.0.0.1:35536
+2017-01-25 14:04:24,458 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_rivervm5:ip6-localhost/127.0.0.1:35536
+2017-01-25 14:04:29,260 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at rivervm5/192.168.1.153
+************************************************************/

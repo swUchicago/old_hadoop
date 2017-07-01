@@ -1,0 +1,118 @@
+2017-02-17 00:08:51,359 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-3058231665252313651_1008
+2017-02-17 00:33:51,937 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 13 msecs
+2017-02-17 00:34:53,405 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-8483320655190219845_1008
+2017-02-17 00:37:54,861 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_2106921079643837400_1008
+2017-02-17 00:44:13,382 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_8413391439466250353_1008
+2017-02-17 01:31:44,132 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_8138636839376317631_1008
+2017-02-17 01:32:49,358 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_1923557752250053295_1008
+2017-02-17 01:33:53,316 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 15 msecs
+2017-02-17 01:45:23,994 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_5433954761825345843_1008
+2017-02-17 02:06:22,932 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-5489700909656626010_1008
+2017-02-17 02:10:36,451 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-8520987657927516133_1008
+2017-02-17 02:28:35,253 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_4616224537429632060_1008
+2017-02-17 02:33:54,675 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 22 msecs
+2017-02-17 02:40:39,932 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_1902483113281991070_1008
+2017-02-17 03:11:32,919 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_6019972926821509363_1008
+2017-02-17 03:22:58,560 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-8074308034571913333_1008
+2017-02-17 03:33:55,988 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 15 msecs
+2017-02-17 03:59:19,931 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_5793720906789165887_1008
+2017-02-17 04:08:38,628 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-565815299965173349_1008
+2017-02-17 04:10:45,078 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_6600286896899295796_1008
+2017-02-17 04:20:47,512 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-4437239592507049346_1008
+2017-02-17 04:33:57,334 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 14 msecs
+2017-02-17 05:04:02,991 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_3627532070203179817_1008
+2017-02-17 05:07:12,483 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-2642080460242686818_1008
+2017-02-17 05:20:06,177 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_5598327013769559020_1008
+2017-02-17 05:32:35,854 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_1003477049124852031_1008
+2017-02-17 05:33:58,641 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 14 msecs
+2017-02-17 06:33:59,893 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 11 msecs
+2017-02-17 06:48:30,129 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_2975791891398347678_1008
+2017-02-17 06:54:21,491 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-989607822946977883_1008
+2017-02-17 07:07:50,227 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-4976864334869369907_1008
+2017-02-17 07:34:01,162 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 15 msecs
+2017-02-17 08:01:53,997 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-1343700661523163823_1008
+2017-02-17 08:04:28,494 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_603108522533815710_1008
+2017-02-17 08:34:02,422 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 13 msecs
+2017-02-17 08:35:19,972 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_2189075338729819296_1008
+2017-02-17 08:43:20,518 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-2308434136181948079_1008
+2017-02-17 08:58:52,084 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_238501506256166133_1008
+2017-02-17 09:10:13,790 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-2249811630103864635_1008
+2017-02-17 09:34:03,688 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 20 msecs
+2017-02-17 09:53:01,243 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_4659641888553529748_1008
+2017-02-17 10:34:04,955 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 14 msecs
+2017-02-17 10:38:01,716 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_685975610475081333_1008
+2017-02-17 11:16:00,194 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-908872414493755827_1008
+2017-02-17 11:17:04,594 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_8949190292451750618_1008
+2017-02-17 11:18:09,193 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-8662770243883578366_1008
+2017-02-17 11:19:13,793 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_8076301248645575799_1008
+2017-02-17 11:20:18,393 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-4709244569395077466_1008
+2017-02-17 11:21:22,993 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-5778489593457461675_1008
+2017-02-17 11:21:22,996 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-350582134014178905_3009
+2017-02-17 11:28:44,557 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_4275210943111104014_1008
+2017-02-17 11:29:49,156 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_5664011344496610859_1008
+2017-02-17 11:30:53,557 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-766054352572184013_1008
+2017-02-17 11:31:58,157 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_7866175428564643854_1008
+2017-02-17 11:33:02,757 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_4846997503026732032_1008
+2017-02-17 11:34:06,263 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 13 msecs
+2017-02-17 11:34:07,357 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-6292585130257838310_1008
+2017-02-17 11:35:11,956 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-5080911996504813933_1008
+2017-02-17 11:36:16,358 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_8077881803355834158_1008
+2017-02-17 11:37:20,958 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-8891204090779251962_1008
+2017-02-17 11:38:25,557 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_6908547235843808591_1008
+2017-02-17 11:39:30,158 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-3225719440451942511_1008
+2017-02-17 11:40:34,757 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_719401590502406002_1008
+2017-02-17 11:41:39,357 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-2026285762210136289_1008
+2017-02-17 11:42:43,758 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_1575341473780647016_1008
+2017-02-17 11:43:48,357 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-120915867067627091_1008
+2017-02-17 11:44:52,959 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-5887349872063873640_1008
+2017-02-17 11:45:57,558 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-7463965766497417122_1008
+2017-02-17 11:47:02,157 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-6505634145258102407_1008
+2017-02-17 11:48:06,558 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_3408761873875173969_1008
+2017-02-17 11:49:11,165 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-4023870560913908490_1008
+2017-02-17 11:50:15,758 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_8010321096071318332_1008
+2017-02-17 11:51:20,372 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-5341020155615806416_1008
+2017-02-17 11:52:24,967 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-8727871766684725773_1008
+2017-02-17 11:53:29,372 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-1279445851058763434_1008
+2017-02-17 11:54:33,971 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-1336062433966297918_1008
+2017-02-17 11:57:35,426 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_5843743881760563485_1008
+2017-02-17 12:29:02,570 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-7319940577912451912_1008
+2017-02-17 12:34:07,536 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 13 msecs
+2017-02-17 13:31:48,569 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-7447776126307486077_1008
+2017-02-17 13:34:08,796 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 14 msecs
+2017-02-17 14:04:05,874 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_897444965467325512_1008
+2017-02-17 14:05:10,257 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-6955177662756994971_1008
+2017-02-17 14:06:14,858 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-8775907575130515910_1008
+2017-02-17 14:07:19,457 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_8805935482934592711_1008
+2017-02-17 14:08:24,057 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_3476058191567858559_1008
+2017-02-17 14:09:28,657 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_6526231047440723845_1008
+2017-02-17 14:10:33,058 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-7400245282761615993_1008
+2017-02-17 14:11:37,658 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_8220752775087487600_1008
+2017-02-17 14:12:42,257 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-687819746440108636_1008
+2017-02-17 14:13:46,857 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-1534014048795331871_1008
+2017-02-17 14:14:51,456 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-3900420572830048299_1008
+2017-02-17 14:15:56,057 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-4024994113792972716_1008
+2017-02-17 14:17:00,466 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-1972247934089379818_1008
+2017-02-17 14:18:05,057 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-2478955253907014965_1008
+2017-02-17 14:19:09,663 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-5607151077436385692_1008
+2017-02-17 14:20:14,264 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_4972272644249372657_1008
+2017-02-17 14:21:18,858 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-4409813293210610436_1008
+2017-02-17 14:22:23,258 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-7979881510665585858_1008
+2017-02-17 14:23:42,680 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_5836314667975878882_1008
+2017-02-17 14:24:47,307 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-2037799490710456391_1008
+2017-02-17 14:34:10,070 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 13 msecs
+2017-02-17 15:30:42,478 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_7901659078610726396_1008
+2017-02-17 15:34:11,401 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 13 msecs
+2017-02-17 16:15:41,068 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-4902606903612952467_1008
+2017-02-17 16:34:12,675 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 15 msecs
+2017-02-17 17:20:34,201 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-5289315001534031388_1008
+2017-02-17 17:34:14,004 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 14 msecs
+2017-02-17 17:35:39,827 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_5949177678640732802_1008
+2017-02-17 17:52:43,643 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_4730145765080660769_1008
+2017-02-17 18:34:15,258 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 15 msecs
+2017-02-17 19:34:16,584 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 13 msecs
+2017-02-17 20:07:19,345 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_-6024016326590439071_1008
+2017-02-17 20:34:17,878 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 15 msecs
+2017-02-17 20:59:55,155 INFO org.apache.hadoop.dfs.DataBlockScanner: Verification succeeded for blk_8090419409887039267_1008
+2017-02-17 21:34:19,189 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 14 msecs
+2017-02-17 22:34:20,458 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 15 msecs
+2017-02-17 23:34:21,767 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 14 msecs

@@ -1,0 +1,121 @@
+2017-06-19 18:53:56,377 INFO org.apache.hadoop.dfs.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = secondvm1/192.168.1.155
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-19 18:53:56,498 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=9000
+2017-06-19 18:53:56,503 INFO org.apache.hadoop.dfs.NameNode: Namenode up at: secondvm1/192.168.1.155:9000
+2017-06-19 18:53:56,506 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2017-06-19 18:53:56,519 INFO org.apache.hadoop.dfs.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-06-19 18:53:56,593 INFO org.apache.hadoop.fs.FSNamesystem: fsOwner=ubuntu,ubuntu,adm,dialout,cdrom,plugdev,lpadmin,sambashare,admin
+2017-06-19 18:53:56,593 INFO org.apache.hadoop.fs.FSNamesystem: supergroup=supergroup
+2017-06-19 18:53:56,593 INFO org.apache.hadoop.fs.FSNamesystem: isPermissionEnabled=true
+2017-06-19 18:53:56,602 INFO org.apache.hadoop.dfs.FSNamesystemMetrics: Initializing FSNamesystemMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2017-06-19 18:53:56,603 INFO org.apache.hadoop.fs.FSNamesystem: Registered FSNamesystemStatusMBean
+2017-06-19 18:53:56,637 INFO org.apache.hadoop.dfs.Storage: Number of files = 8
+2017-06-19 18:53:56,645 INFO org.apache.hadoop.dfs.Storage: Number of files under construction = 0
+2017-06-19 18:53:56,645 INFO org.apache.hadoop.dfs.Storage: Image file of size 1158 loaded in 0 seconds.
+2017-06-19 18:53:56,646 INFO org.apache.hadoop.dfs.Storage: Edits file edits of size 4 edits # 0 loaded in 0 seconds.
+2017-06-19 18:53:56,646 INFO org.apache.hadoop.fs.FSNamesystem: Finished loading FSImage in 84 msecs
+2017-06-19 18:53:56,654 INFO org.apache.hadoop.dfs.StateChange: STATE* Safe mode ON. 
+The ratio of reported blocks 0.0000 has not reached the threshold 0.9990. Safe mode will be turned off automatically.
+2017-06-19 18:53:56,718 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-19 18:53:56,796 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-19 18:53:56,797 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-19 18:53:56,797 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-19 18:53:57,153 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@16f5a0
+2017-06-19 18:53:57,190 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-19 18:53:57,192 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50070
+2017-06-19 18:53:57,192 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@bf7fe
+2017-06-19 18:53:57,192 INFO org.apache.hadoop.fs.FSNamesystem: Web-server up at: 0.0.0.0:50070
+2017-06-19 18:53:57,193 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-19 18:53:57,194 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9000: starting
+2017-06-19 18:53:57,194 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000: starting
+2017-06-19 18:53:57,195 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9000: starting
+2017-06-19 18:53:57,195 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000: starting
+2017-06-19 18:53:57,195 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000: starting
+2017-06-19 18:53:57,195 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9000: starting
+2017-06-19 18:53:57,195 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9000: starting
+2017-06-19 18:53:57,196 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000: starting
+2017-06-19 18:53:57,196 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000: starting
+2017-06-19 18:53:57,196 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9000: starting
+2017-06-19 18:53:57,200 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9000: starting
+2017-06-19 18:53:58,537 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.1.156:50010 storage DS-617771068-192.168.1.156-50010-1495296278687
+2017-06-19 18:53:58,543 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.1.156:50010
+2017-06-19 18:53:58,573 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.1.158:50010 storage DS-1350005183-192.168.1.158-50010-1495296352631
+2017-06-19 18:53:58,574 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.1.158:50010
+2017-06-19 18:53:58,589 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.1.157:50010 storage DS-389736352-192.168.1.157-50010-1495296279366
+2017-06-19 18:53:58,589 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.1.157:50010
+2017-06-19 18:53:58,626 INFO org.apache.hadoop.dfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.1.159:50010 storage DS-2051926727-192.168.1.159-50010-1495296278987
+2017-06-19 18:53:58,627 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.1.159:50010
+2017-06-19 18:54:01,003 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9000, call delete(/home/ubuntu/old_hadoop_temp/mapred/system, true) from 192.168.1.155:54117: error: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 0.0000 has not reached the threshold 0.9990. Safe mode will be turned off automatically.
+org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 0.0000 has not reached the threshold 0.9990. Safe mode will be turned off automatically.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+2017-06-19 18:54:01,559 INFO org.apache.hadoop.dfs.StateChange: STATE* Safe mode extension entered. 
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 29 seconds.
+2017-06-19 18:54:11,023 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000, call delete(/home/ubuntu/old_hadoop_temp/mapred/system, true) from 192.168.1.155:54118: error: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 20 seconds.
+org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 20 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+2017-06-19 18:54:21,030 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000, call delete(/home/ubuntu/old_hadoop_temp/mapred/system, true) from 192.168.1.155:54119: error: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 10 seconds.
+org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 10 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+2017-06-19 18:54:21,566 INFO org.apache.hadoop.dfs.StateChange: STATE* Safe mode ON. 
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 9 seconds.
+2017-06-19 18:54:31,037 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000, call delete(/home/ubuntu/old_hadoop_temp/mapred/system, true) from 192.168.1.155:54120: error: org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 0 seconds.
+org.apache.hadoop.dfs.SafeModeException: Cannot delete /home/ubuntu/old_hadoop_temp/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 0 seconds.
+	at org.apache.hadoop.dfs.FSNamesystem.deleteInternal(FSNamesystem.java:1494)
+	at org.apache.hadoop.dfs.FSNamesystem.delete(FSNamesystem.java:1466)
+	at org.apache.hadoop.dfs.NameNode.delete(NameNode.java:425)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:452)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:888)
+2017-06-19 18:54:31,568 INFO org.apache.hadoop.fs.FSNamesystem: Total number of blocks = 24
+2017-06-19 18:54:31,569 INFO org.apache.hadoop.fs.FSNamesystem: Number of invalid blocks = 0
+2017-06-19 18:54:31,569 INFO org.apache.hadoop.fs.FSNamesystem: Number of under-replicated blocks = 0
+2017-06-19 18:54:31,569 INFO org.apache.hadoop.fs.FSNamesystem: Number of  over-replicated blocks = 0
+2017-06-19 18:54:31,569 INFO org.apache.hadoop.dfs.StateChange: STATE* Leaving safe mode after 35 secs.
+2017-06-19 18:54:31,569 INFO org.apache.hadoop.dfs.StateChange: STATE* Safe mode is OFF.
+2017-06-19 18:54:31,569 INFO org.apache.hadoop.dfs.StateChange: STATE* Network topology has 1 racks and 4 datanodes
+2017-06-19 18:54:31,570 INFO org.apache.hadoop.dfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2017-06-19 18:56:56,779 INFO org.apache.hadoop.dfs.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at secondvm1/192.168.1.155
+************************************************************/

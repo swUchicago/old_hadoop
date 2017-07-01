@@ -1,0 +1,336 @@
+2017-02-18 00:34:23,050 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 16 msecs
+2017-02-18 01:34:24,309 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 16 msecs
+2017-02-18 02:34:25,607 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 14 msecs
+2017-02-18 03:34:26,951 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 26 msecs
+2017-02-18 04:34:28,236 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 13 msecs
+2017-02-18 05:34:29,507 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 14 msecs
+2017-02-18 06:19:48,381 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at rivervm5/192.168.1.153
+************************************************************/
+2017-02-18 06:24:08,224 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-02-18 06:24:08,472 INFO org.apache.hadoop.dfs.DataNode: Registered FSDatasetStatusMBean
+2017-02-18 06:24:08,474 INFO org.apache.hadoop.dfs.DataNode: Opened info server at 50010
+2017-02-18 06:24:08,475 INFO org.apache.hadoop.dfs.DataNode: Balancing bandwith is 1048576 bytes/s
+2017-02-18 06:24:08,554 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-02-18 06:24:08,603 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-02-18 06:24:08,604 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-02-18 06:24:08,604 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-02-18 06:24:08,808 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@72bcaa
+2017-02-18 06:24:08,838 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-02-18 06:24:08,841 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50075
+2017-02-18 06:24:08,841 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@7fb716
+2017-02-18 06:24:08,845 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=DataNode, sessionId=null
+2017-02-18 06:24:08,866 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2017-02-18 06:24:08,871 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2017-02-18 06:24:08,873 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-02-18 06:24:08,875 INFO org.apache.hadoop.dfs.DataNode: dnRegistration = DatanodeRegistration(rivervm5:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020)
+2017-02-18 06:24:08,877 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2017-02-18 06:24:08,878 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2017-02-18 06:24:08,878 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2017-02-18 06:24:08,880 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/home/ubuntu/old_hadoop_temp/dfs/data/current'}
+2017-02-18 06:24:08,880 INFO org.apache.hadoop.dfs.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2017-02-18 06:24:08,890 INFO org.apache.hadoop.dfs.DataNode: Starting Periodic block scanner.
+2017-02-18 06:24:11,914 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 279 blocks got processed in 30 msecs
+2017-02-18 06:25:44,921 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-350582134014178905_3009 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_-350582134014178905
+2017-02-18 06:25:44,921 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_7001679091985519602_3009 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_7001679091985519602
+2017-02-18 06:25:53,039 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-1348880191045950899_3010 src: /192.168.1.152:38436 dest: /192.168.1.152:50010
+2017-02-18 06:25:53,183 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-1348880191045950899_3010 of size 91176 from /192.168.1.152
+2017-02-18 06:25:53,184 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_-1348880191045950899_3010 terminating
+2017-02-18 06:25:53,306 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_6668246371376628866_3011 src: /192.168.1.152:38437 dest: /192.168.1.152:50010
+2017-02-18 06:25:53,313 INFO org.apache.hadoop.dfs.DataNode: Received block blk_6668246371376628866_3011 of size 1553 from /192.168.1.152
+2017-02-18 06:25:53,315 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_6668246371376628866_3011 terminating
+2017-02-18 06:25:53,393 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_778725649223046907_3012 src: /192.168.1.152:38438 dest: /192.168.1.152:50010
+2017-02-18 06:25:53,411 INFO org.apache.hadoop.dfs.DataNode: Received block blk_778725649223046907_3012 of size 13555 from /192.168.1.152
+2017-02-18 06:25:53,413 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_778725649223046907_3012 terminating
+2017-02-18 06:25:53,657 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-1246034704218154055_3014 src: /192.168.1.152:38439 dest: /192.168.1.152:50010
+2017-02-18 06:25:53,667 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-1246034704218154055_3014 of size 13541 from /192.168.1.152
+2017-02-18 06:25:53,668 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_-1246034704218154055_3014 terminating
+2017-02-18 06:25:56,920 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_6668246371376628866_3011 to 192.168.1.150:50010
+2017-02-18 06:25:56,931 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_6668246371376628866_3011 to /192.168.1.150:50010
+2017-02-18 06:25:57,820 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_778725649223046907_3012 to /192.168.1.153
+2017-02-18 06:25:57,858 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-1348880191045950899_3010 to /192.168.1.153
+2017-02-18 06:26:01,933 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-2533428256785588484_1001 to /192.168.1.153
+2017-02-18 06:26:30,634 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-2451681328971074404_1001 to /192.168.1.153
+2017-02-18 06:26:34,935 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_2319626176762232735_1001 to /192.168.1.153
+2017-02-18 06:26:39,492 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-7187489803710366056_1001 to /192.168.1.153
+2017-02-18 06:26:53,260 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_4574867315298557489_3016 src: /192.168.1.152:38481 dest: /192.168.1.152:50010
+2017-02-18 06:26:53,311 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_2106636944883846329_3017 src: /192.168.1.152:38483 dest: /192.168.1.152:50010
+2017-02-18 06:26:53,363 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-761178929667768738_3018 src: /192.168.1.153:59576 dest: /192.168.1.153:50010
+2017-02-18 06:26:53,429 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_4780452430229676071_3019 src: /192.168.1.152:38485 dest: /192.168.1.152:50010
+2017-02-18 06:26:53,496 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_75628598029455367_3019 src: /192.168.1.153:59578 dest: /192.168.1.153:50010
+2017-02-18 06:26:54,537 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-761178929667768738_3018 of size 7396493 from /192.168.1.153
+2017-02-18 06:26:54,538 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 2 for block blk_-761178929667768738_3018 terminating
+2017-02-18 06:26:54,552 INFO org.apache.hadoop.dfs.DataNode: Received block blk_4574867315298557489_3016 of size 7380474 from /192.168.1.152
+2017-02-18 06:26:54,552 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_4574867315298557489_3016 terminating
+2017-02-18 06:26:54,584 INFO org.apache.hadoop.dfs.DataNode: Received block blk_2106636944883846329_3017 of size 7385375 from /192.168.1.152
+2017-02-18 06:26:54,585 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_2106636944883846329_3017 terminating
+2017-02-18 06:26:54,685 INFO org.apache.hadoop.dfs.DataNode: Received block blk_4780452430229676071_3019 of size 7391493 from /192.168.1.152
+2017-02-18 06:26:54,685 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_4780452430229676071_3019 terminating
+2017-02-18 06:26:54,745 INFO org.apache.hadoop.dfs.DataNode: Received block blk_75628598029455367_3019 of size 7383970 from /192.168.1.153
+2017-02-18 06:26:54,745 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 2 for block blk_75628598029455367_3019 terminating
+2017-02-18 06:26:54,905 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_426448746050341138_3020 src: /192.168.1.151:58913 dest: /192.168.1.151:50010
+2017-02-18 06:26:55,570 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_4757618196663649206_3021 src: /192.168.1.151:58916 dest: /192.168.1.151:50010
+2017-02-18 06:26:56,054 INFO org.apache.hadoop.dfs.DataNode: Received block blk_426448746050341138_3020 of size 7397512 from /192.168.1.151
+2017-02-18 06:26:56,054 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_426448746050341138_3020 terminating
+2017-02-18 06:26:56,663 INFO org.apache.hadoop.dfs.DataNode: Received block blk_4757618196663649206_3021 of size 7388215 from /192.168.1.151
+2017-02-18 06:26:56,664 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_4757618196663649206_3021 terminating
+2017-02-18 06:26:57,785 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_4741907427978337791_3022 src: /192.168.1.151:58922 dest: /192.168.1.151:50010
+2017-02-18 06:26:58,791 INFO org.apache.hadoop.dfs.DataNode: Received block blk_4741907427978337791_3022 of size 7385399 from /192.168.1.151
+2017-02-18 06:26:58,791 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_4741907427978337791_3022 terminating
+2017-02-18 06:26:59,943 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_-761178929667768738_3018 to 192.168.1.150:50010
+2017-02-18 06:26:59,944 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_2106636944883846329_3017 to 192.168.1.150:50010
+2017-02-18 06:27:00,157 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_-761178929667768738_3018 to /192.168.1.150:50010
+2017-02-18 06:27:00,488 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_2106636944883846329_3017 to /192.168.1.150:50010
+2017-02-18 06:27:02,908 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-5013409016311000270_3024 src: /192.168.1.153:59595 dest: /192.168.1.153:50010
+2017-02-18 06:27:02,971 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_439932954651119426_3024 src: /192.168.1.151:58931 dest: /192.168.1.151:50010
+2017-02-18 06:27:03,111 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-3580831946157387281_3026 src: /192.168.1.151:58934 dest: /192.168.1.151:50010
+2017-02-18 06:27:03,115 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_8931481524110913167_3026 src: /192.168.1.153:59597 dest: /192.168.1.153:50010
+2017-02-18 06:27:03,192 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-57553763049271097_3027 src: /192.168.1.151:58935 dest: /192.168.1.151:50010
+2017-02-18 06:27:04,041 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-5013409016311000270_3024 of size 7401098 from /192.168.1.153
+2017-02-18 06:27:04,041 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 2 for block blk_-5013409016311000270_3024 terminating
+2017-02-18 06:27:04,205 INFO org.apache.hadoop.dfs.DataNode: Received block blk_439932954651119426_3024 of size 7397904 from /192.168.1.151
+2017-02-18 06:27:04,205 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_439932954651119426_3024 terminating
+2017-02-18 06:27:04,320 INFO org.apache.hadoop.dfs.DataNode: Received block blk_8931481524110913167_3026 of size 7396297 from /192.168.1.153
+2017-02-18 06:27:04,320 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 2 for block blk_8931481524110913167_3026 terminating
+2017-02-18 06:27:04,364 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-57553763049271097_3027 of size 7385389 from /192.168.1.151
+2017-02-18 06:27:04,364 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_-57553763049271097_3027 terminating
+2017-02-18 06:27:04,465 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-3580831946157387281_3026 of size 7399613 from /192.168.1.151
+2017-02-18 06:27:04,466 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_-3580831946157387281_3026 terminating
+2017-02-18 06:27:05,403 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_3018978522267851728_3028 src: /192.168.1.152:38509 dest: /192.168.1.152:50010
+2017-02-18 06:27:06,434 INFO org.apache.hadoop.dfs.DataNode: Received block blk_3018978522267851728_3028 of size 7397188 from /192.168.1.152
+2017-02-18 06:27:06,434 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_3018978522267851728_3028 terminating
+2017-02-18 06:27:08,989 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_-3580831946157387281_3026 to 192.168.1.150:50010
+2017-02-18 06:27:08,992 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_439932954651119426_3024 to 192.168.1.150:50010
+2017-02-18 06:27:09,260 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_439932954651119426_3024 to /192.168.1.150:50010
+2017-02-18 06:27:09,517 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_-3580831946157387281_3026 to /192.168.1.150:50010
+2017-02-18 06:27:11,946 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_-5013409016311000270_3024 to 192.168.1.150:50010
+2017-02-18 06:27:12,105 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_-5013409016311000270_3024 to /192.168.1.150:50010
+2017-02-18 06:27:12,684 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_8342987148060477674_3029 src: /192.168.1.153:59615 dest: /192.168.1.153:50010
+2017-02-18 06:27:12,803 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_7027665864586160952_3030 src: /192.168.1.153:59617 dest: /192.168.1.153:50010
+2017-02-18 06:27:12,980 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-749453077485682157_3032 src: /192.168.1.152:38524 dest: /192.168.1.152:50010
+2017-02-18 06:27:13,011 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-247607553493395305_3033 src: /192.168.1.151:58950 dest: /192.168.1.151:50010
+2017-02-18 06:27:13,095 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-8565679706524915716_3033 src: /192.168.1.151:58952 dest: /192.168.1.151:50010
+2017-02-18 06:27:13,784 INFO org.apache.hadoop.dfs.DataNode: Received block blk_8342987148060477674_3029 of size 7388195 from /192.168.1.153
+2017-02-18 06:27:13,784 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 2 for block blk_8342987148060477674_3029 terminating
+2017-02-18 06:27:14,102 INFO org.apache.hadoop.dfs.DataNode: Received block blk_7027665864586160952_3030 of size 7390355 from /192.168.1.153
+2017-02-18 06:27:14,103 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 2 for block blk_7027665864586160952_3030 terminating
+2017-02-18 06:27:14,232 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-8565679706524915716_3033 of size 7393860 from /192.168.1.151
+2017-02-18 06:27:14,233 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_-8565679706524915716_3033 terminating
+2017-02-18 06:27:14,236 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-247607553493395305_3033 of size 7396050 from /192.168.1.151
+2017-02-18 06:27:14,236 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_-247607553493395305_3033 terminating
+2017-02-18 06:27:14,261 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-749453077485682157_3032 of size 7389134 from /192.168.1.152
+2017-02-18 06:27:14,262 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_-749453077485682157_3032 terminating
+2017-02-18 06:27:15,291 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_492932718509644783_3034 src: /192.168.1.152:38527 dest: /192.168.1.152:50010
+2017-02-18 06:27:16,224 INFO org.apache.hadoop.dfs.DataNode: Received block blk_492932718509644783_3034 of size 7397379 from /192.168.1.152
+2017-02-18 06:27:16,224 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_492932718509644783_3034 terminating
+2017-02-18 06:27:17,151 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_2859645172795736852_3034 src: /192.168.1.149:40075 dest: /192.168.1.149:50010
+2017-02-18 06:27:17,173 INFO org.apache.hadoop.dfs.DataNode: Received block blk_2859645172795736852_3034 of size 36919 from /192.168.1.149
+2017-02-18 06:27:17,174 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 2 for block blk_2859645172795736852_3034 terminating
+2017-02-18 06:27:17,948 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_7027665864586160952_3030 to 192.168.1.150:50010
+2017-02-18 06:27:18,078 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_7027665864586160952_3030 to /192.168.1.150:50010
+2017-02-18 06:27:23,954 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-8565679706524915716_3033 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_-8565679706524915716
+2017-02-18 06:27:23,958 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-5013409016311000270_3024 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_-5013409016311000270
+2017-02-18 06:27:23,960 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-3580831946157387281_3026 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_-3580831946157387281
+2017-02-18 06:27:23,961 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-1348880191045950899_3010 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_-1348880191045950899
+2017-02-18 06:27:23,961 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-1246034704218154055_3014 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_-1246034704218154055
+2017-02-18 06:27:23,963 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-761178929667768738_3018 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_-761178929667768738
+2017-02-18 06:27:23,965 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-749453077485682157_3032 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_-749453077485682157
+2017-02-18 06:27:23,967 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-247607553493395305_3033 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_-247607553493395305
+2017-02-18 06:27:23,968 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-57553763049271097_3027 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_-57553763049271097
+2017-02-18 06:27:23,970 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_75628598029455367_3019 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_75628598029455367
+2017-02-18 06:27:23,972 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_426448746050341138_3020 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_426448746050341138
+2017-02-18 06:27:23,974 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_439932954651119426_3024 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_439932954651119426
+2017-02-18 06:27:23,976 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_492932718509644783_3034 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_492932718509644783
+2017-02-18 06:27:23,976 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_778725649223046907_3012 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_778725649223046907
+2017-02-18 06:27:23,978 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_2106636944883846329_3017 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_2106636944883846329
+2017-02-18 06:27:23,978 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_2859645172795736852_3034 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_2859645172795736852
+2017-02-18 06:27:23,980 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_3018978522267851728_3028 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_3018978522267851728
+2017-02-18 06:27:23,982 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_4574867315298557489_3016 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_4574867315298557489
+2017-02-18 06:27:23,984 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_4741907427978337791_3022 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_4741907427978337791
+2017-02-18 06:27:23,985 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_4757618196663649206_3021 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_4757618196663649206
+2017-02-18 06:27:23,987 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_4780452430229676071_3019 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_4780452430229676071
+2017-02-18 06:27:23,987 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_6668246371376628866_3011 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_6668246371376628866
+2017-02-18 06:27:23,989 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_7027665864586160952_3030 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_7027665864586160952
+2017-02-18 06:27:23,991 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_8342987148060477674_3029 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_8342987148060477674
+2017-02-18 06:27:23,992 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_8931481524110913167_3026 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_8931481524110913167
+2017-02-18 06:38:39,210 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 20 msecs
+2017-02-18 06:46:18,949 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_2608894434859545416_3035 src: /192.168.1.151:58958 dest: /192.168.1.151:50010
+2017-02-18 06:46:18,966 INFO org.apache.hadoop.dfs.DataNode: Received block blk_2608894434859545416_3035 of size 91176 from /192.168.1.151
+2017-02-18 06:46:18,966 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_2608894434859545416_3035 terminating
+2017-02-18 06:46:19,034 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_8892811662475954286_3036 src: /192.168.1.151:58959 dest: /192.168.1.151:50010
+2017-02-18 06:46:19,043 INFO org.apache.hadoop.dfs.DataNode: Received block blk_8892811662475954286_3036 of size 2069 from /192.168.1.151
+2017-02-18 06:46:19,044 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_8892811662475954286_3036 terminating
+2017-02-18 06:46:19,115 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-868799695178500672_3037 src: /192.168.1.149:40087 dest: /192.168.1.149:50010
+2017-02-18 06:46:19,132 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-868799695178500672_3037 of size 13554 from /192.168.1.149
+2017-02-18 06:46:19,132 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 2 for block blk_-868799695178500672_3037 terminating
+2017-02-18 06:46:19,233 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_6600739050429625595_3039 src: /192.168.1.152:38539 dest: /192.168.1.152:50010
+2017-02-18 06:46:19,245 INFO org.apache.hadoop.dfs.DataNode: Received block blk_6600739050429625595_3039 of size 13540 from /192.168.1.152
+2017-02-18 06:46:19,246 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_6600739050429625595_3039 terminating
+2017-02-18 06:46:19,260 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_8892811662475954286_3036 to /192.168.1.149
+2017-02-18 06:46:19,794 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-868799695178500672_3037 to /192.168.1.150
+2017-02-18 06:46:20,483 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-868799695178500672_3037 to /192.168.1.153
+2017-02-18 06:46:20,506 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_2608894434859545416_3035 to /192.168.1.153
+2017-02-18 06:46:24,353 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_-868799695178500672_3037 to 192.168.1.150:50010
+2017-02-18 06:46:24,354 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_6600739050429625595_3039 to 192.168.1.150:50010
+2017-02-18 06:46:24,376 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_6600739050429625595_3039 to /192.168.1.150:50010
+2017-02-18 06:46:24,382 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_-868799695178500672_3037 to /192.168.1.150:50010
+2017-02-18 06:46:26,838 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-3253960423557006662_1001 to /192.168.1.153
+2017-02-18 06:46:45,280 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-7762792675205858163_1001 to /192.168.1.153
+2017-02-18 06:47:40,027 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_1232771934423139301_3040 src: /192.168.1.152:38572 dest: /192.168.1.152:50010
+2017-02-18 06:47:52,613 INFO org.apache.hadoop.dfs.DataNode: Received block blk_1232771934423139301_3040 of size 67108864 from /192.168.1.152
+2017-02-18 06:47:52,615 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_1232771934423139301_3040 terminating
+2017-02-18 06:47:52,633 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_9195165268298311675_3040 src: /192.168.1.151:58985 dest: /192.168.1.151:50010
+2017-02-18 06:48:04,193 INFO org.apache.hadoop.dfs.DataNode: Received block blk_9195165268298311675_3040 of size 67108864 from /192.168.1.151
+2017-02-18 06:48:04,193 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_9195165268298311675_3040 terminating
+2017-02-18 06:48:04,209 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-6467942367232874170_3040 src: /192.168.1.152:38576 dest: /192.168.1.152:50010
+2017-02-18 06:48:06,629 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-6467942367232874170_3040 of size 13623665 from /192.168.1.152
+2017-02-18 06:48:06,630 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_-6467942367232874170_3040 terminating
+2017-02-18 06:48:07,003 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-4006773801014955856_3040 src: /192.168.1.152:38577 dest: /192.168.1.152:50010
+2017-02-18 06:48:07,011 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-4006773801014955856_3040 of size 21443 from /192.168.1.152
+2017-02-18 06:48:07,011 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_-4006773801014955856_3040 terminating
+2017-02-18 06:48:12,405 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-868799695178500672_3037 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_-868799695178500672
+2017-02-18 06:48:12,405 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_2608894434859545416_3035 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_2608894434859545416
+2017-02-18 06:48:12,405 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_8892811662475954286_3036 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_8892811662475954286
+2017-02-18 06:51:36,478 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-6467942367232874170_3040 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_-6467942367232874170
+2017-02-18 06:51:36,478 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-4006773801014955856_3040 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_-4006773801014955856
+2017-02-18 06:51:36,497 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_1232771934423139301_3040 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_1232771934423139301
+2017-02-18 06:51:36,497 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_6600739050429625595_3039 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_6600739050429625595
+2017-02-18 06:51:36,512 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_9195165268298311675_3040 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_9195165268298311675
+2017-02-18 06:52:02,119 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at rivervm5/192.168.1.153
+************************************************************/
+2017-02-18 06:52:07,648 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = rivervm5/192.168.1.153
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-02-18 06:52:07,888 INFO org.apache.hadoop.dfs.DataNode: Registered FSDatasetStatusMBean
+2017-02-18 06:52:07,890 INFO org.apache.hadoop.dfs.DataNode: Opened info server at 50010
+2017-02-18 06:52:07,892 INFO org.apache.hadoop.dfs.DataNode: Balancing bandwith is 1048576 bytes/s
+2017-02-18 06:52:07,985 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-02-18 06:52:08,045 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-02-18 06:52:08,046 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-02-18 06:52:08,046 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-02-18 06:52:08,265 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@d08435
+2017-02-18 06:52:08,300 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-02-18 06:52:08,303 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50075
+2017-02-18 06:52:08,303 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@7fb716
+2017-02-18 06:52:08,309 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=DataNode, sessionId=null
+2017-02-18 06:52:08,327 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2017-02-18 06:52:08,331 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-02-18 06:52:08,332 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2017-02-18 06:52:08,333 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2017-02-18 06:52:08,333 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2017-02-18 06:52:08,333 INFO org.apache.hadoop.dfs.DataNode: dnRegistration = DatanodeRegistration(rivervm5:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020)
+2017-02-18 06:52:08,334 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2017-02-18 06:52:08,336 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/home/ubuntu/old_hadoop_temp/dfs/data/current'}
+2017-02-18 06:52:08,337 INFO org.apache.hadoop.dfs.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2017-02-18 06:52:08,344 INFO org.apache.hadoop.dfs.DataNode: Starting Periodic block scanner.
+2017-02-18 06:52:11,369 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 32 msecs
+2017-02-18 06:54:25,620 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_4182539398478572959_3041 src: /192.168.1.151:58989 dest: /192.168.1.151:50010
+2017-02-18 06:54:25,653 INFO org.apache.hadoop.dfs.DataNode: Received block blk_4182539398478572959_3041 of size 91176 from /192.168.1.151
+2017-02-18 06:54:25,654 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_4182539398478572959_3041 terminating
+2017-02-18 06:54:25,775 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-7763241851812621916_3042 src: /192.168.1.149:40134 dest: /192.168.1.149:50010
+2017-02-18 06:54:25,804 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-7763241851812621916_3042 of size 2069 from /192.168.1.149
+2017-02-18 06:54:25,806 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 2 for block blk_-7763241851812621916_3042 terminating
+2017-02-18 06:54:25,883 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-9212229147592252343_3043 src: /192.168.1.152:38585 dest: /192.168.1.152:50010
+2017-02-18 06:54:25,892 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-9212229147592252343_3043 of size 13553 from /192.168.1.152
+2017-02-18 06:54:25,894 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_-9212229147592252343_3043 terminating
+2017-02-18 06:54:25,968 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-9212229147592252343_3043 to /192.168.1.149
+2017-02-18 06:54:26,176 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-6729062334532347196_3045 src: /192.168.1.151:58991 dest: /192.168.1.151:50010
+2017-02-18 06:54:26,194 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-6729062334532347196_3045 of size 13539 from /192.168.1.151
+2017-02-18 06:54:26,198 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_-6729062334532347196_3045 terminating
+2017-02-18 06:54:27,602 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-9212229147592252343_3043 to /192.168.1.153
+2017-02-18 06:54:27,641 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_4182539398478572959_3041 to /192.168.1.153
+2017-02-18 06:54:29,419 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_-7763241851812621916_3042 to 192.168.1.150:50010
+2017-02-18 06:54:29,428 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_-7763241851812621916_3042 to /192.168.1.150:50010
+2017-02-18 06:54:30,701 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-8588435694682479067_1001 to /192.168.1.153
+2017-02-18 06:54:32,419 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_4182539398478572959_3041 to 192.168.1.150:50010
+2017-02-18 06:54:32,426 WARN org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Failed to transfer blk_4182539398478572959_3041 to 192.168.1.150:50010 got java.net.SocketException: Original Exception : java.io.IOException: Broken pipe
+	at sun.nio.ch.FileChannelImpl.transferTo0(Native Method)
+	at sun.nio.ch.FileChannelImpl.transferToDirectly(FileChannelImpl.java:420)
+	at sun.nio.ch.FileChannelImpl.transferTo(FileChannelImpl.java:552)
+	at org.apache.hadoop.net.SocketOutputStream.transferToFully(SocketOutputStream.java:199)
+	at org.apache.hadoop.dfs.DataNode$BlockSender.sendChunks(DataNode.java:1873)
+	at org.apache.hadoop.dfs.DataNode$BlockSender.sendBlock(DataNode.java:1967)
+	at org.apache.hadoop.dfs.DataNode$DataTransfer.run(DataNode.java:2855)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.IOException: Broken pipe
+	... 8 more
+
+2017-02-18 06:54:44,423 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_4182539398478572959_3041 to 192.168.1.150:50010
+2017-02-18 06:54:44,430 WARN org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Failed to transfer blk_4182539398478572959_3041 to 192.168.1.150:50010 got java.net.SocketException: Original Exception : java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:94)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.hadoop.net.SocketOutputStream$Writer.performIO(SocketOutputStream.java:55)
+	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:140)
+	at org.apache.hadoop.net.SocketOutputStream.write(SocketOutputStream.java:146)
+	at org.apache.hadoop.net.SocketOutputStream.write(SocketOutputStream.java:107)
+	at org.apache.hadoop.dfs.DataNode$BlockSender.sendChunks(DataNode.java:1870)
+	at org.apache.hadoop.dfs.DataNode$BlockSender.sendBlock(DataNode.java:1967)
+	at org.apache.hadoop.dfs.DataNode$DataTransfer.run(DataNode.java:2855)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.IOException: Connection reset by peer
+	... 13 more
+
+2017-02-18 06:54:47,426 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_4182539398478572959_3041 to 192.168.1.150:50010
+2017-02-18 06:54:47,433 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_4182539398478572959_3041 to /192.168.1.150:50010
+2017-02-18 06:54:50,426 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_4182539398478572959_3041 to 192.168.1.150:50010
+2017-02-18 06:54:50,428 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_4182539398478572959_3041 to /192.168.1.150:50010
+2017-02-18 06:54:53,720 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Served block blk_-7762792675205858163_1001 to /192.168.1.153
+2017-02-18 06:55:58,059 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_8541633594613029967_3046 src: /192.168.1.151:59030 dest: /192.168.1.151:50010
+2017-02-18 06:56:10,773 INFO org.apache.hadoop.dfs.DataNode: Received block blk_8541633594613029967_3046 of size 67108864 from /192.168.1.151
+2017-02-18 06:56:10,774 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_8541633594613029967_3046 terminating
+2017-02-18 06:56:10,797 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_5947955749663417141_3046 src: /192.168.1.152:38620 dest: /192.168.1.152:50010
+2017-02-18 06:56:11,454 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_4182539398478572959_3041 to 192.168.1.150:50010
+2017-02-18 06:56:11,460 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_4182539398478572959_3041 to /192.168.1.150:50010
+2017-02-18 06:56:21,943 INFO org.apache.hadoop.dfs.DataNode: Received block blk_5947955749663417141_3046 of size 67108864 from /192.168.1.152
+2017-02-18 06:56:21,943 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 0 for block blk_5947955749663417141_3046 terminating
+2017-02-18 06:56:21,959 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-7985623097456441413_3046 src: /192.168.1.151:59034 dest: /192.168.1.151:50010
+2017-02-18 06:56:23,458 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020) Starting thread to transfer block blk_4182539398478572959_3041 to 192.168.1.150:50010
+2017-02-18 06:56:23,464 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.153:50010, storageID=DS-1918006927-192.168.1.153-50010-1485401075171, infoPort=50075, ipcPort=50020):Transmitted block blk_4182539398478572959_3041 to /192.168.1.150:50010
+2017-02-18 06:56:24,555 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-7985623097456441413_3046 of size 13623665 from /192.168.1.151
+2017-02-18 06:56:24,555 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_-7985623097456441413_3046 terminating
+2017-02-18 06:56:25,177 INFO org.apache.hadoop.dfs.DataNode: Receiving block blk_-4878193453309224005_3046 src: /192.168.1.151:59035 dest: /192.168.1.151:50010
+2017-02-18 06:56:25,196 INFO org.apache.hadoop.dfs.DataNode: Received block blk_-4878193453309224005_3046 of size 31360 from /192.168.1.151
+2017-02-18 06:56:25,198 INFO org.apache.hadoop.dfs.DataNode: PacketResponder 1 for block blk_-4878193453309224005_3046 terminating
+2017-02-18 06:56:29,460 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-9212229147592252343_3043 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_-9212229147592252343
+2017-02-18 06:56:29,465 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-7985623097456441413_3046 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_-7985623097456441413
+2017-02-18 06:56:29,466 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-7763241851812621916_3042 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_-7763241851812621916
+2017-02-18 06:56:29,466 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-6729062334532347196_3045 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_-6729062334532347196
+2017-02-18 06:56:29,467 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_-4878193453309224005_3046 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_-4878193453309224005
+2017-02-18 06:56:29,467 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_4182539398478572959_3041 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_4182539398478572959
+2017-02-18 06:56:29,483 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_5947955749663417141_3046 file /home/ubuntu/old_hadoop_temp/dfs/data/current/subdir22/blk_5947955749663417141
+2017-02-18 06:56:29,497 INFO org.apache.hadoop.dfs.DataNode: Deleting block blk_8541633594613029967_3046 file /home/ubuntu/old_hadoop_temp/dfs/data/current/blk_8541633594613029967
+2017-02-18 07:51:42,624 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 25 msecs
+2017-02-18 08:51:43,901 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 18 msecs
+2017-02-18 09:51:45,196 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 19 msecs
+2017-02-18 10:51:46,488 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 20 msecs
+2017-02-18 11:51:47,800 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 19 msecs
+2017-02-18 12:51:49,070 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 18 msecs
+2017-02-18 13:51:50,354 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 12 msecs
+2017-02-18 14:51:51,637 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 18 msecs
+2017-02-18 15:51:52,986 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 19 msecs
+2017-02-18 16:51:54,309 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 21 msecs
+2017-02-18 17:51:55,596 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 14 msecs
+2017-02-18 18:51:56,889 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 13 msecs
+2017-02-18 19:51:58,186 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 15 msecs
+2017-02-18 20:51:59,460 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 14 msecs
+2017-02-18 21:52:00,744 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 13 msecs
+2017-02-18 22:52:02,015 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 14 msecs
+2017-02-18 23:52:03,326 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 277 blocks got processed in 12 msecs

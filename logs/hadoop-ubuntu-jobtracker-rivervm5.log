@@ -1,0 +1,4 @@
+2017-04-02 14:29:07,684 INFO org.apache.hadoop.mapred.JobTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down JobTracker at rivervm5/192.168.1.153
+************************************************************/

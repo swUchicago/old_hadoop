@@ -1,0 +1,67 @@
+2017-06-18 11:36:20,960 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-18 11:36:21,147 INFO org.apache.hadoop.dfs.DataNode: Registered FSDatasetStatusMBean
+2017-06-18 11:36:21,148 INFO org.apache.hadoop.dfs.DataNode: Opened info server at 50010
+2017-06-18 11:36:21,150 INFO org.apache.hadoop.dfs.DataNode: Balancing bandwith is 1048576 bytes/s
+2017-06-18 11:36:21,220 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-18 11:36:21,277 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-18 11:36:21,278 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-18 11:36:21,278 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-18 11:36:21,528 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@d08435
+2017-06-18 11:36:21,564 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-18 11:36:21,566 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50075
+2017-06-18 11:36:21,566 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@1d58963
+2017-06-18 11:36:21,571 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=DataNode, sessionId=null
+2017-06-18 11:36:21,588 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2017-06-18 11:36:21,592 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-18 11:36:21,593 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2017-06-18 11:36:21,595 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2017-06-18 11:36:21,595 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2017-06-18 11:36:21,596 INFO org.apache.hadoop.dfs.DataNode: dnRegistration = DatanodeRegistration(secondvm5:50010, storageID=DS-2051926727-192.168.1.159-50010-1495296278987, infoPort=50075, ipcPort=50020)
+2017-06-18 11:36:21,596 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2017-06-18 11:36:21,615 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.159:50010, storageID=DS-2051926727-192.168.1.159-50010-1495296278987, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/home/ubuntu/old_hadoop_temp/dfs/data/current'}
+2017-06-18 11:36:21,616 INFO org.apache.hadoop.dfs.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2017-06-18 11:36:21,628 INFO org.apache.hadoop.dfs.DataNode: Starting Periodic block scanner.
+2017-06-18 11:36:24,628 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 12 msecs
+2017-06-18 12:04:14,371 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 5 msecs
+2017-06-18 12:05:18,024 INFO org.apache.hadoop.dfs.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at secondvm5/192.168.1.159
+************************************************************/
+2017-06-18 12:05:30,648 INFO org.apache.hadoop.dfs.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = secondvm5/192.168.1.159
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.18.0
+STARTUP_MSG:   build = http://svn.apache.org/repos/asf/hadoop/core/branches/branch-0.18 -r 686010; compiled by 'hadoopqa' on Thu Aug 14 19:48:33 UTC 2008
+************************************************************/
+2017-06-18 12:05:30,836 INFO org.apache.hadoop.dfs.DataNode: Registered FSDatasetStatusMBean
+2017-06-18 12:05:30,838 INFO org.apache.hadoop.dfs.DataNode: Opened info server at 50010
+2017-06-18 12:05:30,840 INFO org.apache.hadoop.dfs.DataNode: Balancing bandwith is 1048576 bytes/s
+2017-06-18 12:05:30,897 INFO org.mortbay.util.Credential: Checking Resource aliases
+2017-06-18 12:05:30,942 INFO org.mortbay.http.HttpServer: Version Jetty/5.1.4
+2017-06-18 12:05:30,942 INFO org.mortbay.util.Container: Started HttpContext[/static,/static]
+2017-06-18 12:05:30,942 INFO org.mortbay.util.Container: Started HttpContext[/logs,/logs]
+2017-06-18 12:05:31,165 INFO org.mortbay.util.Container: Started org.mortbay.jetty.servlet.WebApplicationHandler@14a8af0
+2017-06-18 12:05:31,213 INFO org.mortbay.util.Container: Started WebApplicationContext[/,/]
+2017-06-18 12:05:31,216 INFO org.mortbay.http.SocketListener: Started SocketListener on 0.0.0.0:50075
+2017-06-18 12:05:31,216 INFO org.mortbay.util.Container: Started org.mortbay.jetty.Server@2ee666
+2017-06-18 12:05:31,221 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=DataNode, sessionId=null
+2017-06-18 12:05:31,240 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2017-06-18 12:05:31,245 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-06-18 12:05:31,246 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2017-06-18 12:05:31,247 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2017-06-18 12:05:31,248 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2017-06-18 12:05:31,248 INFO org.apache.hadoop.dfs.DataNode: dnRegistration = DatanodeRegistration(secondvm5:50010, storageID=DS-2051926727-192.168.1.159-50010-1495296278987, infoPort=50075, ipcPort=50020)
+2017-06-18 12:05:31,248 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2017-06-18 12:05:31,258 INFO org.apache.hadoop.dfs.DataNode: DatanodeRegistration(192.168.1.159:50010, storageID=DS-2051926727-192.168.1.159-50010-1495296278987, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/home/ubuntu/old_hadoop_temp/dfs/data/current'}
+2017-06-18 12:05:31,258 INFO org.apache.hadoop.dfs.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2017-06-18 12:05:31,275 INFO org.apache.hadoop.dfs.DataNode: Starting Periodic block scanner.
+2017-06-18 12:05:34,275 INFO org.apache.hadoop.dfs.DataNode: BlockReport of 24 blocks got processed in 14 msecs
