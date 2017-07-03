@@ -1321,8 +1321,10 @@ class JobInProgress {
     // Sensor catches exception and intermediate file size after a task is finished
     Sensor sensor = Sensor.getInstance();
     sensor.deleteExceptions(taskid.getTaskID());
-    long outputBytes = tip.getTaskStatus(taskid).getCounters().getGroup("org.apache.hadoop.mapred.Task$Counter").getCounter("MAP_OUTPUT_BYTES");
-    long bytesWritten = tip.getTaskStatus(taskid).getCounters().getGroup("FileSystemCounters").getCounter("FILE_BYTES_WRITTEN");
+    long outputBytes = tip.getTaskStatus(taskid).getCounters().getGroup("org.apache.hadoop.mapred.Task$Counter").getCounterForName("MAP_OUTPUT_BYTES").getCounter();
+    System.out.println("map output = " + outputBytes);
+    long bytesWritten = tip.getTaskStatus(taskid).getCounters().getGroup("FileSystemCounters").getCounterForName("FILE_BYTES_WRITTEN").getCounter();
+    System.out.println("bytes written = " + bytesWritten);
     sensor.setMapOutputSize(outputBytes);
     sensor.setBytesWritten(bytesWritten);
 

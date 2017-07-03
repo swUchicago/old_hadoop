@@ -490,8 +490,10 @@ class TaskInProgress {
 
       // Sensor catches exceptions and intermediate file size
       sensor.catchExceptions(taskid.getTaskID());
-      long outputBytes = getTaskStatus(taskid).getCounters().getGroup("org.apache.hadoop.mapred.Task$Counter").getCounter("MAP_OUTPUT_BYTES");
-      long bytesWritten = getTaskStatus(taskid).getCounters().getGroup("FileSystemCounters").getCounter("FILE_BYTES_WRITTEN");
+      Counters counters = getTaskStatus(taskid).getCounters();
+
+      long outputBytes = getTaskStatus(taskid).getCounters().getGroup("org.apache.hadoop.mapred.Task$Counter").getCounterForName("MAP_OUTPUT_BYTES").getCounter();
+      long bytesWritten = getTaskStatus(taskid).getCounters().getGroup("FileSystemCounters").getCounterForName("FILE_BYTES_WRITTEN").getCounter();
       sensor.setMapOutputSize(outputBytes);
       sensor.setBytesWritten(bytesWritten);
 
