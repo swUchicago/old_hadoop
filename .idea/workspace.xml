@@ -46,8 +46,18 @@
       <file leaf-file-name="TaskInProgress.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/TaskInProgress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="499" column="0" lean-forward="true" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="496" column="72" lean-forward="true" selection-start-line="496" selection-start-column="72" selection-end-line="496" selection-end-column="119" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task_FileSystemCounter.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/Task_FileSystemCounter.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -56,7 +66,7 @@
       <file leaf-file-name="Counters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/Counters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-687">
+            <state relative-caret-position="-2191">
               <caret line="272" column="0" lean-forward="true" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
               <folding />
             </state>
@@ -66,8 +76,18 @@
       <file leaf-file-name="JobInProgress.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/JobInProgress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="1326" column="58" lean-forward="false" selection-start-line="1326" selection-start-column="58" selection-end-line="1326" selection-end-column="58" />
+            <state relative-caret-position="190">
+              <caret line="1325" column="121" lean-forward="false" selection-start-line="1325" selection-start-column="121" selection-end-line="1325" selection-end-column="121" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task_Counter.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/Task_Counter.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -106,30 +126,34 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>IN</find>
-      <find>Inter</find>
-      <find>InterTracker</find>
-      <find>InterTrackerP</find>
-      <find>InterTrackerProgo</find>
-      <find>InterTrackerProg</find>
-      <find>InterTrackerPro</find>
-      <find>InterTrackerProto</find>
-      <find>InterTrackerProtocoal</find>
-      <find>InterTrackerProtocoa</find>
-      <find>InterTrackerProtoccol</find>
-      <find>InterTrackerProtocco</find>
-      <find>InterTrackerProtocc</find>
-      <find>InterTrackerProtoc</find>
-      <find>InterTrackerProtoco</find>
-      <find>HearBeat</find>
-      <find>Heartbeat</find>
       <find>mapSlots</find>
       <find>InterTrackerProtocol</find>
       <find>C</find>
       <find>Counter</find>
-      <find>Counters</find>
       <find>transmitH</find>
+      <find>Counters</find>
+      <find>org.apache.hadoop.mapred.Task$Counter</find>
+      <find>L</find>
+      <find>Local</find>
+      <find>Local</find>
+      <find>Local By</find>
+      <find>Local Byte</find>
+      <find>Local Bytes</find>
+      <find>Local Bytes</find>
+      <find>Local Bytes w</find>
+      <find>Local Bytes wr</find>
+      <find>Local Bytes wri</find>
+      <find>Local Bytes writ</find>
+      <find>Local Bytes writt</find>
+      <find>Local Bytes writte</find>
       <find>heartbeat</find>
+      <find>Local Bytes written</find>
+      <find>M</find>
+      <find>Map</find>
+      <find>Map output</find>
+      <find>Map output</find>
+      <find>Map output byte</find>
+      <find>Map output bytes</find>
       <find>incompleteSubTask</find>
       <find>completedTask</find>
     </findStrings>
@@ -651,15 +675,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499094251679</updated>
-      <workItem from="1499094256475" duration="2745000" />
+      <workItem from="1499094256475" duration="3334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2745000" />
+    <option name="totallyTimeSpent" value="3334000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -737,6 +761,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/InterTrackerProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="87" column="59" lean-forward="false" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/org/apache/hadoop/mapred/TestJobClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/JobTracker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -747,7 +787,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/Counters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-687">
+        <state relative-caret-position="-2191">
           <caret line="272" column="0" lean-forward="true" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
           <folding />
         </state>
@@ -755,24 +795,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/TaskInProgress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="499" column="0" lean-forward="true" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="496" column="72" lean-forward="true" selection-start-line="496" selection-start-column="72" selection-end-line="496" selection-end-column="119" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/InterTrackerProtocol.java">
+    <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/Task_Counter.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="87" column="59" lean-forward="false" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+        <state relative-caret-position="105">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/Task_FileSystemCounter.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/JobInProgress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="1326" column="58" lean-forward="false" selection-start-line="1326" selection-start-column="58" selection-end-line="1326" selection-end-column="58" />
+        <state relative-caret-position="190">
+          <caret line="1325" column="121" lean-forward="false" selection-start-line="1325" selection-start-column="121" selection-end-line="1325" selection-end-column="121" />
           <folding />
         </state>
       </provider>
