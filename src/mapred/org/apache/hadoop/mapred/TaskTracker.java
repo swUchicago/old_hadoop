@@ -47,6 +47,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.filecache.DistributedCache;
@@ -1047,7 +1048,9 @@ public class TaskTracker
       checkLocalDirs(fConf.getLocalDirs());
       askForNewTask = enoughFreeSpace(localMinSpaceStart);
     }
-      
+
+    System.out.println("askNewTask -- " + askForNewTask);
+
     //
     // Xmit the heartbeat
     //
