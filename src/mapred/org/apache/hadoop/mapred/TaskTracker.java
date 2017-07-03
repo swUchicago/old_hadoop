@@ -1041,7 +1041,7 @@ public class TaskTracker
       int currentMaxException = jobClient.getCurrentMaxException();
       localMinSpaceStart = controller.calculateMinspacestart(currentMaxException, mapParallelism, intermediateFileSize);
     }
-    
+
     if (askForNewTask) {
       checkLocalDirs(fConf.getLocalDirs());
       askForNewTask = enoughFreeSpace(localMinSpaceStart);
