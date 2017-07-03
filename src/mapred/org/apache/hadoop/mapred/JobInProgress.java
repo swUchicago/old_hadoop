@@ -38,6 +38,7 @@ import org.apache.hadoop.fs.LocalFileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.mapred.JobHistory.Values;
 import org.apache.hadoop.mapred.JobTracker.JobTrackerMetrics;
+import org.apache.hadoop.mapred.controller.Sensor;
 import org.apache.hadoop.metrics.MetricsContext;
 import org.apache.hadoop.metrics.MetricsRecord;
 import org.apache.hadoop.metrics.MetricsUtil;
@@ -1315,7 +1316,15 @@ class JobInProgress {
         jobtracker.markCompletedTaskAttempt(status.getTaskTracker(), taskid);
       }
       return false;
-    } 
+    }
+
+    // Sensor catches exception and intermediate file size after a task is finished
+    Sensor sensor = Sensor.getInstance();
+    sensor.deleteExceptions(taskid.getTaskID());
+    long outputBytes = tip.getTaskStatus(taskid).getCounters().findCounter("org.apache.hadoop.mapred.Task$Counter", "MAP_OUTPUT_BYTES").getValue();
+    long bytesWritten = tip.getTaskStatus(taskid).getCounters().findCounter("FileSystemCounters", "FILE_BYTES_WRITTEN").getValue();
+    sensor.setMapOutputSize(outputBytes);
+    sensor.setBytesWritten(bytesWritten);
 
     LOG.info("Task '" + taskid + "' has completed " + tip.getTIPId() + 
              " successfully.");          

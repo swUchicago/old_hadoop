@@ -52,6 +52,7 @@ import org.apache.hadoop.ipc.RPC;
 import org.apache.hadoop.ipc.RemoteException;
 import org.apache.hadoop.ipc.Server;
 import org.apache.hadoop.ipc.RPC.VersionMismatch;
+import org.apache.hadoop.mapred.controller.Sensor;
 import org.apache.hadoop.metrics.MetricsContext;
 import org.apache.hadoop.metrics.MetricsRecord;
 import org.apache.hadoop.metrics.MetricsUtil;
@@ -1331,7 +1332,18 @@ public class JobTracker implements MRConstants, InterTrackerProtocol, JobSubmiss
         
     return response;
   }
-  
+
+  // Implement the RPC
+  public synchronized int getCurrentMaxException() throws IOException {
+    Sensor sensor = Sensor.getInstance();
+    return sensor.getMaxExceptions();
+  }
+
+  public synchronized long getIntermediateFileSize() throws IOException {
+    Sensor sensor = Sensor.getInstance();
+    return sensor.getIntermediateFileSize();
+  }
+
   /**
    * Calculates next heartbeat interval using cluster size.
    * Heartbeat interval is incremented 1second for every 50 nodes. 

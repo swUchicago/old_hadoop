@@ -31,6 +31,7 @@ import java.util.TreeSet;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.mapred.JobClient.RawSplit;
+import org.apache.hadoop.mapred.controller.Sensor;
 import org.apache.hadoop.net.Node;
 
 
@@ -481,8 +482,19 @@ class TaskInProgress {
       resetSuccessfulTaskid();
     }
 
+    // Initiating Sensor
+    Sensor sensor = Sensor.getInstance();
+
 
     if (taskState == TaskStatus.State.FAILED) {
+
+      // Sensor catches exceptions and intermediate file size
+      sensor.catchExceptions(taskid.getTaskID());
+      long outputBytes = getTaskStatus(taskid).getCounters().findCounter("org.apache.hadoop.mapred.Task$Counter", "MAP_OUTPUT_BYTES").getValue();
+      long bytesWritten = getTaskStatus(taskid).getCounters().findCounter("FileSystemCounters", "FILE_BYTES_WRITTEN").getValue();
+      sensor.setMapOutputSize(outputBytes);
+      sensor.setBytesWritten(bytesWritten);
+
       numTaskFailures++;
       machinesWhereFailed.add(trackerHostName);
     } else {

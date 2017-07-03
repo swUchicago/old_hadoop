@@ -63,6 +63,7 @@ import org.apache.hadoop.io.WritableUtils;
 import org.apache.hadoop.ipc.RPC;
 import org.apache.hadoop.ipc.RemoteException;
 import org.apache.hadoop.ipc.Server;
+import org.apache.hadoop.mapred.controller.Controller;
 import org.apache.hadoop.mapred.pipes.Submitter;
 import org.apache.hadoop.metrics.MetricsContext;
 import org.apache.hadoop.metrics.MetricsException;
@@ -1022,7 +1023,11 @@ public class TaskTracker
       LOG.info("Resending 'status' to '" + jobTrackAddr.getHostName() +
                "' with reponseId '" + heartbeatResponseId);
     }
-      
+
+    // Initialize controller and other variables to control minspacestart
+    Controller controller = Controller.getInstance();
+    int mapParallelism = maxCurrentMapTasks;
+
     //
     // Check if we should ask for a new Task
     //
@@ -1031,9 +1036,12 @@ public class TaskTracker
     synchronized (this) {
       askForNewTask = (mapTotal < maxCurrentMapTasks || 
                        reduceTotal < maxCurrentReduceTasks) &&
-                      acceptNewTasks; 
-      localMinSpaceStart = minSpaceStart;
+                      acceptNewTasks;
+      long intermediateFileSize = jobClient.getIntermediateFileSize();
+      int currentMaxException = jobClient.getCurrentMaxException();
+      localMinSpaceStart = controller.calculateMinspacestart(currentMaxException, mapParallelism, intermediateFileSize);
     }
+    
     if (askForNewTask) {
       checkLocalDirs(fConf.getLocalDirs());
       askForNewTask = enoughFreeSpace(localMinSpaceStart);

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="old_hadoop">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/hadoop-0.18.0-test.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hadoop-0.18.0-examples.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hadoop-0.18.0-tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hadoop-0.18.0-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
