@@ -1040,7 +1040,8 @@ public class TaskTracker
                       acceptNewTasks;
       long intermediateFileSize = jobClient.getIntermediateFileSize();
       int currentMaxException = jobClient.getCurrentMaxException();
-      localMinSpaceStart = controller.calculateMinspacestart(currentMaxException, mapParallelism, intermediateFileSize);
+      localMinSpaceStart = minSpaceStart;
+//      localMinSpaceStart = controller.calculateMinspacestart(currentMaxException, mapParallelism, intermediateFileSize);
       System.out.println("Current Max Ex : " + currentMaxException + ", intermediate : " + intermediateFileSize);
     }
 
