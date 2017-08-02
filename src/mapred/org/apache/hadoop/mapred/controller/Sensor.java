@@ -28,7 +28,7 @@ public class Sensor {
     // Constructor
     private Sensor() {
         exceptions = new ArrayList<Pair>();
-        mapOutputSize = 0;y
+        mapOutputSize = 0;
         bytesWritten = 0;
     }
 
